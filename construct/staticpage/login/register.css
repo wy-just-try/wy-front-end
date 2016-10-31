@@ -1,3 +1,18 @@
+.mt-24 {
+    margin-top: 24px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.w-p-100 {
+    width: 100%;
+}
+.w-230 {
+    width: 230px;
+}
+.w-250 {
+    width: 250px;
+}
 .header {
     width: 100%;
     height: 50px;
@@ -12,46 +27,24 @@
     margin-right: auto;
 }
 .nav .logo {
-    float: left;
+    position: absolute;
     background: url("../../images/logo.png") no-repeat;
+    left: 50%;
     width: 109px;
     height: 32px;
+    margin-left: -55px;
     margin-top: 9px;
 }
-.nav .search {
-    float: left;
-    box-sizing: border-box;
-    padding-left: 10px;
-    padding-right: 30px;
-    margin-left: 209px;
-    width: 200px;
-    height: 30px;
-    margin-top: 10px;
-    border-radius: 5px;
-    border: 1px solid #E4EAEF;
-}
-.nav .btn-search {
-    position: absolute;
-    background: url("../../images/search.png") no-repeat;
-    width: 17px;
-    height: 17px;
-    margin-top: 17px;
-    margin-left: -27px;
-}
-.nav .item-list {
-    float: left;
-    margin-left: 70px;
-}
-.nav .item-list li {
-    float: left;
-    width: 100px;
+.nav .span-top {
+    float: right;
+    font-size: 14px;
     height: 50px;
     line-height: 50px;
-    color: #4c4c70;
-    cursor: pointer;
+    color: #ABABAD;
+    margin-right: 20px;
 }
 .nav .btn-top {
-    float: left;
+    float: right;
     width: 78px;
     height: 30px;
     color: #0066FF;
@@ -61,44 +54,25 @@
     background: #FFFFFF;
     border: 1px solid #87B1FE;
 }
-.login-box {
-    margin-top: 96px;
-    width: 410px;
-    height: 470px;
+.register-box {
+    width: 370px;
     margin-left: auto;
     margin-right: auto;
-    border-radius: 6px;
-    border: 1px solid #CCCCD6;
-    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
-}
-.login-box .title {
     margin-top: 40px;
+}
+.register-box .title {
     height: 24px;
     line-height: 24px;
     text-align: center;
-    font-size: 21px;
+    font-size: 18px;
     font-weight: normal;
     color: #302F30;
 }
-.login-box .section {
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.login-box .item {
+.register-box .item {
     height: 50px;
     line-height: 50px;
-    margin-top: 30px;
 }
-.login-box .error-msg {
-    position: absolute;
-    height: 30px;
-    line-height: 30px;
-    color: #E74B4B;
-    font-size: 12px;
-}
-.login-box .btn-input {
-    width: 100%;
+.register-box .btn-input {
     height: 50px;
     border-radius: 5px;
     border: 1px solid #E4EAEF;
@@ -108,19 +82,23 @@
     color: #7F7F99;
     font-size: 16px;
 }
-.login-box .btn-code {
-    float: left;
-    width: 190px;
+.register-box .label {
+    float: right;
+    width: 112px;
     height: 50px;
+    text-align: center;
     border-radius: 5px;
-    border: 1px solid #E4EAEF;
-    box-sizing: border-box;
-    padding-left: 14px;
-    padding-right: 14px;
-    color: #7F7F99;
+    color: #FFFFFF;
+    background: #E0E0E6;
     font-size: 16px;
+    border-style: none;
+    cursor: pointer;
 }
-.login-box .code {
+.register-box .label.active {
+    color: #FFFFFF;
+    background: #4680F5;
+}
+.register-box .code {
     float: right;
     width: 90px;
     height: 50px;
@@ -130,7 +108,14 @@
     color: #7F7F99;
     font-size: 16px;
 }
-.login-box .btn-login {
+.register-box .error-msg {
+    position: absolute;
+    height: 30px;
+    line-height: 30px;
+    color: #E74B4B;
+    font-size: 12px;
+}
+.register-box .btn-register {
     width: 100%;
     height: 50px;
     text-align: center;
@@ -141,11 +126,11 @@
     border-style: none;
     cursor: pointer;
 }
-.login-box .btn-login.active {
+.register-box .btn-register.active {
     color: #FFFFFF;
     background: #4680F5;
 }
-.login-box .operate {
+.register-box .operate {
     width: 100%;
     height: 16px;
     color: #7F7F99;
@@ -155,8 +140,4 @@
 }
 .login-box .operate a{
     color: #2E63FD;
-}
-.login-box .operate span {
-    float: right;
-    cursor: pointer;
 }
