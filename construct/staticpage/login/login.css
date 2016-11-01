@@ -29,6 +29,7 @@
     margin-top: 10px;
     border-radius: 5px;
     border: 1px solid #E4EAEF;
+    opacity: 0;
 }
 .nav .btn-search {
     position: absolute;
@@ -37,6 +38,7 @@
     height: 17px;
     margin-top: 17px;
     margin-left: -27px;
+    opacity: 0;
 }
 .nav .item-list {
     float: left;
