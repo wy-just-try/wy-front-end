@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>注册</title>
+    <meta name="keywords" content="youke">
+    <link rel="stylesheet" type="text/css" href="//wy626.com/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="//wy626.com/css/comm.css">
+    <link rel="stylesheet" type="text/css" href="//wy626.com/css/register.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="nav">
+            <i class="logo"></i>
+            <input id="login" type="button" class="btn-top" value="登录">
+            <span class="span-top">已有账号请</span>
+        </nav>
+    </header>
+    <article class="register-box">
+        <h3 class="title">欢迎加入</h3>
+        <div class="item mt-24">
+            <input id="account" type="text" class="btn-input w-p-100" placeholder="请输入6-18位无特殊符号账号">
+        </div>
+        <p class="error-msg"></p>
+        <div class="item mt-30">
+            <input id="passwd" type="password" class="btn-input w-p-100" placeholder="请输入6-18位无特殊符号登录密码">
+        </div>
+        <p class="error-msg"></p>
+        <div class="item mt-30">
+            <input id="confirmPass" type="password" class="btn-input w-p-100" placeholder="请确认登录密码">
+        </div>
+        <p class="error-msg"></p>
+        <div class="item mt-30">
+            <input id="name" type="text" class="btn-input w-p-100" placeholder="请输入用户姓名">
+        </div>
+        <p class="error-msg"></p>
+        <div class="item mt-30">
+            <input id="cellPhone" type="text" class="btn-input w-p-100" placeholder="请输入11位手机号码">
+        </div>
+        <p class="error-msg"></p>
+        <div class="item mt-30">
+            <input id="verifyMsg" type="text" class="btn-input w-230" placeholder="输入短信验证码">
+            <span id="getMsg" class="label active">获取验证码</span>
+        </div>
+        <p class="error-msg"></p>
+        <div class="item mt-30">
+            <input id="mail" type="text" class="btn-input w-p-100" placeholder="请输入正确邮箱地址">
+        </div>
+        <p class="error-msg"></p>
+        <div class="item mt-30">
+            <input id="verifyPic" type="text" class="btn-input w-250" placeholder="请输入验证码">
+            <img src="//wy626.com/images/code.png" class="code">
+        </div>
+        <p class="error-msg"></p>
+        <div class="item mt-30">
+            <input id="register" type="button" value="完成注册" class="btn-register active">
+        </div>
+        <div class="operate">本人同意<a href="//wy626.com/wyprotocol.shtml" target="_blank">《微易服务平台协议》</a></div>
+    </article>
+    <!--#include virtual="/js/ssi/registerEntra.shtml" -->
+</body>
+
+</html>

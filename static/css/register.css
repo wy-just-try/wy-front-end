@@ -1,0 +1,143 @@
+.mt-24 {
+    margin-top: 24px;
+}
+.mt-30 {
+    margin-top: 30px;
+}
+.w-p-100 {
+    width: 100%;
+}
+.w-230 {
+    width: 230px;
+}
+.w-250 {
+    width: 250px;
+}
+.header {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px 0px rgba(0, 51, 204, 0.2);
+}
+.nav {
+    width: 1000px;
+    height: 100%;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav .logo {
+    position: absolute;
+    background: url("../../images/logo.png") no-repeat;
+    left: 50%;
+    width: 109px;
+    height: 32px;
+    margin-left: -55px;
+    margin-top: 9px;
+}
+.nav .span-top {
+    float: right;
+    font-size: 14px;
+    height: 50px;
+    line-height: 50px;
+    color: #ABABAD;
+    margin-right: 20px;
+}
+.nav .btn-top {
+    float: right;
+    width: 78px;
+    height: 30px;
+    color: #0066FF;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #87B1FE;
+}
+.register-box {
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+.register-box .title {
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    color: #302F30;
+}
+.register-box .item {
+    height: 50px;
+    line-height: 50px;
+}
+.register-box .btn-input {
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #E4EAEF;
+    box-sizing: border-box;
+    padding-left: 14px;
+    padding-right: 14px;
+    color: #7F7F99;
+    font-size: 16px;
+}
+.register-box .label {
+    float: right;
+    width: 112px;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background: #E0E0E6;
+    font-size: 16px;
+    border-style: none;
+    cursor: pointer;
+}
+.register-box .label.active {
+    color: #FFFFFF;
+    background: #4680F5;
+}
+.register-box .code {
+    float: right;
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #E4EAEF;
+    box-sizing: border-box;
+    color: #7F7F99;
+    font-size: 16px;
+}
+.register-box .error-msg {
+    position: absolute;
+    height: 30px;
+    line-height: 30px;
+    color: #E74B4B;
+    font-size: 12px;
+}
+.register-box .btn-register {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background: #E0E0E6;
+    font-size: 16px;
+    border-style: none;
+    cursor: pointer;
+}
+.register-box .btn-register.active {
+    color: #FFFFFF;
+    background: #4680F5;
+}
+.register-box .operate {
+    width: 100%;
+    height: 16px;
+    color: #7F7F99;
+    line-height: 16px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.login-box .operate a{
+    color: #2E63FD;
+}

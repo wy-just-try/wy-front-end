@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>登录</title>
+    <meta name="keywords" content="youke">
+    <link rel="stylesheet" type="text/css" href="//wy626.com/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="//wy626.com/css/comm.css">
+    <link rel="stylesheet" type="text/css" href="//wy626.com/css/login.css">
+</head>
+
+<body>
+    <!--#include virtual="/page/publicHeader.shtml" -->
+    <article class="login-box">
+        <h3 class="title">欢迎登录</h3>
+        <section class="section">
+            <div class="item"><input id="account" type="text" class="btn-input" placeholder="输入账号/手机号"></div>
+            <p class="error-msg dn">账号/手机号输入错误，请重新输入</p>
+            <div class="item"><input id="passwd" type="password" class="btn-input" placeholder="输入登录密码"></div>
+            <p class="error-msg dn">密码输入错误，请重新输入</p>
+            <div class="item"><input id="verifyPic" type="text" class="btn-code" placeholder="输入验证码" maxlength="4"><img id="updatePic" src="//wy626.com/images/code.png" class="code"></div>
+            <p class="error-msg dn">验证码输入错误，请重新输入</p>
+            <div class="item"><input id="login" type="button" value="立即登录" class="btn-login active"></div>
+            <div class="operate">还没账号，<a href="//wy626.com/register.shtml" target="_blank">马上注册</a><span id="forgetPass">忘记密码</span></div>
+        </section>
+    </article>
+    <!--#include virtual="/js/ssi/loginEntra.shtml" -->
+</body>
+
+</html>

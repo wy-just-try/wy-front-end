@@ -1,0 +1,164 @@
+.header {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    box-shadow: 0px 1px 2px 0px rgba(0, 51, 204, 0.2);
+}
+.nav {
+    width: 1000px;
+    height: 100%;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.nav .logo {
+    float: left;
+    background: url("//wy626.com/images/logo.png") no-repeat;
+    width: 109px;
+    height: 32px;
+    margin-top: 9px;
+}
+.nav .search {
+    float: left;
+    box-sizing: border-box;
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-left: 209px;
+    width: 200px;
+    height: 30px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: 1px solid #E4EAEF;
+    opacity: 0;
+}
+.nav .btn-search {
+    position: absolute;
+    background: url("//wy626.com/images/search.png") no-repeat;
+    width: 17px;
+    height: 17px;
+    margin-top: 17px;
+    margin-left: -27px;
+    opacity: 0;
+}
+.nav .item-list {
+    float: left;
+    margin-left: 70px;
+}
+.nav .item-list li {
+    float: left;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    color: #4c4c70;
+    cursor: pointer;
+}
+.nav .btn-top {
+    float: left;
+    width: 78px;
+    height: 30px;
+    color: #0066FF;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #87B1FE;
+}
+.login-box {
+    margin-top: 96px;
+    width: 410px;
+    height: 470px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 6px;
+    border: 1px solid #CCCCD6;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.login-box .title {
+    margin-top: 40px;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    font-size: 21px;
+    font-weight: normal;
+    color: #302F30;
+}
+.login-box .section {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.login-box .item {
+    height: 50px;
+    line-height: 50px;
+    margin-top: 30px;
+}
+.login-box .error-msg {
+    position: absolute;
+    height: 30px;
+    line-height: 30px;
+    color: #E74B4B;
+    font-size: 12px;
+}
+.login-box .btn-input {
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #E4EAEF;
+    box-sizing: border-box;
+    padding-left: 14px;
+    padding-right: 14px;
+    color: #7F7F99;
+    font-size: 16px;
+}
+.login-box .btn-code {
+    float: left;
+    width: 190px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #E4EAEF;
+    box-sizing: border-box;
+    padding-left: 14px;
+    padding-right: 14px;
+    color: #7F7F99;
+    font-size: 16px;
+}
+.login-box .code {
+    float: right;
+    width: 90px;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid #E4EAEF;
+    box-sizing: border-box;
+    color: #7F7F99;
+    font-size: 16px;
+}
+.login-box .btn-login {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border-radius: 5px;
+    color: #FFFFFF;
+    background: #E0E0E6;
+    font-size: 16px;
+    border-style: none;
+    cursor: pointer;
+}
+.login-box .btn-login.active {
+    color: #FFFFFF;
+    background: #4680F5;
+}
+.login-box .operate {
+    width: 100%;
+    height: 16px;
+    color: #7F7F99;
+    line-height: 16px;
+    font-size: 12px;
+    margin-top: 30px;
+}
+.login-box .operate a{
+    color: #2E63FD;
+}
+.login-box .operate span {
+    float: right;
+    cursor: pointer;
+}
