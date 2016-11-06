@@ -1,0 +1,12 @@
+<script src="//wy626.com/js/tools/module.js"></script>
+<script type="text/javascript">
+    modulejs.config({
+        alias: {
+            "jquery": "//wy626.com/js/tools/jquery-3.1.1.min.js",
+            "forgetPasswd": "//wy626.com/js/forgetPasswd.js"
+        }
+    });
+    modulejs("forgetPasswd", function(exports) {
+        exports.init();
+    });
+</script>

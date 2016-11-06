@@ -43,7 +43,7 @@
         <p class="error-msg"></p>
         <div class="item mt-30">
             <input id="verifyMsg" type="text" class="btn-input w-230" placeholder="输入短信验证码">
-            <span id="getMsg" class="label active">获取验证码</span>
+            <span id="getMsg" class="label">获取验证码</span>
         </div>
         <p class="error-msg"></p>
         <div class="item mt-30">
@@ -52,7 +52,7 @@
         <p class="error-msg"></p>
         <div class="item mt-30">
             <input id="verifyPic" type="text" class="btn-input w-250" placeholder="请输入验证码">
-            <img src="//wy626.com/images/code.png" class="code">
+            <img id="updatePic" src="//wy626.com/images/code.png" class="code">
         </div>
         <p class="error-msg"></p>
         <div class="item mt-30">

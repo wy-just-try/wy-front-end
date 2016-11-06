@@ -1,6 +1,9 @@
 define('register', function(require, exports, module) {
 	var $ = require('jquery');
 
+	//公用变量
+	var _sendMsgFlag = false;	//是否正在发送短信
+	
 	//注册输入文本提示
 	var _text = {
 		account: '账号输入格式错误，请重新输入',
@@ -71,7 +74,7 @@ define('register', function(require, exports, module) {
 					}
 				},
 				error: function(xmlHttp, err) {
-					console.log('网络异常，请稍后再试！');
+					console.log('重复注册查询接口调用失败！');
 				}
 			});
 		});
@@ -117,8 +120,12 @@ define('register', function(require, exports, module) {
 				case 'cellPhone':
 					if (/^1\d{10}$/g.test(vText)) {
 						warn.text(_text.cellPhone).hide();
+						if (!_sendMsgFlag) {
+							$('#getMsg').addClass('active');
+						}
 					} else {
 						warn.text(_text.cellPhone).show();
+						$('#getMsg').removeClass('active');
 					}
 					break;
 				case 'mail':
@@ -148,6 +155,7 @@ define('register', function(require, exports, module) {
 		//注册
 		$('#register').on('click', function(e) {
 			if ($('.error-msg').is(':visible')) {
+				confirm('注册信息输入不全或者信息验证不通过！');
 				return;
 			}
 
@@ -185,8 +193,56 @@ define('register', function(require, exports, module) {
 		$('#login').on('click', function(e) {
 			location.href = '//wy626.com/login.shtml';
 		});
+
+		//获取短信验证码
+		$('#getMsg').on('click', function(e) {
+			var count = 80;
+			if ($(this).hasClass('active')) {
+				if (/^1\d{10}$/g.test($('#cellPhone').val())) {
+					$.ajax({
+						url: _cgi.verifyMsg.url,
+						type: 'post',
+						dataType: 'json',
+						data: _cgi.verifyMsg.params,
+						success: function(obj) {
+							if (obj.errCode == 0) {
+								_sendMsgFlag = true;
+								$(this).removeClass('active');
+								$(this).parent().next()
+									.text('验证码已发送至手机，请查收！')
+									.show();
+								var timer = setInterval(function() {
+									$(this).text(count--);
+									if (count === 0) {
+										clearInterval(timer);
+										$(this).text('获取验证码').addClass('active');
+										_sendMsgFlag = false;
+									}
+								}.bind(this), 1000);
+							} else if (obj.errCode == 1) {
+								confirm('网络异常，请稍后再试！');
+							} else if (obj.errCode == 2) {
+								confirm('手机号码输入不合法！');
+							}
+						}.bind(this),
+						error: function(xmlHttp, err) {
+							confirm('网络异常，请稍后再试！');
+						}
+					});
+				}
+			}
+		});
+
+		//获取图形验证码
+		$('#updatePic').on('click', function(e) {
+			$(this).attr('src', _cgi.verifyPic.url);
+		});
 	}
 
+	/**
+	 * 页面入口
+	 * @return {[type]} [description]
+	 */
 	exports.init = function() {
 		bindEvent();
 	};
