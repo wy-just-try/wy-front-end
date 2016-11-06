@@ -1,5 +1,6 @@
 define("login", function(require, exports, module) {
-	var $ = require('jquery');
+	var $ = require('jquery'),
+		_md5 = require('md5');
 
 	//接口变量
 	var _cgi = {
@@ -23,9 +24,9 @@ define("login", function(require, exports, module) {
 	function bindEvent() {
 		//登录
 		$('#login').on('click', function(e) {
-			var account = $('#account').val(),
-				passwd = $('#passwd').val(),
-				verifyPic = $('#verifyPic').val();
+			_cgi.login.params.account = $('#account').val();
+			_cgi.login.params.passwd = _md5.hex_md5($('#passwd').val());
+			_cgi.login.params.verifyPic = $('#verifyPic').val();
 
 			$.ajax({
 				url: _cgi.login.url,

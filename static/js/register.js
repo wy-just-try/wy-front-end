@@ -1,5 +1,6 @@
 define('register', function(require, exports, module) {
-	var $ = require('jquery');
+	var $ = require('jquery'),
+		_md5 = require('md5');
 
 	//公用变量
 	var _sendMsgFlag = false;	//是否正在发送短信
@@ -34,6 +35,7 @@ define('register', function(require, exports, module) {
 		isRegistered: {
 			url: '//wy626.com/cgi/wy/login/check-registered',	//重复注册查询
 			params: {
+				type: '',	//查询类型, 1：账户；2：手机号码；
 				account: '',	//账号
 				cellPhone: ''	//手机号码
 			}
@@ -57,7 +59,24 @@ define('register', function(require, exports, module) {
 		//重复注册查询
 		$('#account, #cellPhone').on('change', function(e) {
 			var warnText = '',
-				ele = e.srcElement || e.target;
+				ele = e.srcElement || e.target,
+				id = $(ele).attr('id');
+			if (id === 'account') {
+				if (!/^\w{6,18}$/g.test($(this).val())) {
+					return;
+				}
+				_cgi.isRegistered.params.type = 1;
+				_cgi.isRegistered.params.account = $(this).val();
+				_cgi.isRegistered.params.cellPhone = '';
+			} else {
+				if (!/^1\d{10}$/g.test($(this).val())) {
+					return;
+				}
+				_cgi.isRegistered.params.type = 2;
+				_cgi.isRegistered.params.cellPhone = $(this).val();
+				_cgi.isRegistered.params.account = '';
+			}
+
 			$.ajax({
 				url: _cgi.isRegistered.url,
 				type: 'post',
@@ -65,7 +84,7 @@ define('register', function(require, exports, module) {
 				data: _cgi.isRegistered.params,
 				success: function(obj) {
 					if (obj.errCode != 0) {
-						if ($(ele).attr('id') == 'cellPhone') {
+						if (id === 'cellPhone') {
 							warnText = '该手机号码已被注册！';
 						} else {
 							warnText = '该账号已被注册！';
@@ -160,7 +179,7 @@ define('register', function(require, exports, module) {
 			}
 
 			_cgi.register.params.account = $('#account').val(),
-			_cgi.register.params.passwd = $('#passwd').val(),
+			_cgi.register.params.passwd = _md5.hex_md5($('#passwd').val()),
 			_cgi.register.params.name = $('#name').val(),
 			_cgi.register.params.cellPhone = $('#cellPhone').val(),
 			_cgi.register.params.verifyMsg = $('#verifyMsg').val(),

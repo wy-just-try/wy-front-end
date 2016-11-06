@@ -3,6 +3,7 @@
     modulejs.config({
         alias: {
             "jquery": "//wy626.com/js/tools/jquery-3.1.1.min.js",
+            "md5": "//wy626.com/js/tools/md5.js",
             "register": "//wy626.com/js/register.js"
         }
     });
