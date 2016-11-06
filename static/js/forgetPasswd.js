@@ -25,7 +25,6 @@ define('forgetPasswd', function(require, exports, module) {
 		isRegistered: {
 			url: '//wy626.com/cgi/wy/login/check-registered',	//重复注册查询
 			params: {
-				type: '',	//查询类型, 1：账户；2：手机号码；
 				account: '',	//账号
 				cellPhone: ''	//手机号码
 			}
@@ -52,7 +51,6 @@ define('forgetPasswd', function(require, exports, module) {
 				if (!/^1\d{10}$/g.test($(this).val())) {
 					return;
 				}
-				_cgi.isRegistered.params.type = 2;
 				_cgi.isRegistered.params.cellPhone = $(this).val();
 				_cgi.isRegistered.params.account = '';
 				
