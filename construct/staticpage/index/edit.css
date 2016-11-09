@@ -183,10 +183,6 @@
     margin-right: auto;
     background: #FFFFFF;
 }
-::-webkit-scrollbar {
-    width: 8px;
-    background-color: #CCCCD6;
-}
 .article .content .show .mobile .phone .img {
     width: 100%;
     height: 678px;
