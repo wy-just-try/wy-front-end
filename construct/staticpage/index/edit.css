@@ -27,7 +27,7 @@
     width: 120px;
     height: 50px;
     line-height: 50px;
-    color: #4c4c70;
+    color: #4C4C70;
     cursor: pointer;
 }
 .nav .item-list li h3 {
@@ -62,9 +62,9 @@
     margin-left: 30px;
     font-size: 14px;
     color: #2D2D36;
-    text-overflow:ellipsis;
-    overflow:hidden;
-    white-space:nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
 }
 .nav .nav-name:after{
     position: absolute;
@@ -116,7 +116,7 @@
     color: #7F7F99;
 }
 .article .top .main .title {
-    color: #4c4c70;
+    color: #4C4C70;
     font-size: 24px;
     width: 300px;
     line-height: 60px;
@@ -390,3 +390,98 @@
     line-height: 16px;
     color: #7F7F99;
 }
+/*mask-sub-template --- BEGIN*/
+.mask-sub-template {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9;
+}
+.mask-sub-template .dialog {
+    position: absolute;
+    border-radius: 6px;
+    width: 1100px;
+    height: 810px;
+    left: 50%;
+    top: 50%;
+    margin-left: -550px;
+    margin-top: -405px;
+    background: #FFFFFF;
+}
+.mask-sub-template .dialog .title {
+    box-sizing: border-box;
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    color: #000033;
+    font-size: 20px;
+    background: #E0E0E6;
+    font-weight: normal;
+    border-radius: 6px 6px 0 0;
+}
+.mask-sub-template .dialog .title .close {
+    position: absolute;
+    background: url("../../images/close.png") no-repeat;
+    width: 15px;
+    height: 15px;
+    right: 20px;
+    margin-top: 23px;
+}
+.mask-sub-template .dialog .main {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 6px 6px;
+    box-sizing: border-box;
+    padding-left: 38px;
+    padding-right: 8px;
+    padding-top: 34px;
+    overflow-y: auto;
+}
+.mask-sub-template .dialog .main .item {
+    float: left;
+    width: 256px;
+    height: 350px;
+    margin-top: 6px;
+}
+.mask-sub-template .dialog .main .item .content {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mask-sub-template .dialog .main .item .content .img {
+    box-sizing: border-box;
+    width: 200px;
+    height: 300px;
+    border: 2px solid #FFFFFF;
+}
+.mask-sub-template .dialog .main .item .content .img.active {
+    border: 2px solid #3281F7;
+}
+.mask-sub-template .dialog .main .item .content .bottom {
+    height: 50px;
+    line-height: 50px;
+    color: #4C4C70;
+    position: relative;
+    top: -4px;
+}
+.mask-sub-template .dialog .main .item .content .bottom .btn-confirm {
+    position: absolute;
+    right: 0;
+    margin-top: 10px;
+    width: 48px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 6px;
+    background: #3281F7;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+/*mask-sub-template --- END*/
