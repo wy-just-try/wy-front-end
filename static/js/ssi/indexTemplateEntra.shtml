@@ -3,12 +3,12 @@
     modulejs.config({
         alias: {
             "jquery": "//wy626.com/js/tools/jquery-3.1.1.min.js",
-            "md5": "//wy626.com/js/tools/md5.js",
-            "login": "//wy626.com/js/login.js",
+            "libUtil": "//wy626.com/js/common/libUtil.js",
+            "indexTemplate": "//wy626.com/js/indexTemplate.js",
             "publicHeader": "//wy626.com/js/common/publicHeader.js"
         }
     });
-    modulejs("login", function(exports) {
+    modulejs("indexTemplate", function(exports) {
         exports.init();
     });
 </script>

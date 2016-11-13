@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>模版</title>
+    <meta name="keywords" content="weiyi">
+    <link rel="stylesheet" type="text/css" href="//wy626.com/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="//wy626.com/css/comm.css">
+    <link rel="stylesheet" type="text/css" href="//wy626.com/css/template.css">
+</head>
+
+<body>
+    <!--#include virtual="/page/publicHeader.shtml" -->
+    <article class="article">
+        <section class="section">
+            <h3 class="title">请从以下模板中选择模板创建微网站</h3>
+            <ul id="tempContainer" class="template">
+                <!-- INSERT 模板信息 -->
+            </ul>
+        </section>
+    </article>
+    <!-- START 模板 -->
+    <script id="template" type="text/html">
+        <li class="item" data-id="{#name#}">
+            <img src="{#picUrl#}" class="img dib">
+            <div class="desc">
+                <span class="title">{#title#}</span>
+                <p class="detail">
+                    {#desc#}
+                </p>
+            </div>
+            <div class="design dn">
+                <span class="title">{#title#}</span>
+                <p class="detail">
+                    {#desc#}
+                </p>
+                <a href="javascript:void(0);" class="btn-design">
+                    <i class="l"></i>
+                    <span class="l" data-id="{#name#}">开始设计</span>
+                </a>
+            </div>
+        </li>
+    </script>
+    <!-- END 模板 -->
+    <!--#include virtual="/js/ssi/indexTemplateEntra.shtml" -->
+</body>
+
+</html>

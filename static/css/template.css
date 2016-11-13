@@ -1,0 +1,109 @@
+.article {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.article .section {
+    width: 1350px;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article .section h3.title {
+    width: 400px;
+    height: 80px;
+    line-height: 80px;
+    color: #4C4C70;
+    font-size: 24px;
+    font-weight: normal;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article .section .template {
+    margin-top: -60px;
+}
+.article .section .template:after{
+    clear: both;
+    display: block;
+    content: '';
+}
+.article .section .template .item{
+    float: left;
+    width: 230px;
+    height: 450px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 60px;
+}
+.article .section .template .img {
+    width: 100%;
+    height: 398px;
+}
+.article .section .template .desc {
+    position: relative;
+    height: 128px;
+    width: 100%;
+    bottom: 80px;
+    background: #F8F7F5;
+}
+
+.article .section .template span.title {
+    display: block;
+    font-size: 18px;
+    color: #4C4C70;
+    width: 180px;
+    height: 24px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-top: 26px;
+}
+.article .section .template p.detail {
+    color: #7F7F99;
+    font-size: 14px;
+    line-height: 24px;
+    width: 182px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12px;
+    display: -webkit-box !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-break: break-all;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+}
+.article .section .template .design {
+    position: relative;
+    width: 100%;
+    height: 196px;
+    background: #E7ECF1;
+    bottom: 276px;
+}
+.article .section .template .design .btn-design {
+    display: block;
+    width: 160px;
+    height: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #3281F7;
+    border-radius: 6px;
+    margin-top: 12px;
+}
+.article .section .template .design .btn-design:hover {
+    background: #7FB2FF;
+}
+.article .section .template .design .btn-design i {
+    background: url("../../images/pen.png") no-repeat;
+    width: 19px;
+    height: 19px;
+    margin-top: 15px;
+    margin-left: 28px;
+    margin-right: 10px;
+}

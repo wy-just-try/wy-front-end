@@ -1,4 +1,5 @@
 define('register', function(require, exports, module) {
+	'use strict';
 	var $ = require('jquery'),
 		_md5 = require('md5');
 

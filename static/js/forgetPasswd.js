@@ -1,4 +1,5 @@
 define('forgetPasswd', function(require, exports, module) {
+	'use strict';
 	var $ = require('jquery');
 
 	//公用变量
