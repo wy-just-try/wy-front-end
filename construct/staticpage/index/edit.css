@@ -144,18 +144,15 @@
 .article .content .edit{
     width: 50%;
 }
-.article .content .show{
-    height: 100px;
-}
 .article .content .show .mobile {
     margin-left: 40px;
     margin-top: 40px;
-    width: 420px;
-    height: 844px;
+    width: 376px;
+    height: 640px;
     background: #ECECF0;
-    border-radius: 60px;
+    border-radius: 50px;
     box-sizing: border-box;
-    padding-top: 40px;
+    padding-top: 20px;
 }
 .article .content .show .mobile .camera {
     margin-left: 154px;
@@ -176,28 +173,28 @@
     margin-top: 1px;
 }
 .article .content .show .mobile .phone {
-    width: 380px;
-    height: 678px;
-    margin-top: 20px;
+    width: 340px;
+    height: 532px;
+    margin-top: 15px;
     margin-left: auto;
     margin-right: auto;
     background: #FFFFFF;
 }
 .article .content .show .mobile .phone .img {
     width: 100%;
-    height: 678px;
+    height: 532px;
 }
 .article .content .show .mobile .home {
-    width: 52px;
-    height: 52px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 22px;
+    margin-top: 10px;
     background: #FFFFFF;
 }
 .article .content .edit {
-    margin-bottom: 120px;
+    margin-bottom: 20px;
 }
 .article .content .edit .desc,
 .article .content .edit .middle,
