@@ -1,0 +1,231 @@
+.header {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    box-shadow: 0 1px 2px 0 rgba(0, 51, 204, 0.2);
+}
+.header .nav {
+    width: 1000px;
+    height: 100%;
+    font-size: 12px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.header .nav .logo {
+    float: left;
+    background: url("../../images/logo.png") no-repeat;
+    width: 109px;
+    height: 32px;
+    margin-top: 9px;
+}
+.header .nav .item-list {
+    float: left;
+    margin-left: 400px;
+}
+.header .nav .item-list li {
+    float: left;
+    width: 120px;
+    height: 50px;
+    line-height: 50px;
+    color: #4C4C70;
+    cursor: pointer;
+}
+.header .nav .item-list li h3 {
+    height: 50px;
+    line-height: 50px;
+    font-weight: normal;
+    text-align: center;
+}
+.header .nav .item-list .detail-list {
+    position: absolute;
+    box-shadow: 0 2px 6px 0 rgba(0, 14, 55, 0.4);
+    background: #FFFFFF;
+    width: 120px;
+    z-index: 1;
+}
+.header .nav .item-list .detail-list li{
+    text-align: center;
+    line-height: 50px;
+    color: #4C4C70;
+    border-top: 1px solid #CCCCD6;
+    font-size: 14px;
+}
+.header .nav .item-list .detail-list li.active {
+    border-top: 2px solid #3281F7;
+    color: #3281F7;
+}
+.header .nav .nav-name {
+    float: left;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 30px;
+    font-size: 14px;
+    color: #2D2D36;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.header .nav .nav-name:after{
+    position: absolute;
+    background: url("../../images/arrow-down.png") no-repeat;
+    width: 13px;
+    height: 7px;
+    margin-top: 21px;
+    margin-left: 6px;
+    content: '';
+}
+.article .top {
+    width: 100%;
+    height: 200px;
+    background: url("../../images/background.png") no-repeat;
+}
+.article .section {
+    width: 1200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article .section .nav {
+    width: 188px;
+}
+.article .section .nav .center {
+    position: absolute;
+    width: 188px;
+    height: 107px;
+    background: #4C4C70;
+    margin-top: -7px;
+}
+.article .section .nav .center .big {
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+}
+.article .section .nav .center .small {
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #CCCCD6;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.article .section .nav .item-list {
+    position: absolute;
+    top: 350px;
+    width: 188px;
+    bottom: 0;
+    box-sizing: border-box;
+    border-left: 1px solid #E0E0E6;
+    border-right: 1px solid #E0E0E6;
+}
+.article .section .nav .item-list li {
+    height: 69px;
+    line-height: 69px;
+    color: #4C4C70;
+    font-size: 20px;
+    text-align: center;
+    border-bottom: 1px solid #E0E0E6;
+    cursor: pointer;
+}
+.article .section .nav .item-list li.active {
+    color: #3281F7;
+}
+.article .section .main {
+    margin-left: 188px;
+}
+.article .section .main h3.title{
+    margin-left: 50px;
+    margin-bottom: 8px;
+    height: 72px;
+    line-height: 72px;
+    color: #4C4C70;
+    font-size: 20px;
+    font-weight: normal;
+}
+.article .section .main .table {
+    margin-left: 50px;
+    width: 962px;
+    border-collapse: collapse;
+    border-spacing:0;
+    table-layout: fixed;
+}
+.article .section .main .table thead tr {
+    height: 48px;
+    line-height: 48px;
+    border-top: 1px solid #E0E0E6;
+    border-bottom: 1px solid #E0E0E6;
+}
+.article .section .main .table thead tr th {
+    text-align: center;
+    font-size: 16px;
+    color: #4C4C70;
+    background: #EFEFF2;
+    font-weight: normal;
+}
+.article .section .main .table thead th:first-child {
+    width: 204px;
+}
+.article .section .main .table .middle {
+    width: 396px;
+}
+.article .section .main .table thead th:last-child {
+    width: 362px;
+}
+.article .section .main .table tbody tr{
+    height: 92px;
+    line-height: 1.5;
+    color: #7F7F99;
+    border-bottom: 1px solid #E0E0E6;
+}
+.article .section .main .table tbody tr .share {
+    color: #7F7F99;
+    background: #ECECF0;
+    border-radius: 6px;
+    width: 120px;
+    height: 50px;
+    margin-left: 20px;
+    line-height: 50px;
+    text-align: center;
+}
+.article .section .main .table tbody tr .delete {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    border-radius: 6px;
+    background: #ECECF0;
+}
+.article .section .main .table tbody tr .delete:before {
+    position: absolute;
+    background: url("../../images/delete.png") no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-left: 12px;
+    margin-top: 12px;
+    content: '';
+}
+.article .section .main .table tbody tr .edit {
+    margin-left: 20px;
+    border-radius: 6px;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+    background: #3281F7;
+}
+.article .section .main .table tbody tr .edit i {
+    background: url("../../images/pen.png") no-repeat;
+    width: 19px;
+    height: 19px;
+    margin-left: 20px;
+    margin-top: 16px;
+}
+.article .section .main .table tbody tr .edit span {
+    margin-left: 10px;
+}
