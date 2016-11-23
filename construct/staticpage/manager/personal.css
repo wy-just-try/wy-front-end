@@ -142,90 +142,70 @@
 }
 .article .section .main h3.title{
     margin-left: 50px;
-    margin-bottom: 8px;
     height: 72px;
     line-height: 72px;
     color: #4C4C70;
     font-size: 20px;
     font-weight: normal;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #E0E0E6;
 }
-.article .section .main .table {
+.article .section .main ul li {
+    font-size: 18px;
+    color: #7F7F99;
+}
+.article .section .main ul li label {
+    float: left;
+    width: 80px;
+    line-height: 50px;
+    margin-right: 18px;
+    text-align: right;
+}
+.article .section .main ul li input {
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 300px;
+    height: 50px;
+    line-height: 50px;
+    border: 1px solid #E4EAEF;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.article .section .main ul li .error-msg {
+    margin-left: 98px;
+    font-size: 14px;
+    color: #E74B4B;
+    height: 33px;
+    line-height: 33px;
+}
+.article .section .main .old-password {
+    display: inline-block;
     margin-left: 50px;
-    width: 962px;
-    border-collapse: collapse;
-    border-spacing:0;
-    table-layout: fixed;
-}
-.article .section .main .table thead tr {
-    height: 48px;
-    line-height: 48px;
-    border-top: 1px solid #E0E0E6;
+    margin-top: 30px;
+    padding-bottom: 30px;
     border-bottom: 1px solid #E0E0E6;
 }
-.article .section .main .table thead tr th {
-    text-align: center;
-    font-size: 16px;
-    color: #4C4C70;
-    background: #EFEFF2;
-    font-weight: normal;
+.article .section .main .new-password {
+    margin-left: 50px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
-.article .section .main .table thead th:first-child {
-    width: 204px;
+.article .section .main .tips {
+    color: #CCCCD6;
+    font-size: 14px;
+    margin-left: 98px;
+    height: 24px;
+    line-height: 24px;
 }
-.article .section .main .table .middle {
-    width: 396px;
-}
-.article .section .main .table thead th:last-child {
-    width: 362px;
-}
-.article .section .main .table tbody tr{
-    height: 92px;
-    line-height: 1.5;
-    color: #7F7F99;
-    border-bottom: 1px solid #E0E0E6;
-}
-.article .section .main .table tbody tr .share {
-    color: #7F7F99;
-    background: #ECECF0;
-    border-radius: 6px;
-    width: 120px;
-    height: 50px;
-    margin-left: 20px;
-    line-height: 50px;
-    text-align: center;
-}
-.article .section .main .table tbody tr .delete {
-    width: 50px;
-    height: 50px;
-    margin-left: 20px;
-    border-radius: 6px;
-    background: #ECECF0;
-}
-.article .section .main .table tbody tr .delete:before {
-    position: absolute;
-    background: url("../../images/delete.png") no-repeat;
-    width: 25px;
-    height: 25px;
-    margin-left: 12px;
-    margin-top: 12px;
-    content: '';
-}
-.article .section .main .table tbody tr .edit {
-    margin-left: 20px;
-    border-radius: 6px;
-    width: 100px;
+.article .section .main .btn-save {
+    margin-left: 148px;
+    width: 300px;
     height: 50px;
     line-height: 50px;
+    text-align: center;
     color: #FFFFFF;
+    font-size: 18px;
     background: #3281F7;
+    border-radius: 6px;
 }
-.article .section .main .table tbody tr .edit i {
-    background: url("../../images/pen.png") no-repeat;
-    width: 19px;
-    height: 19px;
-    margin-left: 20px;
-    margin-top: 16px;
-}
-.article .section .main .table tbody tr .edit span {
-    margin-left: 10px;
-}
+
