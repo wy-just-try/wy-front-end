@@ -4,12 +4,10 @@
         alias: {
             "jquery": "//wy626.com/js/tools/jquery-3.1.1.min.js",
             "libUtil": "//wy626.com/js/common/libUtil.js",
-            "libCookie": "//wy626.com/js/common/libCookie.js",
-            "indexTemplate": "//wy626.com/js/indexTemplate.js",
-            "publicHeader": "//wy626.com/js/common/publicHeader.js"
+            "editZone": "//wy626.com/js/editZone.js"
         }
     });
-    modulejs("indexTemplate", function(exports) {
+    modulejs("editZone", function(exports) {
         exports.init();
     });
 </script>

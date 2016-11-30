@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>编辑微网站-首页</title>
+    <meta name="keywords" content="weiyi">
+    <link rel="stylesheet" type="text/css" href="//wy626.com/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="//wy626.com/css/comm.css">
+    <link rel="stylesheet" type="text/css" href="//wy626.com/css/edit.css">
+</head>
+
+<body>
+    <!--#include virtual="/page/publicHeader.shtml" -->
+    <article class="article">
+        <header class="top">
+            <div class="main">
+<!--                 <a href="javascript:void(0);" class="back l">
+                    <span class="bg"></span>
+                    <span class="text l">返回到模板库</span>
+                </a> -->
+                <a id="webUrl" href="javascript:void(0);" class="href r">查看微网站地址</a>
+                <span class="title db">编辑微网站首页</span>
+            </div>
+        </header>
+        <section class="content">
+            <section class="show l">
+                <div class="mobile">
+                    <p class="camera">
+                        <span class="l round"></span>
+                        <span class="l line"></span>
+                    </p>
+                    <div class="phone">
+                        <!-- <img src="//wy626.com/images/iphone.png" class="img"> -->
+                        <iframe id="editZone" style="width:100%;height:100%;" src="" frameborder="0">
+                            <p>您的浏览器不支持iframe标签，请尝试更换浏览器查看</p>
+                        </iframe>
+                        <!-- START 编辑区内容 -->
+                        <!-- END 编辑区内容 -->
+                    </div>
+                    <div class="home"></div>
+                </div>
+            </section>
+            <section class="edit l">
+                <div class="desc">
+                    <p class="text">
+                        <label class="l">微网站名称：</label>
+                        <input id="weiName" type="text" placeholder="请输入微网站名称">
+                    </p>
+                    <div class="textarea">
+                        <label class="l">微网站描述：</label>
+                        <textarea id="weiDesc" placeholder="请输入网站描述"></textarea>
+                    </div>
+                </div>
+                <div class="middle dn">
+                    <p id="title" class="text dn">
+                        <label class="l">菜单标题：</label>
+                        <input type="text" placeholder="请输入菜单标题">
+                    </p>
+                    <div id="abstract" class="textarea dn">
+                        <label class="l">菜单摘要：</label>
+                        <textarea placeholder="请输入菜单摘要"></textarea>
+                    </div>
+                    <div id="uploadImg" class="upload dn">
+                        <a href="javascript:void(0);" class="btn-upload l">
+                            <span class="l">上传图片</span>
+                        </a>
+                        <input type="file" class="file" accept="image/jpeg,image/gif,image/png">
+                        <span class="warn">上传图片大小提示</span>
+                    </div>
+                </div>
+                <div id="subpage" class="sub dn">
+                    <p class="title">编辑子页面信息</p>
+                    <p class="type">
+                        <!--active是选中，去掉active是没选中-->
+                        <i class="l"></i>
+                        <span class="first l">进入二级模版页面</span>
+                        <span class="second l">选择模板</span>
+                    </p>
+                    <p class="link">
+                        <!--active是选中，去掉active是没选中-->
+                        <i class="l"></i>
+                        <input type="text" placeholder="请填写希望跳转的地址" disabled>
+                    </p>
+                </div>
+                <p>提醒：请点击左侧相应区域编辑页面哟！</p>
+                <div class="operate">
+                    <span id="clear" class="btn-back l">清空编辑区</span>
+                    <span id="save" class="btn-save r">保存</span>
+                </div>
+                <!-- <p class="tips">此处放置重要的操作提示文字。</p> -->
+            </section>
+        </section>
+    </article>
+    <!-- START 选择子模版 -->
+    <article id="subTemplate" class="mask-sub-template dn">
+        <section class="dialog">
+            <h3 class="title">选择子网站模板<i class="close"></i></h3>
+            <div class="main">
+                <ul id="subIndexContent">
+                <!-- 动态插入二级页面模板索引信息 -->
+                </ul>
+            </div>
+        </section>
+    </article>
+    <!-- END 选择子模版 -->
+    <script type="text/html" id="subpageIndex">
+        <li class="item">
+            <div class="content">
+                <img src="{#picUrl#}" class="img">
+                <p class="bottom dn">
+                    <span>{#title#}</span>
+                    <span data-id="{#name#}" class="btn-confirm">确定</span>
+                </p>
+            </div>
+        </li>
+    </script>
+    <!--#include virtual="/js/ssi/editIndexEntra.shtml" -->
+</body>
+</html>

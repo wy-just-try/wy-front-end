@@ -3,13 +3,14 @@
     modulejs.config({
         alias: {
             "jquery": "//wy626.com/js/tools/jquery-3.1.1.min.js",
-            "md5": "//wy626.com/js/tools/md5.js",
-            "login": "//wy626.com/js/login.js",
-            'libCookie': "//wy626.com/js/common/libCookie.js",
+            "libUtil": "//wy626.com/js/common/libUtil.js",
+            "libUi": "//wy626.com/js/common/libUi.js",
+            "libCookie": "//wy626.com/js/common/libCookie.js",
+            "editIndex": "//wy626.com/js/editIndex.js",
             "publicHeader": "//wy626.com/js/common/publicHeader.js"
         }
     });
-    modulejs("login", function(exports) {
+    modulejs("editIndex", function(exports) {
         exports.init();
     });
 </script>

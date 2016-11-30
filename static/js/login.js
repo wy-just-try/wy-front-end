@@ -38,10 +38,7 @@ define("login", function(require, exports, module) {
 				success: function(obj) {
 					hideWarning();
 					if (obj.errCode == 0) {
-						// 在写index逻辑的时添加登录校验逻辑
 						location.href = '//wy626.com/index.shtml';
-						// $('#pubLogin').hide();
-						// $('#pubLogout').closest('a').show();
 					} else if (obj.errCode == 1) {
 						$('#account').parent().next().show();
 					} else if (obj.errCode == 2) {

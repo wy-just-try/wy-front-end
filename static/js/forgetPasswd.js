@@ -1,4 +1,5 @@
 define('forgetPasswd', function(require, exports, module) {
+	require('publicHeader');
 	'use strict';
 	var $ = require('jquery');
 

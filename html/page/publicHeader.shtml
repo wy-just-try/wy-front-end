@@ -115,7 +115,7 @@
             <li><h3 id="pubManageCenter">管理中心</h3></li>
         </ul>
         <input id="pubLogin" type="button" class="btn-top dn" value="登录">
-        <a href="javascript:void(0);" class="nav-name">sweelon999
+        <a href="javascript:void(0);" class="nav-name dn">sweelon999
             <ul class="detail-list dn">
                 <li id="pubLogout" data-account="">退出</li>
             </ul>

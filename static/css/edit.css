@@ -1,0 +1,466 @@
+.article {
+    position: absolute;
+    top: 50px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.article .top {
+    height: 60px;
+    background: #CCCCD6;
+}
+.article .top .main {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article .top .main .back .bg{
+    position: absolute;
+    background: #FFFFFF;
+    width: 30px;
+    height: 30px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    margin-top: 15px;
+}
+.article .top .main .back .bg:before{
+    position: absolute;
+    background: url("//wy626.com/images/back.png") no-repeat;
+    width: 14px;
+    height: 14px;
+    margin-top: 7px;
+    margin-left: 7px;
+    content: '';
+}
+.article .top .main .back .text{
+    font-size: 14px;
+    margin-left: 40px;
+    line-height: 60px;
+    color: #7F7F99;
+}
+.article .top .main .title {
+    color: #4C4C70;
+    font-size: 20px;
+    width: 300px;
+    line-height: 60px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article .top .main .href {
+    border-radius: 6px;
+    color: #7F7F99;
+    font-size: 14px;
+    width: 123px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #E0E0E6;
+    margin-top: 15px;
+}
+.article .content {
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article .content .show,
+.article .content .edit{
+    width: 50%;
+}
+.article .content .show .mobile {
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 376px;
+    height: 640px;
+    background: #ECECF0;
+    border-radius: 50px;
+    box-sizing: border-box;
+    padding-top: 20px;
+}
+.article .content .show .mobile .camera {
+    margin-left: 154px;
+    height: 10px;
+}
+.article .content .show .mobile .camera .round {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #FFFFFF;
+}
+.article .content .show .mobile .camera .line {
+    margin-left: 24px;
+    width: 48px;
+    height: 8px;
+    border-radius: 4px;
+    background: #FFFFFF;
+    margin-top: 1px;
+}
+.article .content .show .mobile .phone {
+    width: 340px;
+    height: 532px;
+    margin-top: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #FFFFFF;
+}
+.article .content .show .mobile .phone .img {
+    width: 100%;
+    height: 532px;
+}
+.article .content .show .mobile .home {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    background: #FFFFFF;
+}
+.article .content .edit {
+    margin-bottom: 20px;
+}
+.article .content .edit .desc,
+.article .content .edit .sub{
+    width: 508px;
+    height: 240px;
+    background: aliceblue;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.article .content .edit .middle {
+    width: 508px;
+    background: aliceblue;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.article .content .edit .text {
+    margin-left: 30px;
+    height: 40px;
+    line-height: 40px;
+}
+.article .content .edit .textarea {
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.article .content .edit .desc .text label {
+    width: 100px;
+    color: #7F7F99;
+}
+.article .content .edit .desc .text input {
+    width: 324px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #FFFFFF;
+    border-style: none;
+    /*color: #3281F7;*/
+}
+.article .content .edit .desc .textarea label {
+    width: 100px;
+    color: #7F7F99;
+    box-sizing: border-box;
+    padding-top: 12px;
+    height: 24px;
+    line-height: 24px;
+}
+.article .content .edit .desc .textarea textarea{
+    width: 324px;
+    height: 80px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 12px 14px;
+    border-style: none;
+    resize: none;
+}
+.article .content .edit .middle{
+    box-sizing: border-box;
+    padding: 20px 0;
+}
+.article .content .edit .middle .text label {
+    width: 85px;
+    color: #7F7F99;
+}
+.article .content .edit .middle .text input {
+    width: 340px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #FFFFFF;
+    border-style: none;
+    /*color: #3281F7;*/
+}
+.article .content .edit .middle .textarea label {
+    width: 85px;
+    color: #7F7F99;
+    box-sizing: border-box;
+    padding-top: 12px;
+    height: 24px;
+    line-height: 24px;
+}
+.article .content .edit .middle .textarea textarea{
+    width: 340px;
+    height: 80px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 12px 14px;
+    border-style: none;
+    resize: none;
+}
+.article .content .edit .desc {
+    margin-top: 40px;
+    padding-top: 20px;
+    height: 180px;
+    box-sizing: border-box;
+}
+.article .content .edit .upload {
+    margin-top: 16px;
+    margin-left: 115px;
+    height: 40px;
+    width: 360px;
+}
+.article .content .edit .upload .btn-upload {
+    position: absolute;
+    width: 160px;
+    border-radius: 6px;
+    line-height: 40px;
+    background: #3281F7;
+    color: #FFFFFF;
+}
+.article .content .edit .upload .btn-upload:before {
+    position: absolute;
+    background: url("//wy626.com/images/upload-file.png") no-repeat;
+    width: 22px;
+    height: 21px;
+    margin-left: 30px;
+    margin-top: 10px;
+    content: '';
+}
+.article .content .edit .upload .btn-upload span {
+    margin-left: 66px;
+}
+.article .content .edit .upload .file {
+    position: relative;
+    cursor: pointer;
+    width: 160px;
+    height: 50px;
+    opacity: 0;
+}
+.article .content .edit .upload .warn {
+    color: #7F7F99;
+    line-height: 50px;
+    font-size: 14px;
+}
+.article .content .edit .sub {
+    box-sizing: border-box;
+    padding-top: 20px;
+    height: 180px;
+}
+.article .content .edit .sub .title {
+    margin-left: 25px;
+    font-size: 18px;
+    color: #4C4C70;
+    height: 24px;
+    line-height: 24px;
+}
+.article .content .edit .sub .type {
+    height: 35px;
+    line-height: 35px;
+    margin-left: 25px;
+    margin-top: 20px;
+}
+.article .content .edit .sub i {
+    width: 28px;
+    height: 28px;
+    margin-left: 15px;
+    border-radius: 50%;
+    background: #FFFFFF;
+    margin-top: 6px;
+}
+.article .content .edit .sub .type span {
+    color: #FFFFFF;
+    background: #CCCCD6;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.article .content .edit .sub .type span.active {
+    background: #3281F7;
+}
+.article .content .edit .sub .type .first {
+    width: 160px;
+    margin-left: 15px;
+}
+.article .content .edit .sub .type .second {
+    width: 76px;
+    margin-left: 15px;
+}
+.article .content .edit .sub i.active:before {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #3281F7;
+    margin: 6px;
+    content: '';
+}
+.article .content .edit .sub .link {
+    margin-top: 24px;
+    margin-left: 25px;
+    height: 40px;
+}
+.article .content .edit .sub input {
+    box-sizing: border-box;
+    padding-left: 16px;
+    padding-right: 16px;
+    line-height: 40px;
+    width: 358px;
+    border-style: none;
+    border-radius: 6px;
+    margin-left: 15px;
+}
+.article .content .edit > p {
+    margin: 20px 0;
+    height: 40px;
+    line-height: 40px;
+    background-color: aliceblue;
+    width: 508px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+.article .content .edit .operate {
+    margin-top: 20px;
+    height: 50px;
+    width: 508px;
+}
+.article .content .edit .operate .btn-back {
+    width: 128px;
+    color: #fff;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 6px;
+    background: #CCCCD6;
+    cursor: pointer;
+}
+.article .content .edit .operate .btn-save {
+    color: #FFFFFF;
+    width: 76px;
+    line-height: 50px;
+    text-align: center;
+    border-radius: 6px;
+    background: #E74B4B;
+    cursor: pointer;
+}
+.article .content .edit .tips {
+    box-sizing: border-box;
+    padding-left: 4px;
+    margin-top: 40px;
+    width: 508px;
+    height: 16px;
+    line-height: 16px;
+    color: #7F7F99;
+}
+/*mask-sub-template --- BEGIN*/
+.mask-sub-template {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9;
+}
+.mask-sub-template .dialog {
+    position: absolute;
+    border-radius: 6px;
+    width: 90%;
+    height: 85%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    background: #FFFFFF;
+}
+.mask-sub-template .dialog .title {
+    box-sizing: border-box;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 20px;
+    color: #000033;
+    font-size: 18px;
+    background: #E0E0E6;
+    font-weight: normal;
+    border-radius: 6px 6px 0 0;
+}
+.mask-sub-template .dialog .title .close {
+    position: absolute;
+    background: url("//wy626.com/images/close.png") no-repeat;
+    width: 15px;
+    height: 15px;
+    right: 20px;
+    margin-top: 14px;
+}
+.mask-sub-template .dialog .main {
+    position: absolute;
+    top: 60px;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 0 6px 6px;
+    box-sizing: border-box;
+    padding-left: 38px;
+    padding-right: 8px;
+    padding-top: 34px;
+    overflow-y: auto;
+}
+.mask-sub-template .dialog .main .item {
+    float: left;
+    width: 256px;
+    height: 350px;
+    margin-top: 6px;
+}
+.mask-sub-template .dialog .main .item .content {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mask-sub-template .dialog .main .item .content .img {
+    box-sizing: border-box;
+    width: 200px;
+    height: 300px;
+    border: 2px solid #FFFFFF;
+}
+.mask-sub-template .dialog .main .item .content .img.active {
+    border: 2px solid #3281F7;
+}
+.mask-sub-template .dialog .main .item .content .bottom {
+    height: 50px;
+    line-height: 50px;
+    color: #4C4C70;
+    position: relative;
+    top: -4px;
+    background-color: #f6f6f6;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.mask-sub-template .dialog .main .item .content .bottom .btn-confirm {
+    position: absolute;
+    right: 10px;
+    margin-top: 10px;
+    width: 48px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 6px;
+    background: #3281F7;
+    color: #FFFFFF;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+}
+/*mask-sub-template --- END*/

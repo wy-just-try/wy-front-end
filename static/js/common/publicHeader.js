@@ -1,6 +1,35 @@
 define('publicHeader', function(require, exports, module) {
 	'use strict';
-	var $ = require('jquery');
+	var $ = require('jquery'),
+		_cookie = require('libCookie');
+
+	//校验登录
+	(function() {
+		var user = _cookie.get('_user_');
+		if (user !== null) {
+			$.ajax({
+				url: '//wy626.com/cgi/wy/login/check',
+				type: 'post',
+				dataType: 'json',
+				data: user
+			}).done(function(obj) {
+				if (obj.errCode == 0) {
+					$('#pubLogin').hide();
+					$('#pubLogout').closest('a').show();
+				} else if (obj.errCode == 1) {
+					$('#pubLogin').show();
+					$('#pubLogout').closest('a').hide();
+					if (!/\/login\.shtml/.test(location.href)) {
+						location.href = '//wy626.com/login.shtml';
+					}
+				} else {
+					confirm('网络异常，请稍后再试！');
+				}
+			}).fail(function(xmlHttp, status, err) {
+				confirm('网络异常，请稍后再试！');
+			});
+		}
+	})();
 
 	//顶层导航
 	$('#pubBeginDesign, #pubAboutwe, #pubManageCenter').hover(function(e) {
@@ -53,6 +82,7 @@ define('publicHeader', function(require, exports, module) {
 		location.href = '//wy626.com/login.shtml';
 	});
 
+	//退出登录
 	$(document).on('click', '#pubLogout', function(e) {
 		$.ajax({
 			url: '//wy626.com/cgi/wy/login/logout',

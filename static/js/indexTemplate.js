@@ -43,7 +43,7 @@ define('indexTemplate', function(require, exports, module) {
 				if (obj.errCode == 0) {
 					location.href = '//wy626.com/editindex.shtml';
 				} else {
-					confirm('网络异常，请稍后再试！')
+					confirm('网络异常，请稍后再试！');
 				}
 			}).fail(function(xmlHttp, status, err) {
 				confirm('网络异常，请稍后再试！');
