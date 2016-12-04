@@ -286,6 +286,10 @@ define('editIndex', function(require, exports, module) {
 				}
 			}
 		});
+		//保存编辑内容
+		$('#save').on('click', function(e) {
+			saveContent(false);
+		});
 	}
 
 	/**
@@ -306,7 +310,11 @@ define('editIndex', function(require, exports, module) {
 		}).done(function(obj) {
 			if (obj.errCode == 0) {
 				if (isLink) {
-					location.href = '//wy626.com/editsub.shtml?page=' + encodeURIComponent(_subContent.data.link);
+					location.href = '//wy626.com/editsub.shtml?url=' + encodeURIComponent(_subContent.data.link);
+				} else {
+					_ui.tipDialog({
+						content: '保存成功！'
+					});
 				}
 			} else {
 				confirm('网络异常，请稍后再试');

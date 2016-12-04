@@ -28,6 +28,12 @@ define('publicHeader', function(require, exports, module) {
 			}).fail(function(xmlHttp, status, err) {
 				confirm('网络异常，请稍后再试！');
 			});
+		} else {
+			$('#pubLogin').show();
+			$('#pubLogout').closest('a').hide();
+			if (!/\/login\.shtml/.test(location.href)) {
+				location.href = '//wy626.com/login.shtml';
+			}
 		}
 	})();
 

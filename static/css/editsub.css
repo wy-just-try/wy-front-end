@@ -25,7 +25,7 @@
 }
 .article .top .main .back .bg:before{
     position: absolute;
-    background: url("//wy626.com/images/back.png") no-repeat;
+    background: url("../../images/back.png") no-repeat;
     width: 14px;
     height: 14px;
     margin-top: 7px;
@@ -119,28 +119,18 @@
 .article .content .edit {
     margin-bottom: 20px;
 }
-.article .content .edit .desc,
-.article .content .edit .sub{
-    width: 508px;
-    height: 240px;
-    background: aliceblue;
-    border-radius: 6px;
-    margin-top: 20px;
-}
-.article .content .edit .middle {
+.article .content .edit .desc{
     width: 508px;
     background: aliceblue;
     border-radius: 6px;
-    margin-top: 20px;
+    margin-top: 40px;
+    padding: 20px 0;
+    box-sizing: border-box;
 }
-.article .content .edit .text {
+.article .content .edit .desc .text {
     margin-left: 30px;
     height: 40px;
     line-height: 40px;
-}
-.article .content .edit .textarea {
-    margin-left: 30px;
-    margin-top: 20px;
 }
 .article .content .edit .desc .text label {
     width: 100px;
@@ -155,28 +145,29 @@
     border-radius: 6px;
     background: #FFFFFF;
     border-style: none;
-    /*color: #3281F7;*/
 }
-.article .content .edit .desc .textarea label {
-    width: 100px;
-    color: #7F7F99;
-    box-sizing: border-box;
-    padding-top: 12px;
-    height: 24px;
-    line-height: 24px;
+.article .content .edit .desc .title {
+    margin-left: 30px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 35px;
 }
-.article .content .edit .desc .textarea textarea{
-    width: 324px;
-    height: 80px;
-    box-sizing: border-box;
-    border-radius: 6px;
-    padding: 12px 14px;
-    border-style: none;
-    resize: none;
+.article .content .edit .text {
+    margin-left: 30px;
+    height: 40px;
+    line-height: 40px;
+}
+.article .content .edit .textarea {
+    margin-left: 30px;
+    margin-top: 20px;
 }
 .article .content .edit .middle{
     box-sizing: border-box;
     padding: 20px 0;
+    width: 508px;
+    background: aliceblue;
+    border-radius: 6px;
+    margin-top: 20px;
 }
 .article .content .edit .middle .text label {
     width: 85px;
@@ -209,12 +200,6 @@
     padding: 12px 14px;
     border-style: none;
     resize: none;
-}
-.article .content .edit .desc {
-    margin-top: 40px;
-    padding-top: 20px;
-    height: 180px;
-    box-sizing: border-box;
 }
 .article .content .edit .upload {
     margin-top: 16px;
@@ -254,73 +239,41 @@
     line-height: 50px;
     font-size: 14px;
 }
-.article .content .edit .sub {
+.article .content .edit .sub{
+    width: 508px;
+    height: 148px;
+    background: aliceblue;
+    border-radius: 6px;
+    margin-top: 20px;
     box-sizing: border-box;
-    padding-top: 20px;
-    height: 180px;
+    padding-top: 30px;
 }
-.article .content .edit .sub .title {
+.article .content .edit .sub .head {
     margin-left: 25px;
     font-size: 18px;
     color: #4C4C70;
     height: 24px;
     line-height: 24px;
 }
-.article .content .edit .sub .type {
-    height: 35px;
-    line-height: 35px;
-    margin-left: 25px;
-    margin-top: 20px;
-}
-.article .content .edit .sub i {
-    width: 28px;
-    height: 28px;
-    margin-left: 15px;
-    border-radius: 50%;
-    background: #FFFFFF;
-    margin-top: 6px;
-}
-.article .content .edit .sub .type span {
-    color: #FFFFFF;
-    background: #CCCCD6;
-    text-align: center;
-    border-radius: 6px;
-    cursor: pointer;
-}
-.article .content .edit .sub .type span.active {
-    background: #3281F7;
-}
-.article .content .edit .sub .type .first {
-    width: 160px;
-    margin-left: 15px;
-}
-.article .content .edit .sub .type .second {
-    width: 76px;
-    margin-left: 15px;
-}
-.article .content .edit .sub i.active:before {
-    position: absolute;
-    width: 16px;
-    height: 16px;
-    border-radius: 50%;
-    background: #3281F7;
-    margin: 6px;
-    content: '';
-}
 .article .content .edit .sub .link {
-    margin-top: 24px;
+    margin-top: 14px;
     margin-left: 25px;
-    height: 40px;
+    height: 50px;
+}
+.article .content .edit .sub .link label {
+    width: 56px;
+    color: #7F7F99;
+    height: 50px;
+    line-height: 50px;
 }
 .article .content .edit .sub input {
     box-sizing: border-box;
     padding-left: 16px;
     padding-right: 16px;
-    line-height: 40px;
-    width: 358px;
+    line-height: 50px;
+    width: 360px;
     border-style: none;
     border-radius: 6px;
-    margin-left: 15px;
 }
 .article .content .edit > p {
     margin: 20px 0;
@@ -333,17 +286,17 @@
     border-radius: 6px;
 }
 .article .content .edit .operate {
-    margin-top: 20px;
+    margin-top: 30px;
     height: 50px;
     width: 508px;
 }
 .article .content .edit .operate .btn-back {
     width: 128px;
-    color: #fff;
+    color: #7F7F99;
     line-height: 50px;
     text-align: center;
     border-radius: 6px;
-    background: #CCCCD6;
+    background: #ECECF0;
     cursor: pointer;
 }
 .article .content .edit .operate .btn-save {
@@ -366,103 +319,3 @@
     line-height: 16px;
     color: #7F7F99;
 }
-/*mask-sub-template --- BEGIN*/
-.mask-sub-template {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: rgba(0, 0, 0, 0.7);
-    z-index: 9;
-}
-.mask-sub-template .dialog {
-    position: absolute;
-    border-radius: 6px;
-    width: 90%;
-    height: 85%;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
-    -ms-transform: translate(-50%,-50%);
-    -moz-transform: translate(-50%,-50%);
-    -webkit-transform: translate(-50%,-50%);
-    background: #FFFFFF;
-}
-.mask-sub-template .dialog .title {
-    box-sizing: border-box;
-    height: 50px;
-    line-height: 50px;
-    padding-left: 20px;
-    color: #000033;
-    font-size: 18px;
-    background: #E0E0E6;
-    font-weight: normal;
-    border-radius: 6px 6px 0 0;
-}
-.mask-sub-template .dialog .title .close {
-    position: absolute;
-    background: url("//wy626.com/images/close.png") no-repeat;
-    width: 15px;
-    height: 15px;
-    right: 20px;
-    margin-top: 14px;
-}
-.mask-sub-template .dialog .main {
-    position: absolute;
-    top: 60px;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    border-radius: 0 0 6px 6px;
-    box-sizing: border-box;
-    padding-left: 38px;
-    padding-right: 8px;
-    padding-top: 34px;
-    overflow-y: auto;
-}
-.mask-sub-template .dialog .main .item {
-    float: left;
-    width: 256px;
-    height: 350px;
-    margin-top: 6px;
-}
-.mask-sub-template .dialog .main .item .content {
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.mask-sub-template .dialog .main .item .content .img {
-    box-sizing: border-box;
-    width: 200px;
-    height: 300px;
-    border: 2px solid #FFFFFF;
-}
-.mask-sub-template .dialog .main .item .content .img.active {
-    border: 2px solid #3281F7;
-}
-.mask-sub-template .dialog .main .item .content .bottom {
-    height: 50px;
-    line-height: 50px;
-    color: #4C4C70;
-    position: relative;
-    top: -4px;
-    background-color: #f6f6f6;
-    padding-left: 10px;
-    border-radius: 5px;
-}
-.mask-sub-template .dialog .main .item .content .bottom .btn-confirm {
-    position: absolute;
-    right: 10px;
-    margin-top: 10px;
-    width: 48px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 6px;
-    background: #3281F7;
-    color: #FFFFFF;
-    font-size: 14px;
-    text-align: center;
-    cursor: pointer;
-}
-/*mask-sub-template --- END*/
