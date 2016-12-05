@@ -36,6 +36,7 @@ define('editZone', function(require, exports, module) {
 
 	//公用变量
 	var _activeElement = null; //当前激活编辑元素
+	var _transport = {}; //向父窗口传递对象
 
 	//静态变量
 	var DESTURL = 'http://wy626.com/editindex.shtml';
@@ -43,29 +44,33 @@ define('editZone', function(require, exports, module) {
 	//事件绑定
 	function bindEvent() {
 		$(document).on('click', '.wy-edit', function(e) {
+			var imgFlag = false;
 			e.preventDefault();
 			$(_activeElement).removeClass('wy-active');
 			$(this).addClass('wy-active');
 			_activeElement = this;
 
 			var owner = $(this).prop('class').match(/wy-edit-\w*/g);
-			var transport = {};
 			if (owner !== null) {
 				switch (owner[0]) {
 					case 'wy-edit-title':
-						transport.title = $(this).text();
+						_transport.title = $(this).text();
 						break;
 					case 'wy-edit-desc':
-						transport.desc = $(this).text();
+						_transport.desc = $(this).text();
 						break;
 					case 'wy-edit-img':
-						transport.img = {};
-						transport.img.url = $(this).attr('src') || $(this).css('background-image');
-						transport.img.width = parseInt($(this).width()) * 2; //以320屏幕为基准，建议宽度乘以2
-						transport.img.height = parseInt($(this).height()) * 2; //以320屏幕为基准，建议高度乘以2
+						imgFlag = true;
+						_transport.img = {};
+						if ($(this).prop('nodeName') === 'IMG') {
+							_transport.img.url = $(this).attr('src');
+						} else {
+							_transport.img.url = $(this).css('background-image').match(/"(.*)"/)[1];
+						}
+						getImageSize(_transport.img.url);
 						break;
 					case 'wy-edit-link':
-						transport.link = $(this).attr('href');
+						_transport.link = $(this).attr('href');
 						break;
 					default:
 						console.error('模板编辑格式有误');
@@ -73,27 +78,34 @@ define('editZone', function(require, exports, module) {
 				}
 			}
 			if ($(this).find('.wy-edit-title').length !== 0) {
-				transport.hasOwnProperty('title') || (transport.title = $(this).find('.wy-edit-title').text());
+				_transport.hasOwnProperty('title') || (_transport.title = $(this).find('.wy-edit-title').text());
 			}
 			if ($(this).find('.wy-edit-desc').length !== 0) {
-				transport.hasOwnProperty('desc') || (transport.desc = $(this).find('.wy-edit-desc').text());
+				_transport.hasOwnProperty('desc') || (_transport.desc = $(this).find('.wy-edit-desc').text());
 			}
 			if ($(this).find('.wy-edit-img').length !== 0) {
-				if(!transport.hasOwnProperty('img')) {
-					transport.img = {};
-					transport.img.url = $(this).find('.wy-edit-img').attr('src') || $(this).find('.wy-edit-img').css('background-image').match(/"(.*)"/)[1];
-					transport.img.width = parseInt($(this).find('.wy-edit-img').width()) * 2; //以320屏幕为基准，建议宽度乘以2
-					transport.img.height = parseInt($(this).find('.wy-edit-img').height()) * 2; //以320屏幕为基准，建议高度乘以2
+				imgFlag = true;
+				if(!_transport.hasOwnProperty('img')) {
+					_transport.img = {};
+					if ($(this).prop('nodeName') === 'IMG') {
+						_transport.img.url = $(this).find('.wy-edit-img').attr('src');
+					} else {
+						_transport.img.url = $(this).find('.wy-edit-img').css('background-image').match(/"(.*)"/)[1];
+					}
+					getImageSize(_transport.img.url);
 				}
 			}
 			if ($(this).find('.wy-edit-link').length !== 0) {
-				transport.hasOwnProperty('link') || (transport.link = $(this).find('.wy-edit-link').attr('href'));
+				_transport.hasOwnProperty('link') || (_transport.link = $(this).find('.wy-edit-link').attr('href'));
 			}
 
-			window.top.postMessage({
-				type: 1,
-				data: transport
-			}, DESTURL);
+			if (!imgFlag) {
+				window.top.postMessage({
+					type: 1,
+					data: _transport
+				}, DESTURL);
+				_transport = {};
+			}
 		});
 
 		//监听父窗口消息
@@ -144,6 +156,26 @@ define('editZone', function(require, exports, module) {
 		});
 	}
 
+	//获取图片宽高信息
+	function getImageSize(url) {
+		var img =  document.createElement('img');
+		img.src = url;
+		img.onload = img.onreadystatechange = function() {
+			_transport.img.width = this.width;
+			_transport.img.height = this.height;
+			window.top.postMessage({
+				type: 1,
+				data: _transport
+			}, DESTURL);
+			_transport = {};
+			img = null;
+		};
+		img.onerror = function() {
+			console.log('创建临时图片失败');
+		};
+	}
+
+	//编辑区页面入口
 	exports.init = function() {
 		//页面加载完成
 		$(function() {

@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="Keywords" content="点点客微伙伴、微信营销、微信代运营、微信定制开发、微网站、微营销">
+    <meta name="Description" content="点点客微伙伴，国内最大的微信公众智能服务平台，点点客微伙伴十大功能体系：。">
+    <!-- 移动设备支持 -->
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
+    <meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+    <meta content="no-cache" http-equiv="pragma">
+    <meta content="0" http-equiv="expires">
+    <meta content="telephone=no, address=no" name="format-detection">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link href="http://static.dodoca.com/css/mod/reset.css" rel="stylesheet" type="text/css">
+    <!--手机端重置样式-->
+    <link href="http://static.dodoca.com/css/mod/mobile/mod49.css" rel="stylesheet" type="text/css">
+    <!--微网站模板49样式-->
+    <script type="text/javascript" src="http://static.dodoca.com/js/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        $('.blankwhite').css('height', '0px');
+
+    });
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="banner">
+            <img class="wy-edit wy-edit-img" src="http://static.dodoca.com/images/mod/mod49/banner.jpg" alt="" style="width:100%;">
+        </div>
+        <a class="wy-edit wy-edit-link" href="javascript:;">
+            <div class="tit49 wy-edit-title wy-edit-img">菜单1</div>
+        </a>
+        <a href="javascript:;" class="list49 wy-edit wy-edit-link">
+            <span  class="list49_tit wy-edit-title">菜单2<i></i></span>
+            <span class="list49_text wy-edit-desc">概要2</span>
+        </a>
+        <a href="javascript:;" class="list49 wy-edit wy-edit-link">
+            <span class="list49_tit wy-edit-title">菜单3<i></i></span>
+            <span class="list49_text wy-edit-desc">概要3</span>
+        </a>
+        <a href="javascript:;" class="list49 wy-edit wy-edit-link">
+            <span class="list49_tit wy-edit-title">菜单4<i></i></span>
+            <span class="list49_text wy-edit-desc">概要4</span>
+        </a>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>
