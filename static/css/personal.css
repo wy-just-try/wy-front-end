@@ -1,0 +1,84 @@
+.article .top {
+    width: 100%;
+    height: 100px;
+    background: url("//wy626.com/images/background.png") no-repeat;
+}
+.article .section {
+    width: 1200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article .section .main {
+    margin-left: 188px;
+}
+.article .section .main h3.title{
+    margin-left: 50px;
+    height: 72px;
+    line-height: 72px;
+    color: #4C4C70;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #E0E0E6;
+}
+.article .section .main ul li {
+    font-size: 16px;
+    color: #7F7F99;
+    padding: 5px 0;
+}
+.article .section .main ul li label {
+    float: left;
+    width: 80px;
+    line-height: 40px;
+    margin-right: 18px;
+    text-align: right;
+}
+.article .section .main ul li input {
+    box-sizing: border-box;
+    border-radius: 6px;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid #E4EAEF;
+    padding-left: 14px;
+    padding-right: 14px;
+}
+.article .section .main ul li .error-msg {
+    margin-left: 98px;
+    font-size: 14px;
+    color: #E74B4B;
+    height: 33px;
+    line-height: 33px;
+}
+.article .section .main .old-password {
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #E0E0E6;
+}
+.article .section .main .new-password {
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.article .section .main .tips {
+    color: #CCCCD6;
+    font-size: 14px;
+    margin-left: 98px;
+    height: 24px;
+    line-height: 24px;
+}
+.article .section .main .btn-save {
+    margin-left: 148px;
+    width: 300px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    background: #3281F7;
+    border-radius: 6px;
+}
+

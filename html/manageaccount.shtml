@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>个人信息管理</title>
+    <meta name="keywords" content="weiyi">
+    <link rel="stylesheet" type="text/css" href="//wy626.com/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="//wy626.com/css/comm.css">
+    <link rel="stylesheet" type="text/css" href="//wy626.com/css/personal.css">
+</head>
+
+<body>
+    <!--#include virtual="/page/publicHeader.shtml" -->
+    <article class="article">
+        <header class="top"></header>
+        <section class="section">
+            <!--#include virtual="/page/manageMenu.shtml" -->
+            <section class="main">
+                <h3 class="title">修改密码</h3>
+                <ul class="old-password">
+                    <li>
+                        <label>当前密码</label>
+                        <input type="password" placeholder="请输入当前密码">
+                        <p class="error-msg dn">当前密码输入有误</p>
+                    </li>
+                </ul>
+                <ul class="new-password">
+                    <li>
+                        <label>新密码</label>
+                        <input type="password" placeholder="请输入新的密码">
+                        <p class="error-msg dn">密码格式有误，请重新输入</p>
+                    </li>
+                    <li>
+                        <label>再次确认</label>
+                        <input type="password" placeholder="请再次输入新密码">
+                        <p class="tips">（包含6-18位字符，不能输入特殊字符、空格）</p>
+                        <p class="error-msg dn">新密码确认有误</p>
+                    </li>
+                </ul>
+                <a id="save" href="javascript:void(0);" class="db btn-save">保存</a>
+            </section>
+        </section>
+    </article>
+    <!--#include virtual="/ssi/manageAccountEntra.shtml"-->
+</body>
+
+</html>

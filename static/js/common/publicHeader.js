@@ -81,7 +81,7 @@ define('publicHeader', function(require, exports, module) {
 	});
 
 	$('#pubManageCenter').on('click', function(e) {
-		location.href = '//wy626.com/managecenter.shtml';
+		location.href = '//wy626.com/manageweb.shtml';
 	});
 
 	$(document).on('click', '#pubLogin', function(e) {

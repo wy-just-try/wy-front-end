@@ -1,0 +1,16 @@
+<script src="//wy626.com/js/tools/module.js"></script>
+<script type="text/javascript">
+    modulejs.config({
+        alias: {
+            "jquery": "//wy626.com/js/tools/jquery-3.1.1.min.js",
+            "manageAccount": "//wy626.com/js/manageAccount.js",
+            "publicHeader": "//wy626.com/js/common/publicHeader.js",
+            "libCookie": "//wy626.com/js/common/libCookie.js",
+            "md5": "//wy626.com/js/tools/md5.js",
+            "manageMenu": "//wy626.com/js/common/manageMenu.js"
+        }
+    });
+    modulejs("manageAccount", function(exports) {
+        exports.init();
+    });
+</script>

@@ -1,0 +1,110 @@
+.article .top {
+    width: 100%;
+    height: 100px;
+    background: url("//wy626.com/images/background.png") no-repeat;
+}
+.article .section {
+    width: 1200px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.article .section .main {
+    margin-left: 188px;
+}
+.article .section .main h3.title{
+    margin-left: 50px;
+    height: 72px;
+    line-height: 72px;
+    color: #4C4C70;
+    font-size: 18px;
+    font-weight: normal;
+    padding-bottom: 7px;
+    border-bottom: 1px solid #E0E0E6;
+}
+.article .section .main .table {
+    margin-left: 50px;
+    width: 962px;
+    border-collapse: collapse;
+    border-spacing:0;
+    table-layout: fixed;
+}
+.article .section .main .table thead tr {
+    height: 48px;
+    line-height: 48px;
+    border-bottom: 1px solid #E0E0E6;
+}
+.article .section .main .table thead tr th {
+    text-align: center;
+    font-size: 16px;
+    color: #4C4C70;
+    background: #EFEFF2;
+    font-weight: normal;
+}
+.article .section .main .table thead th:first-child {
+    width: 204px;
+}
+.article .section .main .table .middle {
+    width: 396px;
+}
+.article .section .main .table thead th:last-child {
+    width: 362px;
+}
+.article .section .main .table tbody tr{
+    height: 60px;
+    line-height: 1.5;
+    color: #7F7F99;
+    border-bottom: 1px solid #E0E0E6;
+    word-wrap: break-word;
+}
+.article .section .main .table tbody tr td{
+    padding: 0 10px;
+}
+.article .section .main .table tbody tr .share {
+    color: #7F7F99;
+    background: #ECECF0;
+    border-radius: 6px;
+    width: 120px;
+    height: 40px;
+    margin-left: 20px;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 5px;
+}
+.article .section .main .table tbody tr .delete {
+    width: 50px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 6px;
+    background: #ECECF0;
+    margin-top: 5px;
+}
+.article .section .main .table tbody tr .delete:before {
+    position: absolute;
+    background: url("//wy626.com/images/delete.png") no-repeat;
+    width: 25px;
+    height: 25px;
+    margin-left: 12px;
+    margin-top: 7px;
+    content: '';
+}
+.article .section .main .table tbody tr .edit {
+    margin-left: 20px;
+    border-radius: 6px;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    color: #FFFFFF;
+    background: #3281F7;
+    margin-top: 5px;
+}
+.article .section .main .table tbody tr .edit i {
+    background: url("//wy626.com/images/pen.png") no-repeat;
+    width: 19px;
+    height: 19px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.article .section .main .table tbody tr .edit span {
+    margin-left: 10px;
+}

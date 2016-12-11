@@ -1,0 +1,64 @@
+<style>
+.article .section .nav {
+    width: 188px;
+}
+.article .section .nav .center {
+    position: absolute;
+    width: 188px;
+    height: 107px;
+    background: #4C4C70;
+    margin-top: -7px;
+}
+.article .section .nav .center .big {
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #FFFFFF;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.article .section .nav .center .small {
+    display: block;
+    width: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #CCCCD6;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}
+.article .section .nav .item-list {
+    position: absolute;
+    top: 250px;
+    width: 188px;
+    bottom: 0;
+    box-sizing: border-box;
+    border-left: 1px solid #E0E0E6;
+    border-right: 1px solid #E0E0E6;
+}
+.article .section .nav .item-list li {
+    height: 69px;
+    line-height: 69px;
+    color: #4C4C70;
+    font-size: 18px;
+    text-align: center;
+    border-bottom: 1px solid #E0E0E6;
+    cursor: pointer;
+}
+.article .section .nav .item-list li.active {
+    color: #3281F7;
+}
+</style>
+<nav class="nav">
+    <div class="center">
+        <span class="big">管理中心</span>
+        <span class="small">administration center</span>
+    </div>
+    <ul class="item-list">
+        <li id="pubManageWeb">微网站管理</li>
+        <li id="pubManagePage">图文页面管理</li>
+        <li id="pubManageAccount">个人信息管理</li>
+    </ul>
+</nav>

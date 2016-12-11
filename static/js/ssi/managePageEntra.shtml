@@ -1,0 +1,17 @@
+<script src="//wy626.com/js/tools/module.js"></script>
+<script type="text/javascript">
+    modulejs.config({
+        alias: {
+            "jquery": "//wy626.com/js/tools/jquery-3.1.1.min.js",
+            "libUtil": "//wy626.com/js/common/libUtil.js",
+            "libUi": "//wy626.com/js/common/libUi.js",
+            "libCookie": "//wy626.com/js/common/libCookie.js",
+            "managePage": "//wy626.com/js/managePage.js",
+            "publicHeader": "//wy626.com/js/common/publicHeader.js",
+            "manageMenu": "//wy626.com/js/common/manageMenu.js"
+        }
+    });
+    modulejs("managePage", function(exports) {
+        exports.init();
+    });
+</script>

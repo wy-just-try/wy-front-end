@@ -5,25 +5,25 @@
     box-sizing: border-box;
     box-shadow: 0 1px 2px 0 rgba(0, 51, 204, 0.2);
 }
-.nav {
+.header .nav {
     width: 1000px;
     height: 100%;
     font-size: 12px;
     margin-left: auto;
     margin-right: auto;
 }
-.nav .logo {
+.header .nav .logo {
     float: left;
     background: url("//wy626.com/images/logo.png") no-repeat;
     width: 109px;
     height: 32px;
     margin-top: 9px;
 }
-.nav .item-list {
+.header .nav .item-list {
     float: left;
     margin-left: 400px;
 }
-.nav .item-list li {
+.header .nav .item-list li {
     float: left;
     width: 120px;
     height: 50px;
@@ -31,20 +31,20 @@
     color: #4c4c70;
     cursor: pointer;
 }
-.nav .item-list li h3 {
+.header .nav .item-list li h3 {
     height: 50px;
     line-height: 50px;
     font-weight: normal;
     text-align: center;
 }
-.nav .item-list .detail-list {
+.header .nav .item-list .detail-list {
     position: absolute;
     box-shadow: 0 2px 6px 0 rgba(0, 14, 55, 0.4);
     background: #FFFFFF;
     width: 120px;
     z-index: 1;
 }
-.nav .detail-list {
+.header .nav .detail-list {
     position: absolute;
     text-align: center;
     box-shadow: 0 2px 6px 0 rgba(0, 14, 55, 0.4);
@@ -52,18 +52,18 @@
     width: 100px;
     z-index: 1;
 }
-.nav .detail-list li{
+.header .nav .detail-list li{
     text-align: center;
     line-height: 50px;
     color: #4C4C70;
     border-top: 1px solid #CCCCD6;
     font-size: 14px;
 }
-.nav .detail-list li.active {
+.header .nav .detail-list li.active {
     border-top: 1px solid #3281F7;
     color: #3281F7;
 }
-.nav .btn-top {
+.header .nav .btn-top {
     float: left;
     width: 78px;
     height: 30px;
@@ -75,7 +75,7 @@
     border: 1px solid #87B1FE;
     cursor: pointer;
 }
-.nav .nav-name {
+.header .nav .nav-name {
     float: left;
     width: 100px;
     height: 50px;
@@ -87,7 +87,7 @@
     overflow:hidden;
     white-space:nowrap;
 }
-.nav .nav-name:after{
+.header .nav .nav-name:after{
     position: absolute;
     background: url("//wy626.com/images/arrow-down.png") no-repeat;
     width: 13px;
@@ -96,7 +96,7 @@
     margin-left: 6px;
     content: '';
 }
-.nav .pointer-active {
+.header .nav .pointer-active {
     color: #0066FF;
 }
 </style>
