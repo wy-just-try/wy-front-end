@@ -1,0 +1,27 @@
+/*手机端样式*/
+#wrap { height:100%;min-width: 320px; max-width:640px;margin:0 auto; background:url(//wy626.com/template/sub/mod07/bgd.jpg) no-repeat; background-size:100% 100%;-webkit-box-sizing: border-box; -moz-box-sizing:border-box; }
+.modbgd {display:block; position:absolute; left:15%; bottom:10%; width:62%; max-width:420px; background:rgba(255,255,255,0.4);-moz-border-radius:10px;-webkit-border-radius:10px;-o-border-radius:10px; border-radius:10px; padding:1% 3% 0% 3%;
+-webkit-animation-name: "bgd"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 2s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/}
+.menu {display:block; width:90%;position:relative;  padding:0% 4% 0% 16%; line-height:2;-moz-border-radius:10px;-webkit-border-radius:10px;-o-border-radius:10px; border-radius:10px; margin-bottom:0.1%;
+animation:mymove 1.5s infinite;
+-webkit-animation:mymove 1.5s infinite;
+animation-iteration-count:1;
+-webkit-animation-iteration-count:1;
+}
+.line{width:96%; margin:0 auto; background:#fff; height:1px; line-height:1px;background:rgba(255,255,255,0.6);}
+.icon {float:left; display:block;line-height:2; padding-top:3.5%;}
+.tle { display:block; float:left;line-height:2.5; font-size:2em; color:#333;margin-left:4%;}
+footer {display:block;position:fixed;bottom:0;min-width: 320px; max-width:640px; width:100%; line-height:2.5; color:white; font-size:1.4em; text-align:center;}
+
+@-webkit-keyframes mymove {
+     from { left:-300px;}
+     to {left:0px;}
+  }
+@-webkit-keyframes 'bgd' {
+     from { opacity:0}
+     to { opacity:1;}
+  }
+
+

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/sub/mod44/mod44.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/sub/mod44/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        var winheight = $(window).height();
+        //$('#wrap').css('min-height',winheight-30+'px');//footer居底
+        $('.blankwhite').css('height', '0px');
+        var winwidth = $(window).width();
+        $('.contentimgcl').css('height', winwidth * 0.98 * 0.22 + 'px');
+    });
+    </script>
+</head>
+
+<body>
+    <div id="wrap" class="clr">
+        <img class="wy-edit wy-edit-img" src="//wy626.com/template/sub/mod44/topbanner.jpg" alt="" style="width:100%;">
+        <div class="telnav clr">
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn">
+                    <div class="pic">
+                        <img class="wy-edit-img" src="//wy626.com/template/sub/mod44/icon01.jpg">
+                    </div>
+                    <div class="t_content">
+                        <div class="t_t1 wy-edit-title">菜单1</div>
+                        <div class="t_t2 wy-edit-desc">概要1</div>
+                    </div>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn">
+                    <div class="pic">
+                        <img class="wy-edit-img" src="//wy626.com/template/sub/mod44/icon02.jpg">
+                    </div>
+                    <div class="t_content">
+                        <div class="t_t1 wy-edit-title">菜单2</div>
+                        <div class="t_t2 wy-edit-desc">概要2</div>
+                    </div>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn">
+                    <div class="pic">
+                        <img class="wy-edit-img" src="//wy626.com/template/sub/mod44/icon03.jpg">
+                    </div>
+                    <div class="t_content">
+                        <div class="t_t1 wy-edit-title">菜单3</div>
+                        <div class="t_t2 wy-edit-desc">概要3</div>
+                    </div>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn">
+                    <div class="pic">
+                        <img class="wy-edit-img" src="//wy626.com/template/sub/mod44/icon04.jpg">
+                    </div>
+                    <div class="t_content">
+                        <div class="t_t1 wy-edit-title">菜单4</div>
+                        <div class="t_t2 wy-edit-desc">概要4</div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

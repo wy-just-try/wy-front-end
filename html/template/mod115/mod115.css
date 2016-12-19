@@ -1,0 +1,31 @@
+/*手机端样式*/
+#wrap {width:100%;min-height:100%;min-width:320px; max-width:640px;margin:0 auto; background-color:#ededed; position:relative;}
+.banner, .banner img{display:block; width:100%;}
+.modbgd {display:block;width:96%; position:relative; margin:0 auto;padding:3% 0 40px;overflow:hidden;
+-webkit-animation-name: "bgd"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 2s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/}
+.menu {display:block; width:100%;position:relative;padding:0%; margin:0 auto; background-color:rgba(255,255,255,1); background-image:url(//wy626.com/template/mod115/jt_black.png); background-repeat:no-repeat; background-position:95% 50%; background-size:10px; border-bottom:1px solid #c9c9c9; overflow:hidden;
+animation:mymove 1.5s infinite;
+-webkit-animation:mymove 1.5s infinite;
+animation-iteration-count:1;
+-webkit-animation-iteration-count:1;
+}
+.dj{-moz-border-radius:10px 10px 0 0;-webkit-border-radius:10px 10px 0 0;-o-border-radius:10px 10px 0 0; border-radius:10px 10px 0 0;}
+.menu span{display:inline-block; width:50%;padding:4.5% 0% 0 5%;font-size:1rem;line-height:28px; vertical-align:middle; color:#000;}
+.menu i{float:left;display:inline-block;width:25%; padding:8% 0;background-repeat:no-repeat; background-position:center; background-size:24px;}
+.i01{background-color:#c4403e;background-image:url(//wy626.com/template/mod115/icon01.png); -webkit-border-radius:10px 0px 0 0;-o-border-radius:10px 0px 0 0; border-radius:10px 0px 0 0;}
+.i02{background-color:#d77670;background-image:url(//wy626.com/template/mod115/icon02.png);}
+.i03{background-color:#b3cebf;background-image:url(//wy626.com/template/mod115/icon03.png);}
+.i04{background-color:#6f9e98;background-image:url(//wy626.com/template/mod115/icon04.png);}
+.i05{background-color:#b7ad83;background-image:url(//wy626.com/template/mod115/icon05.png);}
+footer{bottom:0;display:block; width:100%; line-height:30px; background:#000; color:#fff; font-size:0.9rem; text-align:center;}
+
+@-webkit-keyframes mymove {
+     from {left:-600px;}
+     to {left:0px;}
+  }
+@-webkit-keyframes 'bgd' {
+     from { opacity:0}
+     to { opacity:1;}
+  }

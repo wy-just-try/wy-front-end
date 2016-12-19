@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/sub/mod80/mod80.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/sub/mod80/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        $('.blankwhite').css('height', '0px');
+        $('.contentimgcl').css('height', $('.contentimgcl').css('width'));
+    });
+    </script>
+</head>
+
+<body onselectstart="return true;" ondragstart="return false;">
+    <div id="wrap">
+        <ul class="modmenu">
+            <li class="colbox01">
+                <a href="javascript:;" class="nav1 wy-edit wy-edit-link">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td width="20%" class="fonta wy-edit-title">菜单1</td>
+                                <td width="30%" align="center">
+                                    <div class="pic">
+                                        <img class="wy-edit-img" src="//wy626.com/template/sub/mod80/test.jpg">
+                                    </div>
+                                </td>
+                                <td width="50%" class="grey wy-edit-desc">概要1</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </a>
+            </li>
+            <li class="colbox02">
+                <a href="javascript:;" class="nav2 wy-edit wy-edit-link">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td width="20%" class="fonta wy-edit-title">菜单2</td>
+                                <td width="30%" align="center">
+                                    <div class="pic">
+                                        <img class="wy-edit-img" src="//wy626.com/template/sub/mod80/test.jpg">
+                                    </div>
+                                </td>
+                                <td width="50%" class="grey wy-edit-desc">概要2</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </a>
+            </li>
+            <li class="colbox03">
+                <a href="javascript:;" class="nav3 wy-edit wy-edit-link">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td width="20%" class="fonta wy-edit-title">菜单3</td>
+                                <td width="30%" align="center">
+                                    <div class="pic">
+                                        <img class="wy-edit-img" src="//wy626.com/template/sub/mod80/test.jpg">
+                                    </div>
+                                </td>
+                                <td width="50%" class="grey wy-edit-desc">概要3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </a>
+            </li>
+            <li class="colbox04">
+                <a href="javascript:;" class="nav4 wy-edit wy-edit-link">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td width="20%" class="fonta wy-edit-title">菜单4</td>
+                                <td width="30%" align="center">
+                                    <div class="pic">
+                                        <img class="wy-edit-img" src="//wy626.com/template/sub/mod80/test.jpg">
+                                    </div>
+                                </td>
+                                <td width="50%" class="grey wy-edit-desc">概要4</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </a>
+            </li>
+            <li class="colbox05">
+                <a href="javascript:;" class="nav5 wy-edit wy-edit-link">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td width="20%" class="fonta wy-edit-title">菜单5</td>
+                                <td width="30%" align="center">
+                                    <div class="pic">
+                                        <img class="wy-edit-img" src="//wy626.com/template/sub/mod80/test.jpg">
+                                    </div>
+                                </td>
+                                <td width="50%" class="grey wy-edit-desc">概要5</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </a>
+            </li>
+            <li class="colbox06">
+                <a href="javascript:;" class="nav6 wy-edit wy-edit-link">
+                    <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                        <tbody>
+                            <tr>
+                                <td width="20%" class="fonta wy-edit-title">菜单6</td>
+                                <td width="30%" align="center">
+                                    <div class="pic">
+                                        <img class="wy-edit-img" src="//wy626.com/template/sub/mod80/test.jpg">
+                                    </div>
+                                </td>
+                                <td width="50%" class="grey wy-edit-desc">概要6</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

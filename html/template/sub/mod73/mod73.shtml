@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/sub/mod73/mod73.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/sub/mod73/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body>
+    <div id="wrap" class="clr">
+        <div class="contbox">
+            <div class="modmenu">
+                <dl>
+                    <dd>
+                        <a href="javascript:;" class="nav1 wy-edit wy-edit-link">
+                            <img class="wy-edit-img" src="//wy626.com/template/sub/mod73/icon01.jpg">
+                            <h1 class="wy-edit-title">菜单1</h1>
+                            <p class="wy-edit-desc">概要1</p>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;" class="nav2 wy-edit wy-edit-link">
+                            <img class="wy-edit-img" src="//wy626.com/template/sub/mod73/icon02.jpg">
+                            <h1 class="wy-edit-title">菜单2</h1>
+                            <p class="wy-edit-desc">概要2</p>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;" class="nav3 wy-edit wy-edit-link">
+                            <img class="wy-edit-img" src="//wy626.com/template/sub/mod73/icon03.jpg">
+                            <h1 class="wy-edit-title">菜单3</h1>
+                            <p class="wy-edit-desc">概要3</p>
+                        </a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dd>
+                        <a href="javascript:;" class="nav4 wy-edit wy-edit-link">
+                            <img class="wy-edit-img" src="//wy626.com/template/sub/mod73/icon04.jpg">
+                            <h1 class="wy-edit-title">菜单4</h1>
+                            <p class="wy-edit-desc">概要4</p>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;" class="nav5 wy-edit wy-edit-link">
+                            <img class="wy-edit-img" src="//wy626.com/template/sub/mod73/icon05.jpg">
+                            <h1 class="wy-edit-title">菜单5</h1>
+                            <p class="wy-edit-desc">概要5</p>
+                        </a>
+                    </dd>
+                    <dd>
+                        <a href="javascript:;" class="nav6 wy-edit wy-edit-link">
+                            <img class="wy-edit-img" src="//wy626.com/template/sub/mod73/icon06.jpg">
+                            <h1 class="wy-edit-title">菜单6</h1>
+                            <p class="wy-edit-desc">概要6</p>
+                        </a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

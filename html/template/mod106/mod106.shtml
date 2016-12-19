@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod106/mod106.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod106/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        var winheight = $(window).height();
+        $('#wrap').css('min-height', winheight - 28 + 'px'); //footer居底
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body onselectstart="return true;" ondragstart="return false;">
+    <div id="wrap" class="clr" style="min-height: 717px;">
+        <div class="banner">
+            <img class="wy-edit wy-edit-img" src="//wy626.com/template/mod106/topbanner.jpg" alt="" style="width:100%;">
+        </div>
+        <div class="menu106">
+            <dl class="wy-edit">
+                <dt class="wy-edit-title">菜单1<i></i></dt>
+                <dd>
+                    <a href="javascript:;" class="wy-edit-link">
+                        <p class="wy-edit-desc">概要1</p>
+                    </a>
+                </dd>
+            </dl>
+            <dl class="wy-edit">
+                <dt class="wy-edit-title">菜单2<i></i></dt>
+                <dd>
+                    <a href="javascript:;" class="wy-edit-link">
+                        <p class="wy-edit-desc">概要2</p>
+                    </a>
+                </dd>
+            </dl>
+            <dl class="wy-edit">
+                <dt class="wy-edit-title">菜单3<i></i></dt>
+                <dd>
+                    <a href="javascript:;" class="wy-edit-link">
+                        <p class="wy-edit-desc">概要3</p>
+                    </a>
+                </dd>
+            </dl>
+            <dl class="wy-edit">
+                <dt class="wy-edit-title">菜单4<i></i></dt>
+                <dd>
+                    <a href="javascript:;" class="wy-edit-link">
+                        <p class="wy-edit-desc">概要4</p>
+                    </a>
+                </dd>
+            </dl>
+            <dl class="wy-edit">
+                <dt class="wy-edit-title">菜单5<i></i></dt>
+                <dd>
+                    <a href="javascript:;" class="wy-edit-link">
+                        <p class="wy-edit-desc">概要5</p>
+                    </a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <script>
+    $(".menu106 dt").click(function() {
+        var $that = $(this);
+        if ($that.find("p").length > 0) {
+            return;
+        }
+        var zt = $that.parent().attr("class");
+        if (zt != "list_now") {
+            $(".menu106 dl").removeClass("list_now");
+            $that.parent().addClass("list_now");
+            $(".menu106 dd").slideUp(300);
+            $that.next().slideDown(300);
+        } else {
+            $that.parent().removeClass("list_now");
+            $that.next().slideUp(300);
+        }
+    })
+    </script>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

@@ -1,0 +1,12 @@
+/*手机端样式*/
+#wrap {display:block;min-width: 320px; margin:0 auto; max-width:640px; width: 100%; background:#eee;}
+.contbox {display:block; width:95%; margin-left:5%; padding-top:5%;}
+.modmenu {display:block; width:100%;}
+.modmenu dl {list-style:none;display:block; float:left; width:45%; margin-right:5%;}
+.modmenu dd {display:block; margin-bottom:10%; background:#fff;}
+.modmenu dd h1 {padding:5%; border-bottom:1px solid #e5e5e5; font-size:1rem;color:black;}
+.modmenu dd p { padding:3% 5%; line-height:1.5; font-size:0.8rem; color:#555;}
+footer {display:block; width:100%; line-height:2.5; background:#333; color:#fff; font-size:1.4em; text-align:center;}
+
+
+

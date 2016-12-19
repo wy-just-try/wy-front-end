@@ -1,0 +1,10 @@
+/*手机端样式*/
+#wrap {display:block;min-width: 320px; margin:0 auto; max-width:640px; width: 100%; height:100%;background:url(//wy626.com/template/mod21/bg.jpg) no-repeat; background-size:100%;}
+
+.telnav {display:block; width:92%; margin-left:8%; position:absolute; bottom:10%;animation:mymove 1.5s infinite;
+-webkit-animation:mymove 1.5s infinite;
+animation-iteration-count:1;
+-webkit-animation-iteration-count:1;}
+.telbtn {display:block; float:left; width:30%; margin-right:1%; margin-bottom:1%; padding:3% 0; background:rgba(255,255,255,0.8);}
+.btnpic,.txt {display:block; text-align:center; color:#d8273d; line-height:1.5; font-size: 1rem;}
+

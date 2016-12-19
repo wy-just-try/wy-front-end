@@ -1,0 +1,18 @@
+/*手机端样式*/
+#wrap {display:block;min-width: 320px; margin:0 auto; max-width:640px; width: 100%; height:100%; overflow: hidden;-webkit-box-sizing: border-box; -moz-box-sizing:border-box;background:url(//wy626.com/template/mod69/bg.jpg) no-repeat top ; background-size:100% 100%; position:relative;}
+.telnav {display:block; width:100%; margin:2.5% 0; position:absolute; top:56%;}
+.telbtn {display:block; float:left; width:47%; padding:3% 0; margin:0 0% 2% 2%;  text-align:center; font-size:1.6em; color:#fff; background:rgba(0,0,0,0.5);}
+.icon{display:block; width:40%;margin:2% 30% 0;}
+.icon img{display:block; width:100%;
+-webkit-animation-name: "modbgd"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 2s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+}
+@-webkit-keyframes 'modbgd' {
+     from {width:0}
+     to { width:100%;}
+  }
+.telbtn span{dislay:block; float:left; width:100%; padding:1% 0 17% 0;}
+footer {display:block; bottom:0; width:100%;height:30px;line-height:30px; background:#1f1f1f; color:#fff; font-size:1.4em; text-align:center;}
+
+ 

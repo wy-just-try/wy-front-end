@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod26/mod26.css" rel="stylesheet" type="text/css">
+    <script>
+    $(function() {
+
+        var winheight = $(window).height();
+        $('#div01').css('min-height', winheight - 30 + 'px'); //footer居底
+
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body style="background-color:#055B97">
+    <div id="div01" style="min-height: 715px;">
+        <div id="slider" class="swipe">
+            <div class="swipe-wrap">
+                <div class="wrap wy-edit">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod26/banner1.jpg">
+                </div>
+            </div>
+        </div>
+        <div class="main">
+            <a class="nav1 wy-edit wy-edit-title wy-edit-link" href="javascript:;">
+             	菜单1
+            </a>
+            <a class="nav2 wy-edit wy-edit-title wy-edit-link" href="javascript:;">
+             	菜单2
+            </a>
+            <a class="nav3 wy-edit wy-edit-title wy-edit-link" href="javascript:;">
+             	菜单3
+            </a>
+            <a class="nav4 wy-edit wy-edit-title wy-edit-link" href="javascript:;">
+             	菜单4
+            </a>
+            <a class="nav5 wy-edit wy-edit-title wy-edit-link" href="javascript:;">
+             	菜单5
+            </a>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

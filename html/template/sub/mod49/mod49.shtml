@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/sub/mod49/mod49.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/sub/mod49/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        $('.blankwhite').css('height', '0px');
+
+    });
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <div class="banner wy-edit">
+            <img class="wy-edit-img" src="//wy626.com/template/sub/mod49/banner.jpg" alt="" style="width:100%;">
+        </div>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="tit49 wy-edit-img wy-edit-title">菜单1</div>
+        </a>
+        <a href="javascript:;" class="list49 wy-edit wy-edit-link">
+            <span class="list49_tit wy-edit-title">菜单2<i></i></span>
+            <span class="list49_text wy-edit-desc">概要2</span>
+        </a>
+        <a href="javascript:;" class="list49 wy-edit wy-edit-link">
+            <span class="list49_tit wy-edit-title">菜单3<i></i></span>
+            <span class="list49_text wy-edit-desc">概要3</span>
+        </a>
+        <a href="javascript:;" class="list49 wy-edit wy-edit-link">
+            <span class="list49_tit wy-edit-title">菜单4<i></i></span>
+            <span class="list49_text wy-edit-desc">概要4</span>
+        </a>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod38/mod38.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod38/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        var winheight = $(window).height();
+        $('.main').css('min-height', winheight - 30 + 'px'); //footer居底
+
+        $('.blankwhite').css('height', '0px');
+        //var winwidth=$(window).width();
+        //$('.contentimgcl').css('height',winwidth*0.3*8/8.5+'px');
+    });
+    </script>
+</head>
+
+<body>
+    <div class="main" style="min-height: 715px;">
+        <a href="javascript:;" class="menu38 wy-edit wy-edit-link">
+            <span class="menu38_l">
+                  <img class="wy-edit-img" src="//wy626.com/template/mod38/nav1.jpg">
+                <i class="ico1"></i></span>
+            <span class="menu38_r">
+        <span class="menu38_con">
+           <b class="wy-edit-title">菜单1</b>
+           <span class="wy-edit-desc">概要1</span>
+            </span>
+            <i class="line1"></i>
+            </span>
+        </a>
+        <a href="javascript:;" class="menu38 wy-edit wy-edit-link">
+            <span class="menu38_l">
+                <img class="wy-edit-img" src="//wy626.com/template/mod38/nav2.jpg">
+              <i class="ico2"></i></span>
+            <span class="menu38_r">
+        <span class="menu38_con">
+           <b class="wy-edit-title">菜单2</b>
+           <span class="wy-edit-desc">概要2</span>
+            </span>
+            <i class="line2"></i>
+            </span>
+        </a>
+        <a href="javascript:;" class="menu38 wy-edit wy-edit-link">
+            <span class="menu38_l">
+                <img class="wy-edit-img" src="//wy626.com/template/mod38/nav3.jpg">
+              <i class="ico3"></i></span>
+            <span class="menu38_r">
+        <span class="menu38_con">
+           <b class="wy-edit-title">菜单3</b>
+           <span class="wy-edit-desc">概要3</span>
+            </span>
+            <i class="line3"></i>
+            </span>
+        </a>
+        <a href="javascript:;" class="menu38 wy-edit wy-edit-link">
+            <span class="menu38_l">
+                <img class="wy-edit-img" src="//wy626.com/template/mod38/nav4.jpg">
+              <i class="ico4"></i></span>
+            <span class="menu38_r">
+        <span class="menu38_con">
+           <b class="wy-edit-title">菜单4</b>
+           <span class="wy-edit-desc">概要4</span>
+            </span>
+            <i class="line4"></i>
+            </span>
+        </a>
+        <a href="javascript:;" class="menu38 wy-edit wy-edit-link">
+            <span class="menu38_l">
+                <img class="wy-edit-img" src="//wy626.com/template/mod38/nav5.jpg">
+              <i class="ico5"></i></span>
+            <span class="menu38_r">
+        <span class="menu38_con">
+           <b class="wy-edit-title">菜单5</b>
+           <span class="wy-edit-desc">概要5</span>
+            </span>
+            <i class="line5"></i>
+            </span>
+        </a>
+        <a href="javascript:;" class="menu38 wy-edit wy-edit-link">
+            <span class="menu38_l">
+                <img class="wy-edit-img" src="//wy626.com/template/mod38/nav6.jpg">
+              <i class="ico6"></i></span>
+            <span class="menu38_r">
+        <span class="menu38_con">
+           <b class="wy-edit-title">菜单6</b>
+           <span class="wy-edit-desc">概要6</span>
+            </span>
+            <i class="line6"></i>
+            </span>
+        </a>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

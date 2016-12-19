@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod83/mod83.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod83/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        $('footer').css('display', 'none');
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body onselectstart="return true;" ondragstart="return false;">
+    <div id="wrap">
+        <div class="banner wy-edit">
+            <img class="wy-edit-img" src="//wy626.com/template/mod83/banner.jpg" alt="" style="width:100%;">
+        </div>
+        <div class="arrowbox">
+            <div class="arowbg">
+                <div class="maskshow"></div>
+                <div class="icon01">
+                    <a href="javascript:;" class="wy-edit wy-edit-link">
+                        <span class="arrow01"></span>
+                        <div class="contbox01 wy-edit-title">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod83/icon01.png" width="40" height="40" style="height: 40px;"> 菜单1
+                        </div>
+                    </a>
+                </div>
+                <div class="icon02">
+                    <a href="javascript:;" class="wy-edit wy-edit-link">
+                        <span class="arrow02"></span>
+                        <div class="contbox02 wy-edit-title">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod83/icon02.png" width="40" height="40" style="height: 40px;"> 菜单2
+                        </div>
+                    </a>
+                </div>
+                <div class="icon03">
+                    <a href="javascript:;" class="wy-edit wy-edit-link">
+                        <span class="arrow03"></span>
+                        <div class="contbox03 wy-edit-title">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod83/icon03.png" width="40" height="40" style="height: 40px;"> 菜单3
+                        </div>
+                    </a>
+                </div>
+                <div class="icon04">
+                    <a href="javascript:;" class="wy-edit wy-edit-link">
+                        <span class="arrow04"></span>
+                        <div class="contbox04 wy-edit-title">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod83/icon04.png" width="40" height="40" style="height: 40px;"> 菜单4
+                        </div>
+                    </a>
+                </div>
+                <div class="icon05">
+                    <a href="javascript:;" class="wy-edit wy-edit-link">
+                        <span class="arrow05"></span>
+                        <div class="contbox05 wy-edit-title">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod83/icon05.png" width="40" height="40" style="height: 40px;"> 菜单5
+                        </div>
+                    </a>
+                </div>
+                <div class="icon06">
+                    <a href="javascript:;" class="wy-edit wy-edit-link">
+                        <span class="arrow06"></span>
+                        <div class="contbox06 wy-edit-title">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod83/icon06.png" width="40" height="40" style="height: 40px;"> 菜单6
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="footer clr">
+            <ul>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img src="//wy626.com/template/mod83/icon07.png" height="60" width="60" class="im wy-edit-img" style="height: 64px;">
+                        <p class="wy-edit-title">菜单7</p>
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img src="//wy626.com/template/mod83/icon08.png" height="60" width="60" class="im wy-edit-img" style="height: 64px;">
+                        <p class="wy-edit-title">菜单8</p>
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <div class="ftnav01">
+                            <div class="ftnav02">
+                                <div class="ftnav03">
+                                    <img class="wy-edit-img" src="//wy626.com/template/mod83/icon09.png" style="height: 82px;">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="wy-edit-title">菜单9</p>
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img src="//wy626.com/template/mod83/icon010.png" height="60" width="60" class="im wy-edit-img" style="height: 64px;">
+                        <p class="wy-edit-title">菜单10</p>
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img src="//wy626.com/template/mod83/icon011.png" height="60" width="60" class="im wy-edit-img" style="height: 64px;">
+                        <p class="wy-edit-title">菜单11</p>
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(function() {
+        var footimg = $(".footer ul").find("img");
+        $.each(footimg, function(index, val) {
+            var w = footimg.eq(index).width();
+            footimg.eq(index).css("height", w);
+        });
+
+        var topimg = $(".arowbg").find("img");
+        $.each(topimg, function(index, val) {
+            var w = topimg.eq(index).width();
+            topimg.eq(index).css("height", w);
+        });
+    })
+    </script>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

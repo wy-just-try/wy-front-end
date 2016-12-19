@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod85/mod85.css" rel="stylesheet" type="text/css">
+    <script>
+    $(function() {
+        //var winheight=$(window).height();
+        //$('#wrap').css('min-height',winheight-30+'px');//footer居底
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="banner wy-edit">
+            <img class="wy-edit-img" src="//wy626.com/template/mod85/banner.jpg" alt="" style="width:100%;">
+        </div>
+        <a class="modmenu wy-edit wy-edit-link" href="javascript:;">
+            <span class="wy-edit-title">菜单1</span>
+        </a>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

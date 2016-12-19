@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod22/mod22.css" rel="stylesheet" type="text/css">
+    <script>
+    $(function() {
+        var winwidth = $(window).width();
+        $('.contentimgcl').css('height', winwidth * 0.5 * 0.803125 + 'px');
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body>
+    <div id="wrap" class="clr">
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="box clr">
+                <div class="lf-box">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod22/pic01.jpg">
+                </div>
+                <div class="rt-box">
+                    <div class="txt left">
+                        <h1 class="wy-edit-title">菜单1</h1>
+                        <p class="wy-edit-desc" style="min-height:60px;">概要1</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="box clr">
+                <div class="lf-box">
+                    <div class="txt right">
+                        <h2 class="wy-edit-title">菜单2</h2>
+                        <p class="wy-edit-desc" style="min-height:60px;">概要2</p>
+                    </div>
+                </div>
+                <div class="rt-box">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod22/pic02.jpg">
+                </div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="box clr">
+                <div class="lf-box">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod22/pic03.jpg">
+                </div>
+                <div class="rt-box">
+                    <div class="txt left">
+                        <h1 class="wy-edit-title">菜单3</h1>
+                        <p class="wy-edit-desc" style="min-height:60px;">概要3</p>
+                    </div>
+                </div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="box clr">
+                <div class="lf-box">
+                    <div class="txt right">
+                        <h2 class="wy-edit-title">菜单4</h2>
+                        <p class="wy-edit-desc" style="min-height:60px;">概要4</p>
+                    </div>
+                </div>
+                <div class="rt-box">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod22/pic04.jpg">
+                </div>
+            </div>
+        </a>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

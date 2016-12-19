@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod86/mod86.css" rel="stylesheet" type="text/css">
+    <style>
+    img {
+        -webkit-user-select: none;
+        -moz-user-select: none;
+    }
+    /* Swipe 2 required styles */
+    
+    #slider {
+        max-width: 640px;
+        margin: 0 auto;
+        width: 100%;
+    }
+    
+    .swipe {
+        overflow: hidden;
+        visibility: hidden;
+        position: relative;
+    }
+    
+    .swipe-wrap {
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .swipe-wrap > .wrap {
+        float: left;
+        width: 100%;
+        position: relative;
+        text-align: center;
+    }
+    
+    .wrap img {
+        height: 100%;
+        margin: 0 auto;
+        width: 100%
+    }
+    
+    #slider ol {
+        height: 20px;
+        position: relative;
+        z-index: 10;
+        top: -25px;
+        text-align: center;
+    }
+    
+    #slider li {
+        display: inline-block;
+        margin: 5px 0;
+        width: 10px;
+        height: 10px;
+        background-color: #757575;
+        border-radius: 5px;
+    }
+    
+    #slider li.on {
+        background-color: #ffffff;
+    }
+    /* END required styles */
+    </style>
+</head>
+
+<body>
+    <div class="main86" id="main86" style="overflow: hidden; height: 745px;">
+        <div class="mune86">
+            <ul>
+                <li class="wy-edit">
+                    <a href="javascript:;" class="wy-edit-link wy-edit-title">
+			    			    	        		菜单1
+	        	</a>
+                </li>
+                <li class="wy-edit">
+                    <a href="javascript:;" class="wy-edit-link wy-edit-title">
+			    			    	        		菜单2
+	        	</a>
+                </li>
+                <li class="wy-edit">
+                    <a href="javascript:;" class="no_b wy-edit-link wy-edit-title">
+			    			    	        		菜单3
+	        	</a>
+                </li>
+            </ul>
+        </div>
+        <div class="wrap wy-edit"><img class="wy-edit-img" src="//wy626.com/template/mod86/bg.jpg" style="height: 745px;"></div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

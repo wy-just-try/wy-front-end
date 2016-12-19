@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod29/mod29.css" rel="stylesheet" type="text/css">
+    <script>
+    $(function() {
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body>
+    <div class="main wy-edit wy-edit-img"></div>
+    <ul class="menu">
+        <li>
+            <a class="nav1 wy-edit wy-edit-link" href="javascript:;">
+                <span class="wy-edit-title">菜单1</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav2 wy-edit wy-edit-link" href="javascript:;">
+                <span class="wy-edit-title">菜单2</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav3 wy-edit wy-edit-link" href="javascript:;">
+                <span class="wy-edit-title">菜单3</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav4 wy-edit wy-edit-link" href="javascript:;">
+                <span class="wy-edit-title">菜单4</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav5 wy-edit wy-edit-link" href="javascript:;">
+                <span class="wy-edit-title">菜单5</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav6 wy-edit wy-edit-link" href="javascript:;">
+                <span class="wy-edit-title">菜单6</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav7 wy-edit wy-edit-link" href="javascript:;">
+                <span class="wy-edit-title">菜单7</span>
+            </a>
+        </li>
+        <li>
+            <a class="nav8 wy-edit wy-edit-link" href="javascript:;">
+                <span class="wy-edit-title">菜单8</span>
+            </a>
+        </li>
+    </ul>
+
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

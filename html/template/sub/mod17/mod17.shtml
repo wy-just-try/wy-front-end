@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/sub/mod17/mod17.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/sub/mod17/jquery-1.10.2.min.js"></script>
+    <script>
+    function show(c_Str, imgg) {
+        if (document.all(c_Str).style.display == 'none') {
+            document.all(c_Str).style.display = 'block';
+            document.all(imgg).src = '//wy626.com/template/sub/mod17/Packup.png'
+        } else {
+            document.all(c_Str).style.display = 'none';
+            document.all(imgg).src = '//wy626.com/template/sub/mod17/Packon.png'
+        }
+    }
+
+    function preview() {
+        pr = window.open('', 'Preview', 'scrollbars=1,menubar=1,status=1,width=480 height=320,left=10,top=10');
+        pr.document.write(jstxt.innerText);
+    }
+    $(function() {
+
+        $(".blankwhite").css('height', '0px');
+
+    });
+    </script>
+</head>
+
+<body onselectstart="return true;" ondragstart="return false;">
+    <div id="wrap" class="clr wy-edit wy-edit-img"></div>
+    <div class="modbgd">
+        <div class="title" onclick="show(&quot;tip432&quot;,&quot;img432&quot;)"><img id="img432" hspace="1" src="//wy626.com/template/sub/mod17/Packup.png" width="48" align="absMiddle" border="0"> </div>
+        <div id="tip432" class="content" style="display:;">
+            <ul class="content_list">
+                <li>
+                    <a href="javascript:;" class="wy-edit wy-edit-link">
+                        <div class="menu clr">
+                            <div class="icon"><img src="//wy626.com/template/sub/mod17/icon01.png" width="20" height="20"></div>
+                            <div class="tle wy-edit-title">菜单1</div>
+                        </div>
+                    </a>
+                    <div class="line"></div>
+                </li>
+                <li>
+                    <a href="javascript:;" class="wy-edit wy-edit-link">
+                        <div class="menu clr">
+                            <div class="icon"><img src="//wy626.com/template/sub/mod17/icon01.png" width="20" height="20"></div>
+                            <div class="tle wy-edit-title">菜单2</div>
+                        </div>
+                    </a>
+                    <div class="line"></div>
+                </li>
+                <li>
+                    <a href="javascript:;" class="wy-edit wy-edit-link">
+                        <div class="menu clr">
+                            <div class="icon"><img src="//wy626.com/template/sub/mod17/icon01.png" width="20" height="20"></div>
+                            <div class="tle wy-edit-title">菜单3</div>
+                        </div>
+                    </a>
+                    <div class="line"></div>
+                </li>
+                <li>
+                    <a href="javascript:;" class="wy-edit wy-edit-link">
+                        <div class="menu clr">
+                            <div class="icon"><img src="//wy626.com/template/sub/mod17/icon01.png" width="20" height="20"></div>
+                            <div class="tle wy-edit-title">菜单4</div>
+                        </div>
+                    </a>
+                    <div class="line"></div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

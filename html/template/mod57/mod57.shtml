@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod57/mod57.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod57/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        $('.blankwhite').css('height', '0px');
+        $('.contentimgcl').css('height', $('.contentimgcl').css('width'));
+    });
+    </script>
+</head>
+
+<body onselectstart="return true;" ondragstart="return false;">
+    <div id="wrap" class="clr">
+        <ul class="telnav clr">
+            <a href="javascript:;" class="nav1 wy-edit wy-edit-link">
+                <li class="telbtn">
+                    <div class="icon">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod57/icon01.png">
+                    </div>
+                    <span class="wy-edit-title">菜单1</span>
+                </li>
+            </a>
+            <a href="javascript:;" class="nav2 wy-edit wy-edit-link">
+                <li>
+                    <div class="icon">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod57/icon02.png">
+                    </div>
+                    <span class="wy-edit-title">菜单2</span>
+                </li>
+            </a>
+            <a href="javascript:;" class="nav3 wy-edit wy-edit-link">
+                <li>
+                    <div class="icon">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod57/icon03.png">
+                    </div>
+                    <span class="wy-edit-title">菜单3</span>
+                </li>
+            </a>
+            <a href="javascript:;" class="nav4 wy-edit wy-edit-link">
+                <li class="telbtn">
+                    <div class="icon">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod57/icon04.png">
+                    </div>
+                    <span class="wy-edit-title">菜单4</span>
+                </li>
+            </a>
+            <a href="javascript:;" class="nav5 wy-edit wy-edit-link">
+                <li>
+                    <div class="icon">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod57/icon05.png">
+                    </div>
+                    <span class="wy-edit-title">菜单5</span>
+                </li>
+            </a>
+            <a href="javascript:;" class="nav6 wy-edit wy-edit-link">
+                <li>
+                    <div class="icon">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod57/icon06.png">
+                    </div>
+                    <span class="wy-edit-title">菜单6</span>
+                </li>
+            </a>
+            <a href="javascript:;" class="nav7 wy-edit wy-edit-link">
+                <li class="telbtn border-bottom-no">
+                    <div class="icon">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod57/icon07.png">
+                    </div>
+                    <span class="wy-edit-title">菜单7</span>
+                </li>
+            </a>
+            <a href="javascript:;" class="nav8 wy-edit wy-edit-link">
+                <li class="border-bottom-no">
+                    <div class="icon">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod57/icon08.png">
+                    </div>
+                    <span class="wy-edit-title">菜单8</span>
+                </li>
+            </a>
+            <a href="javascript:;" class="nav9 wy-edit wy-edit-link">
+                <li class="border-bottom-no">
+                    <div class="icon">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod57/icon09.png">
+                    </div>
+                    <span class="wy-edit-title">菜单9</span>
+                </li>
+            </a>
+        </ul>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

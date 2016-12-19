@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod15/mod15.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod15/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        var winheight = $(window).height();
+        $('#div01').css('min-height', winheight - 30 + 'px'); //footer居底
+
+        $('.blankwhite').css('height', '0px');
+    });
+
+    //=点击展开关闭效果=
+    function openShutManager(oSourceObj, oTargetObj, shutAble, oOpenTip, oShutTip) {
+        var sourceObj = typeof oSourceObj == "string" ? document.getElementById(oSourceObj) : oSourceObj;
+        var targetObj = typeof oTargetObj == "string" ? document.getElementById(oTargetObj) : oTargetObj;
+        var openTip = oOpenTip || "";
+        var shutTip = oShutTip || "";
+        if (targetObj.style.display != "none") {
+            if (shutAble) return;
+            targetObj.style.display = "none";
+            if (openTip && shutTip) {
+                sourceObj.innerHTML = shutTip;
+            }
+        } else {
+            targetObj.style.display = "block";
+            if (openTip && shutTip) {
+                sourceObj.innerHTML = openTip;
+            }
+        }
+    }
+    </script>
+</head>
+
+<body>
+    <div id="wrap" class="clr">
+        <div id="div01" style="min-height: 715px;">
+            <img class="wy-edit wy-edit-img" src="//wy626.com/template/mod15/banner.jpg" alt="" style="width:100%;">
+            <div class="modbgd">
+                <div class="modbox clr wy-edit" onclick="openShutManager(this,&#39;box154478&#39;)">
+                    <div class="modright">&nbsp;</div>
+                    <div class="modleft wy-edit-title">一级导航</div>
+                </div>
+                <div class="modsub clr" id="box154478" style="display:none;">
+                    <ul class="sublist">
+                        <a href="" class="wy-edit wy-edit-link">
+                            <li class="modmenu wy-edit-title">二级导航</li>
+                        </a>
+                        <a href="" class="wy-edit wy-edit-link">
+                            <li class="modmenu wy-edit-title">二级导航</li>
+                        </a>
+                        <a href="" class="wy-edit wy-edit-link">
+                            <li class="modmenu wy-edit-title">二级导航</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="modbox clr wy-edit" onclick="openShutManager(this,&#39;box154486&#39;)">
+                    <div class="modright">&nbsp;</div>
+                    <div class="modleft wy-edit-title">一级导航</div>
+                </div>
+                <div class="modsub clr" id="box154486" style="display:none;">
+                    <ul class="sublist">
+                        <a href="" class="wy-edit wy-edit-link">
+                            <li class="modmenu wy-edit-title">二级导航</li>
+                        </a>
+                        <a href="" class="wy-edit wy-edit-link">
+                            <li class="modmenu wy-edit-title">二级导航</li>
+                        </a>
+                        <a href="" class="wy-edit wy-edit-link">
+                            <li class="modmenu wy-edit-title">二级导航</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="modbox clr wy-edit" onclick="openShutManager(this,&#39;box154498&#39;)">
+                    <div class="modright">&nbsp;</div>
+                    <div class="modleft wy-edit-title">一级导航</div>
+                </div>
+                <div class="modsub clr" id="box154498" style="display:none;">
+                    <ul class="sublist">
+                        <a href="" class="wy-edit wy-edit-link">
+                            <li class="modmenu wy-edit-title">二级导航</li>
+                        </a>
+                        <a href="" class="wy-edit wy-edit-link">
+                            <li class="modmenu wy-edit-title">二级导航</li>
+                        </a>
+                        <a href="" class="wy-edit wy-edit-link">
+                            <li class="modmenu wy-edit-title">二级导航</li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="modbox clr wy-edit" onclick="openShutManager(this,&#39;box154514&#39;)">
+                    <div class="modright">&nbsp;</div>
+                    <div class="modleft wy-edit-title">一级导航</div>
+                </div>
+                <div class="modsub clr" id="box154514" style="display:none;">
+                    <ul class="sublist">
+                        <a href="" class="wy-edit wy-edit-link">
+                            <li class="modmenu wy-edit-title">二级导航</li>
+                        </a>
+                        <a href="" class="wy-edit wy-edit-link">
+                            <li class="modmenu wy-edit-title">二级导航</li>
+                        </a>
+                        <a href="" class="wy-edit wy-edit-link">
+                            <li class="modmenu wy-edit-title">二级导航</li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

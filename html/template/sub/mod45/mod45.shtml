@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/sub/mod45/mod45.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/sub/mod45/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        var winheight = $(window).height();
+        $('#wrap').css('min-height', winheight - 30 + 'px'); //footer居底
+
+        $('.blankwhite').css('height', '0px');
+        var winwidth = $(window).width();
+        $('.contentimgcl').css('height', winwidth * 0.28 + 'px');
+    });
+    </script>
+</head>
+
+<body>
+    <div id="wrap" class="clr" style="min-height: 715px;">
+        <ul class="contbox">
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <li class="clr">
+                    <div class="lfbox clr">
+                        <div class="ct">
+                            <div class="ct1"><img src="//wy626.com/template/sub/mod45/mask.png"></div>
+                            <div class="ct2">
+                                <img class="wy-edit-img" src="//wy626.com/template/sub/mod45/icon01.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rtbox">
+                        <div class="pdbox">
+                            <h1 class="wy-edit-title">菜单1</h1>
+                            <p class="wy-edit-desc">概要1</p>
+                        </div>
+                    </div>
+                </li>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <li class="clr">
+                    <div class="lfbox clr">
+                        <div class="ct">
+                            <div class="ct1"><img src="//wy626.com/template/sub/mod45/mask.png"></div>
+                            <div class="ct2">
+                                <img class="wy-edit-img" src="//wy626.com/template/sub/mod45/icon02.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rtbox">
+                        <div class="pdbox">
+                            <h1 class="wy-edit-title">菜单2</h1>
+                            <p class="wy-edit-desc">概要2</p>
+                        </div>
+                    </div>
+                </li>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <li class="clr">
+                    <div class="lfbox clr">
+                        <div class="ct">
+                            <div class="ct1"><img src="//wy626.com/template/sub/mod45/mask.png"></div>
+                            <div class="ct2">
+                                <img class="wy-edit-img" src="//wy626.com/template/sub/mod45/icon03.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rtbox">
+                        <div class="pdbox">
+                            <h1 class="wy-edit-title">菜单3</h1>
+                            <p class="wy-edit-desc">概要3</p>
+                        </div>
+                    </div>
+                </li>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <li class="clr">
+                    <div class="lfbox clr">
+                        <div class="ct">
+                            <div class="ct1"><img src="//wy626.com/template/sub/mod45/mask.png"></div>
+                            <div class="ct2">
+                                <img class="wy-edit-img" src="//wy626.com/template/sub/mod45/icon04.jpg">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="rtbox">
+                        <div class="pdbox">
+                            <h1 class="wy-edit-title">菜单4</h1>
+                            <p class="wy-edit-desc">概要4</p>
+                        </div>
+                    </div>
+                </li>
+            </a>
+        </ul>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

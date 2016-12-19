@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod21/mod21.css" rel="stylesheet" type="text/css">
+    <script>
+    $(function() {
+        var winwidth = $(window).width();
+        $('.contentimgcl').css('height', winwidth * 0.14 + 'px');
+    });
+    </script>
+</head>
+
+<body>
+    <div id="wrap" class="wy-edit wy-edit-img"></div>
+    <div class="telnav">
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="telbtn">
+                <div class="btnpic">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod21/icon01.png" width="50%">
+                </div>
+                <div class="txt wy-edit-title">菜单1</div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="telbtn">
+                <div class="btnpic">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod21/icon02.png" width="50%">
+                </div>
+                <div class="txt wy-edit-title">菜单2</div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="telbtn">
+                <div class="btnpic">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod21/icon03.png" width="50%">
+                </div>
+                <div class="txt wy-edit-title">菜单3</div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="telbtn">
+                <div class="btnpic">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod21/icon04.png" width="50%">
+                </div>
+                <div class="txt wy-edit-title">菜单4</div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="telbtn">
+                <div class="btnpic">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod21/icon05.png" width="50%">
+                </div>
+                <div class="txt wy-edit-title">菜单5</div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="telbtn">
+                <div class="btnpic">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod21/icon06.png" width="50%">
+                </div>
+                <div class="txt wy-edit-title">菜单6</div>
+            </div>
+        </a>
+    </div>
+
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

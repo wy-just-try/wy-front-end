@@ -1,0 +1,25 @@
+/*手机端样式*/
+#wrap { display:block; position:relative; min-width: 320px; max-width:640px; margin:0 auto; width: 100%;height:100%; overflow: hidden;background:url(//wy626.com/template/mod02/bgd.jpg) no-repeat; background-size:100%;-webkit-box-sizing: border-box; -moz-box-sizing:border-box;}
+.modbgd {display:block; width:35%; position:absolute; bottom:15%; left:5%; background:rgba(255,255,255,0.7);-moz-border-radius:10px;-webkit-border-radius:10px;-o-border-radius:10px; border-radius:10px; padding:2% 2% 0.5% 2%;
+-webkit-animation-name: "modbgd"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 2s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/}
+.menu {display:block; width:90%;position:relative; text-align:center; font-size:1.8em; color:#fff;  padding:0% 5%; line-height:2.5; background:rgba(21,21,21,0.8);-moz-border-radius:10px;-webkit-border-radius:10px;-o-border-radius:10px; border-radius:10px; margin-bottom:7%;
+animation:mymove 1.5s infinite;
+-webkit-animation:mymove 1.5s infinite;
+animation-iteration-count:1;
+-webkit-animation-iteration-count:1;
+}
+
+
+footer {position:fixed;bottom:0;display:block; width:100%; line-height:2.5; background:#000; color:#fff; font-size:1.4em; text-align:center;}
+
+@-webkit-keyframes mymove {
+     from { left:-300px;}
+     to {left:0px;}
+  }
+@-webkit-keyframes 'modbgd' {
+     from { opacity:0}
+     to { opacity:1;}
+  }
+

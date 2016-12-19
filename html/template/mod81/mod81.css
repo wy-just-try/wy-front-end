@@ -1,0 +1,18 @@
+/*手机端样式*/
+#wrap {display:block; position:relative; min-width: 320px; max-width:640px; margin:0 auto; width:100%;height:100%; overflow: hidden;background:url(//wy626.com/template/mod81/bgd.jpg) no-repeat; background-size:100%;-webkit-box-sizing: border-box; -moz-box-sizing:border-box;}
+.navlist_box {display:block;width:100%; position:absolute; top:8%; left:1%;}
+.navlist_box ul li { float: left; -webkit-transform: rotate(-45deg); -o-transform: rotate(-45deg); -moz-transform: rotate(-45deg); transform: rotate(-45deg);  text-align: center; overflow: hidden; margin:2px; }
+.navlist_box ul li a { color: #fff; height: 100%; display: block; }
+.navlist_box ul li a div { -webkit-transform: rotate(45deg); -o-transform: rotate(45deg); -moz-transform: rotate(45deg); transform: rotate(45deg); background-repeat: no-repeat;  height: 100%; padding-top:10%; margin-right:10%;}
+.navlist_box ul li a .i01{ background:url(//wy626.com/template/mod81/icon01.png) no-repeat 50% 26%; background-size:40%;}
+.navlist_box ul li a .i02{ background:url(//wy626.com/template/mod81/icon02.png) no-repeat 50% 26%; background-size:40%;}
+.navlist_box ul li a .i03{ background:url(//wy626.com/template/mod81/icon03.png) no-repeat 50% 26%; background-size:40%;}
+.navlist_box ul li a div span{ display:block; width:100%; font-size:14px; text-align:center; padding:58% 0 10%;}
+.menu01 {width: 109.854px; height: 109.854px; margin: -54.9269px 22.7632px 22.7632px; background:rgba(21,150,190,0.7);}
+.menu02 {width: 109.854px; height: 109.854px; margin: -54.9269px 22.7632px 22.7632px 25.2664px;width: 139.793px; height: 139.793px; background:rgba(214,85,69,0.7);}
+.menu03 {width: 109.854px; height: 109.854px; margin: -54.9269px 22.7632px 22.7632px; background:rgba(196,100,187,0.7);}
+.menu04 {width: 109.854px; height: 109.854px; margin: -54.9269px 22.7632px 22.7632px; background:rgba(196,100,187,0.7);}
+footer {display:block;position:fixed;bottom:0;background:rgba(255,255,255,0.7);min-width: 320px; max-width:640px; width:100%; margin:0 auto; line-height:30px; color:#333; font-size:12px; text-align:center;}
+
+
+

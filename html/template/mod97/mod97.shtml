@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod97/mod97.css" rel="stylesheet" type="text/css">
+    <script>
+    $(function() {
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body>
+    <div class="main97 wy-edit wy-edit-img"></div>
+    <div class="menu97">
+        <a href="javascript:;" class="f_l wy-edit wy-edit-title wy-edit-link">
+                                    菜单1
+            </a>
+        <a href="javascript:;" class="f_r wy-edit wy-edit-title wy-edit-link">
+                                    菜单2
+            </a>
+        <a href="javascript:;" class="f_l wy-edit wy-edit-title wy-edit-link">
+                                    菜单3
+            </a>
+        <a href="javascript:;" class="f_r wy-edit wy-edit-title wy-edit-link">
+                                    菜单4
+            </a>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

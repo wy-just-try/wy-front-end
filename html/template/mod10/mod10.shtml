@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod10/mod10.css" rel="stylesheet" type="text/css">
+</head>
+
+<body onselectstart="return true;" ondragstart="return false;">
+    <div id="wrap" class="clr">
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="telbtn wy-edit-title">
+                <div class="pic"><img src="//wy626.com/template/mod10/arrow.png"></div>菜单1</div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="telbtn01 wy-edit-title">
+                <div class="pic"><img src="//wy626.com/template/mod10/arrow.png"></div>菜单2</div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="telbtn02 wy-edit-title">
+                <div class="pic"><img src="//wy626.com/template/mod10/arrow.png"></div>菜单3</div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="telbtn03 wy-edit-title">
+                <div class="pic"><img src="//wy626.com/template/mod10/arrow.png"></div>菜单4</div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="telbtn04 wy-edit-title">
+                <div class="pic"><img src="//wy626.com/template/mod10/arrow.png"></div>菜单5</div>
+        </a>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

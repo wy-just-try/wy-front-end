@@ -1,0 +1,38 @@
+/*手机端样式*/
+#wrap { width:100%;height:100%;min-width:320px; max-width:640px;margin:0 auto; background:url(//wy626.com/template/mod120/bg.jpg) no-repeat; background-size:100% 100%;-webkit-box-sizing: border-box; -moz-box-sizing:border-box; position:relative;}
+.modbgd {display:block;width:28%; position:absolute; top:8%; right:5%; padding:0%;
+-webkit-animation-name: "bgd"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 2s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/}
+.menu {display:block; width:100%;position:relative;padding:5% 0 20%;background-image:url(//wy626.com/template/mod120/mengbt.png); background-repeat:no-repeat; background-position:bottom; background-size:100%; margin-bottom:6%;
+animation:mymove 1.5s infinite;
+-webkit-animation:mymove 1.5s infinite;
+animation-iteration-count:1;
+-webkit-animation-iteration-count:1;
+}
+.menub {display:block; width:100%;position:relative;padding:5% 0 20%;margin-bottom:6%;
+animation:mymove 1.5s infinite;
+-webkit-animation:mymove 1.5s infinite;
+animation-iteration-count:1;
+-webkit-animation-iteration-count:1;
+}
+.tle{display:block; width:100%;font-size:1rem;line-height:1; color:#fcebd1;text-align:center;}
+.nav{display:block;width:94%; padding:4% 3%;background-color:rgba(130,44,55,0.5); position:absolute;bottom:0px;}
+.navmenu {float:left;display:block; width:33%;position:relative;padding:1% 0; overflow:hidden; border-right:1px solid #9c3847;}
+.border-r-n{border-right:none !important;}
+.navmenu i{display:block; /*background-repeat:no-repeat; background-position:top center; background-size:24px 24px; border-radius:100%;*/width:48px; height:32px;margin:0 auto; padding:0; overflow:hidden;}
+.navmenu i img{display:block; width:24px;height:24px; margin:0 0 0 12px; }
+.i01{background-image:url(//wy626.com/template/mod120/icon01.png);}
+.i02{background-image:url(//wy626.com/template/mod120/icon02.png);}
+.i03{background-image:url(//wy626.com/template/mod120/icon03.png);}
+.navmenu span{display:block; width:100%;padding:0; text-align:center; font-size:0.8rem;color:#fcebd1;}
+footer{position:fixed;bottom:0;display:block; width:100%; height:30px;line-height:30px; background:#000; color:#fff; font-size:0.9rem; text-align:center;}
+
+@-webkit-keyframes mymove {
+     from {right:-200px;}
+     to {right:0px;}
+  }
+@-webkit-keyframes 'bgd' {
+     from { opacity:0}
+     to { opacity:1;}
+  }

@@ -1,0 +1,23 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin:0 auto; font-family: "微软雅黑", "黑体", "宋体"; font-size: 14px; line-height: 1.231; -webkit-touch-callout: none; display: -webkit-box; -webkit-box-orient: vertical; -webkit-box-align: stretch; position: relative;}
+img { -ms-interpolation-mode: bicubic; vertical-align: middle; border: 0 none;width: 100%;height: auto;width: auto\9; /* ie8 */}
+img:not([src*="/"]) { display: none; }
+ol,ul,li,dl,dt,dl {list-style:none;}
+
+/* 整体结构 */
+#div_wrap { display: block;position: relative; min-width: 320px; max-width: 640px; width: 100%; margin: 0 auto; font-family: "\5FAE\8F6F\96C5\9ED1", Arial, Helvetica, sans-serif; overflow: hidden;}
+
+.banner{overflow:hidden;width: 100%;position: relative; margin-bottom: 6px;}
+.box_swipe{overflow:hidden;position:relative;}
+
+
+
+.list ul {list-style:none; width:90%; padding:6% 5%; min-height: 21rem; background: url("//wy626.com/template/mod124/listbg.jpg") repeat top left; background-size: 100%}
+.list li {float:left; display:block; width:31%; height:30%; margin:0% 3% 3% 0; padding: 6% 0; text-align: center; background: rgba(255,255,255,.8); color: #6e3f18 }
+.list li:nth-child(3n) {margin:0% 0 3% 0 }
+.list li img {width: 30%;margin-bottom: 10px;}
+.list ul:after{content:"."; display:block; height:0; clear:both; visibility:hidden;}
+
+footer {display:block; width:100%; line-height:2; background:#333; color:#fff; font-size:1.1rem; text-align:center;}

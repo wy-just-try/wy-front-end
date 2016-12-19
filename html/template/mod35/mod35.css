@@ -1,0 +1,75 @@
+/*手机端样式*/
+#wrap {display:block;min-width: 320px; margin:0 auto; max-width:640px; width: 100%;background:#f6fffe;}
+.banner { display: block; width: 100%;}
+.cont-box { display: block; border-bottom:1px solid #b0b5ac;}
+.lfbox {display:block; width:50%; float:left; padding:3% 0; color:#000;}
+.rtbox {display:block; float:right; width:49.5%; border-left:1px solid #b0b5ac; padding:3% 0; color:#000;}
+.icon01 {display:block; width:40%; margin:0 30%;
+-webkit-animation-name: "btn01"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+}
+.icon02 {display:block; width:40%; margin:0 30%;
+-webkit-animation-name: "btn02"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.1s;
+}
+.icon03 {display:block; width:40%; margin:0 30%;
+-webkit-animation-name: "btn03"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.2s;
+}
+.icon04 {display:block; width:40%; margin:0 30%;
+-webkit-animation-name: "btn04"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.2s;
+}
+.icon05 {display:block; width:40%; margin:0 30%;
+-webkit-animation-name: "btn05"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.3s;
+}
+.icon06 {display:block; width:40%; margin:0 30%;
+-webkit-animation-name: "btn06"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.3s;
+}
+.arrow {display:block; float:left; width:10%; padding-top:28%;}
+#wrap p {display:block; float:left; width:100%; padding-left:13%; font-size:0.9rem; font-weight:600; line-height:2;color:gray;}
+.lf {display:block; float:left; width:90%;}
+.lf img {width:90%;}
+
+@-webkit-keyframes btn01 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}    
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+@-webkit-keyframes btn02 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}    
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+@-webkit-keyframes btn03 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}    
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+@-webkit-keyframes btn04 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}    
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+@-webkit-keyframes btn05 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}    
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+@-webkit-keyframes btn06 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}    
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+
+footer {display:block; width:100%; line-height:2.5; background:#333; color:#fff; font-size:1.4em; text-align:center;}
+
+
+

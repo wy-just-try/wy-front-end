@@ -1,0 +1,60 @@
+@charset "utf-8";
+/*手机端样式*/
+#wrap {display:block;min-width: 320px; margin:0 auto; max-width:640px; width: 100%;overflow: hidden;-webkit-box-sizing: border-box; -moz-box-sizing:border-box; background:#fff; }
+.banner{display:block; with:100%; max-width:640px;}
+.banner img{display:block; with:100%;}
+.tit105{display:block;width:90%;color:#333;font-size:18px;font-weight:bold;height:74px;line-height:106px;margin:0 auto;overflow:hidden;position: relative;margin-top:-35px;}
+.logo{float:left;display:inline-block;width:68px;height:69px; background:#fff; border-radius:100%;box-shadow: 1px 1px 3px rgba(185, 185, 185, 1);}
+.logo img{display:block; margin:13.5px;}
+.tit105 span{float:left;display:inline-block; margin-top:36px; margin-left:2%; width:63%;height:24px; line-height:24px;font-size:18px;font-weight:bold;color:#333; overflow:hidden;}
+.telnav {display:block; position:relative; width:100%;
+  -moz-perspective:800px;/*将平面图形转换为具有透视的3D图形*/
+  -moz-transform-style:preserve-3d;/*transform-style: flat,所有子元素在 2D 平面呈现 | preserve-3d,保留3D空间*/
+  -webkit-perspective:800px;
+  -webkit-transform-style:preserve-3d;
+  -moz-backface-visibility:;/*定义当元素不面向屏幕时是否可见,如果在旋转元素不希望看到其背面时，该属性很有用*/
+  -webkit-backface-visibility:hidden;/*visible背面是可见的,hidden背面是不可见的。*/
+  }
+.telnav .telbtn{display:block;float:left; position:relative;font-size:1.5em;  color:#858585; width:33%;text-align:center;
+  -webkit-animation-name:wobble;/*动画名称，需要跟@keyframes定义的名称一致*/
+  -webkit-animation-duration: 1s;/*表示动画持续的时间,如果没有设置duration的话，则表示为无穷大*/
+  -webkit-animation-timing-function: linear;/*表示动画使用的时间曲线*/
+  -webkit-animation-delay: 0;/*表示开始动画之前的延时*/
+  -webkit-animation-iteration-count: 1;/*播放1数，infinite;播放无限次数*/
+  -webkit-animation-direction: ;/*表示动画的方向*/
+  -moz-animation-name:wobble;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-delay: 0;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-direction: ;	
+}
+@-webkit-keyframes wobble{
+  0% {-webkit-transform:rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  25% {-webkit-transform:rotateY(90deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  50% {-webkit-transform:rotateY(180deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  75% {-webkit-transform:rotateY(270deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  100% {-webkit-transform:rotateY(360deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  }
+@-moz-keyframes wobble{
+  0% {-moz-transform:rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  25% {-moz-transform:rotateY(90deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  50% {-moz-transform:rotateY(180deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  75% {-moz-transform:rotateY(270deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  100% {-moz-transform:rotateY(360deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  }
+.telnav .telbtn span{display:block;float:left;  position:relative; width:100%; text-align:center; padding:2% 0% 15% 0%; }
+.icon {display:block;width:50px; height:50px;margin:12% auto 3%; padding:0%;border-radius:100px; overflow:hidden; }
+.c_01{background:#f7b681;}
+.c_02{background:#fedc7b;}
+.c_03{background:#feb280; }
+.c_04{background:#bdebb8;}
+.c_05{background:#fdb279; }
+.c_06{background:#bbeaa8;}
+.c_07{background:#b9e2fb; }
+.c_08{background:#fdaaa4; }
+.c_09{background:#e1c5ed; }
+
+.icon img {display:block; width:100%; min-height:100%; vertical-align:middle;}
+footer {display:block;width:100%;line-height:30px; background:#1f1f1f; color:#fff; font-size:1.4em; text-align:center;}
+

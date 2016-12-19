@@ -1,0 +1,23 @@
+/*手机端样式*/
+img{-webkit-user-select:​ none}
+.main79{ width:100%;overflow:hidden;min-width:300px; max-width:640px;margin:0 auto;  position:relative;background-color:#1A2C3E;}
+.banner79{width:100%;overflow:hidden;position:relative;}
+.banner79 img{display:block;width:100%;}
+.banner7a a{display:block;width:40px;height:33px;position:absolute;top:8px;right:8px;}
+.menu79 dl{padding-left:5%;width:95%;overflow:hidden;position:relative;}
+.menu79 dl dt{height:45px;line-height:45px;color:#FFF;border-bottom:1px solid #34495E;font-size:16px;}
+.menu79 dl dt b{display:inline-block;width:35px;height:35px;margin-right:10px;}
+.menu79 dl dt b img{width:35px;height:35px;}
+.menu79 dl dt i{display: inline-block;width: 13px;height: 13px;float: right;margin-right: 20px;margin-top: 16px;background-image: url(//wy626.com/template/mod79/jt1.png);background-repeat: no-repeat;background-size:13px 13px;}
+.menu79 dl span{display:block;position:absolute;width:6px;background-color:#1A2C3E;height:45px;left:0px;top:0px;}
+
+.menu79 dl.list_now dt i{background-image: url(//wy626.com/template/mod79/jt2.png);}
+.menu79 dl.list_now{background-color:#162636;}
+.menu79 dl.list_now dt{border-bottom:1px solid #162636;}
+.menu79 dl.list_now span{background-color:#34495E;}
+
+.menu79 dl dd{width:100%;overflow:hidden;display:none}
+.menu79 dl dd a{display:block;height:45px;line-height:45px;color:#bebebe;font-size:16px;padding-left:46px;}
+.menu79 dl dt.no_b{border:0px !important;}
+
+

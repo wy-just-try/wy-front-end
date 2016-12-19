@@ -1,0 +1,48 @@
+/*手机端样式*/
+#wrap {display:block; position:relative;min-width: 320px; margin:0 auto; max-width:640px; width:100%; min-height:100%;background:url(//wy626.com/template/mod65/bg.png) no-repeat top center #f6f6f6; background-size:100%; overflow: hidden;}
+.line{ display:block; position:absolute; left:49.9%; top:6%; width:2px; min-height:100%; background:#e2e2e2; z-index:5;}
+.top{display:block; float:left; position:relative; width:100%;z-index:9;}
+.topbanner{display:block; margin:6% auto; width:220px; height:220px; background:url(//wy626.com/template/mod65/topbanner.jpg) no-repeat center; background-size:100% 100%; border:8px solid #fdfdfd;border-radius:114px;box-shadow:1px 1px 3px #333;}
+.telnav {display:block;float:left; position:relative; width:100%;padding-bottom:30px;}
+.telbtn01 {display:block;width:50%;}
+.telbtn02 {display:block;width:92.3%;}
+.telbtn01 .circle{display:inline-block; float:left;position:relative;width:10px; height:10px; background:#939393; border-radius:5px; z-index:6; margin:19px 10px 0 -5px;}
+.telbtn02 .circle{display:inline-block; position:relative;width:10px; height:10px; background:#939393; border-radius:5px; z-index:6; margin:19px 10px 0 10px;}
+.telbtn01 h1, .telbtn02 h1{display:inline-block;float:left;width:50px; height:50px; border-radius:25px;overflow:hidden; }
+.telbtn01 h1 img, .telbtn02 h1 img{width:50px; height:50px;margin-top:-2px;border-radius:25px;overflow:hidden; }
+.telbtn01 p, .telbtn02 p{display:block;float:left; color:#7d7d7d;margin:0 6px;width:58px; height:50px; line-height:50px; font-size:1.4em;}
+.f_l{float:left;}
+.f_r{float:right;}
+footer {display:block; float:left; position:relative; width:100%; height:30px;line-height:30px; background:#1f1f1f; color:#fff; font-size:1.4em; text-align:center;z-index:10;}
+@media screen and (min-width: 350px){
+.line{left:50%;width:2px;}
+.topbanner{width:243px; height:243px; border:9px solid #fdfdfd;border-radius:126px;}
+.telbtn02 {width:92%;}
+.telbtn01 .circle{width:14px; height:14px;border-radius:7px; margin:20px 10px 0 -6px;}
+.telbtn02 .circle{width:14px; height:14px;border-radius:7px; margin:20px 10px 0 10px;}
+.telbtn01 h1, .telbtn02 h1{width:54px; height:54px; border-radius:27px; overflow:hidden;}
+.telbtn01 h1 img, .telbtn02 h1 img{width:54px; height:54px;margin-top:-1px;border-radius:27px;}
+.telbtn01 p, .telbtn02 p{margin:0 8px;width:65px; height:54px; line-height:54px;font-size:1.6em;}
+}
+@media screen and (min-width: 480px){
+.line{left:50%; width:3px;}
+.topbanner{width:322px; height:322px;border:12px solid #fdfdfd;border-radius:167px;}
+.telbtn02 {width:88%;}
+.telbtn01 .circle{width:16px; height:16px;border-radius:10px; margin:30px 10px 0 -7px;}
+.telbtn02 .circle{width:16px; height:16px;border-radius:10px; margin:30px 10px 0 11px;}
+.telbtn01 h1, .telbtn02 h1{width:72px; height:72px; border-radius:36px; overflow:hidden;}
+.telbtn01 h1 img, .telbtn02 h1 img{width:74px; height:74px;border-radius:37px;}
+.telbtn01 p, .telbtn02 p{margin:0 10px;width:72px; height:74px; line-height:74px;font-size:1.8em;}
+}
+@media screen and (min-width: 640px){
+.line{left:50%; width:3px;}
+.topbanner{width:442px; height:442px;border:16px solid #fdfdfd;border-radius:229px;}
+.telbtn02 {width:84.2%;}
+.telbtn01 .circle{width:20px; height:20px;border-radius:10px; margin:40px 10px 0 -9px;}
+.telbtn02 .circle{width:20px; height:20px;border-radius:10px; margin:40px 10px 0 11px;}
+.telbtn01 h1, .telbtn02 h1{width:96px; height:96px; border-radius:48px; overflow:hidden;}
+.telbtn01 h1 img, .telbtn02 h1 img{width:96px; height:96px;border-radius:48px;}
+.telbtn01 p, .telbtn02 p{margin:0 16px;width:72px; height:98px; line-height:98px;font-size:1.8em;}
+}
+
+

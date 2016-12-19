@@ -1,0 +1,67 @@
+/*手机端样式*/
+#wrap {display:block; position:relative;min-width: 320px; margin:0 auto; max-width:640px; width: 100%; min-height:100%;background:#ededed; overflow: hidden;}
+.line{ display:block; position:absolute; left:13.3%; top:0; width:2px; min-height:100%; background:#606060; z-index:5;}
+.topbar{display:block; float:left; position:relative; width:100%; background:#48487c; overflow:hidden;z-index:9;}
+.topmenu{display:inline-block; float:left; width:25%; color:#fff;text-align:center; font-size:1.4em; line-height:2em; padding:2% 0; }
+.modmenuhover{background:#30305c;}
+.telnav {display:block;float:left; width:100%;background:#ededed; padding-bottom:30px;}
+.telbtn {display:block;width:100%;float:left;font-size:1.6em; color:#fff;  border-bottom:1px solid #707070;overflow:hidden;}
+.telbtn_l{display:inline-block;float:left; width:22%;padding:6% 0 0 3.5%; color:#4d4d4d;}
+.telbtn_l h1{ display:block;float:left; position:relative;width:60px; height:60px; background:#ededed; border:2px solid #48487c; border-radius:32px;z-index:6;}
+.telbtn_l h1 span{display:block;float:left;text-align:center;width:50%;margin:25% 16% 16% 25%;font-size:0.8em;}
+.telbtn_m{display:inline-block;float:left; width:29%; margin:2% 1.5%; overflow:hidden;
+  -moz-perspective:800px;/*将平面图形转换为具有透视的3D图形*/
+  -moz-transform-style:preserve-3d;/*transform-style: flat,所有子元素在 2D 平面呈现 | preserve-3d,保留3D空间*/
+  -webkit-perspective:800px;
+  -webkit-transform-style:preserve-3d;
+  -moz-backface-visibility:;/*定义当元素不面向屏幕时是否可见,如果在旋转元素不希望看到其背面时，该属性很有用*/
+  -webkit-backface-visibility:hidden;/*visible背面是可见的,hidden背面是不可见的。*/}
+.telbtn_m img{display:block;float:left;width:95px; height:87px;
+  -webkit-animation-name:wobble;/*动画名称，需要跟@keyframes定义的名称一致*/
+  -webkit-animation-duration: 0.5s;/*表示动画持续的时间,如果没有设置duration的话，则表示为无穷大*/
+  -webkit-animation-timing-function: linear;/*表示动画使用的时间曲线*/
+  -webkit-animation-delay: 0;/*表示开始动画之前的延时*/
+  -webkit-animation-iteration-count: 1;/*播放1数，infinite;播放无限次数*/
+  -webkit-animation-direction: ;/*表示动画的方向*/
+  -moz-animation-name:wobble;
+  -moz-animation-duration: 0.5s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-delay: 0;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-direction: ;}
+.telbtn_r{display:inline-block; width:37%; padding:2% 1.5%;color:#919191; font-size:0.8em; overflow:hidden; }
+.telbtn_r p{display:block;  width:96%;}
+@media screen and (min-width: 350px){ 
+.line{left:13.3%; width:2px;}
+.topmenu{font-size:1.4em;}
+.telbtn_l{width:22.5%;padding:6.5% 0 0 3%;}
+.telbtn_l h1{ width:72px; height:72px;border:2px solid #48487c; border-radius:38px;}
+.telbtn_l h1 span{width:50%;margin:25% 16% 16% 25%;font-size:1em;}
+.telbtn_m img{width:103px; height:105px;}
+.telbtn_r{font-size:0.8em; }
+}
+@media screen and (min-width: 640px){ 
+.line{left:14%; width:3px;}
+.topmenu{font-size:2em;}
+.telbtn_l{ width:22%;padding:7% 0 0 3.5%;}
+.telbtn_l h1{width:127px; height:127px; border-radius:65px;}
+.telbtn_l h1 span{width:50%;margin:25% 16% 16% 25%;font-size:1.5em;}
+.telbtn_m img{width:186px; height:190px;}
+.telbtn_r{font-size:1.4em; }
+}
+@-webkit-keyframes wobble{
+  0% {-webkit-transform:rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  25% {-webkit-transform:rotateY(90deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  50% {-webkit-transform:rotateY(180deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  75% {-webkit-transform:rotateY(270deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  100% {-webkit-transform:rotateY(360deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  }
+@-moz-keyframes wobble{
+  0% {-moz-transform:rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  25% {-moz-transform:rotateY(90deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  50% {-moz-transform:rotateY(180deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  75% {-moz-transform:rotateY(270deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  100% {-moz-transform:rotateY(360deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  }
+footer {display:block; position:absolute; bottom:0; width:100%; height:30px;line-height:30px; background:#1f1f1f; color:#fff; font-size:1.4em; text-align:center;z-index:7;}
+

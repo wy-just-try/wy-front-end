@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod72/mod72.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod72/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body>
+    <div class="main72 wy-edit wy-edit-img"></div>
+        <div class="menu72">
+            <a href="javascript:;" class="wy-edit wy-edit-link wy-edit-title">
+				菜单1
+        	</a>
+            <a href="javascript:;" class="wy-edit wy-edit-link wy-edit-title">
+				菜单2
+        	</a>
+        </div>
+    
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

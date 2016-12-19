@@ -1,0 +1,27 @@
+/*手机端样式*/
+img{-webkit-user-select:​ none}
+.main{ width:100%;overflow:hidden;min-width:300px; max-width:640px;margin:0 auto;  position:relative;background-color:#D6D6D6;padding-bottom:7px;}
+.banner{width:100%;overflow:hidden;border-bottom:1px solid #BDBDBA;}
+.banner img{display:block;width:100%;}
+.tit49{width: 93%;overflow: hidden;margin: 0 auto;height: 60px;text-indent: 68px;line-height: 66px;font-size: 18px;font-weight: bold;background: url(//wy626.com/template/sub/mod49/ico1.png) no-repeat 0px -2px;color:#333;position:relative;top:-13px;}
+.list49{display:block;height:122px;background-color:#FFF;width:93%;margin:0 auto;-webkit-border-radius: 10px;-moz-border-radius: 10px;border-radius: 10px;-webkit-box-shadow: 1px 1px 3px rgba(185,185,185,1);-moz-box-shadow: 1px 1px 3px rgba(185,185,185,1);box-shadow:1px 1px 3px rgba(185,185,185,1);margin-bottom:10px;
+}
+.list49_tit{display:block;height:48px;border-bottom:1px solid #DCDBDC;line-height:48px;text-indent:10px;font-size:16px;color:#333;background-color:#ECECEC;-webkit-border-radius: 10px 10px 0 0;-moz-border-radius:  10px 10px 0 0;border-radius: 10px 10px 0 0;background-image: url(//wy626.com/template/sub/mod49/ico2.png);background-repeat: no-repeat;background-position: 95% center;padding-right:28px;}
+.list49_text{display:block;height:48px;overflow:hidden;padding:10px;font-size:13px;color:#999}
+
+footer {background-color:#FFF;height:28px;line-height:28px;display:block; width:100%; color:#000; font-size:1.4em; text-align:center;opacity:0.5;}
+
+
+
+
+.list49_tit{position:relative;}
+.list49_tit i{
+	display: block;
+	width: 15px;
+	height: 9px;
+	position: absolute;
+	left: 30px;
+	bottom: -1px;
+	background-image: url(//wy626.com/template/sub/mod49/ico3.png);
+	background-repeat: no-repeat;
+}

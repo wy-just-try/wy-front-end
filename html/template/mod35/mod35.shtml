@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod35/mod35.css" rel="stylesheet" type="text/css">
+    <script>
+    $(function() {
+        var winheight = $(window).height();
+        //$('#wrap').css('min-height',winheight-30+'px');//footer居底
+        $('.blankwhite').css('height', '0px');
+        var winwidth = $(window).width();
+        $('.contentimgcl').css('height', winwidth * 0.5 * 0.4 * 0.9 * 0.9 + 'px');
+    });
+    </script>
+</head>
+
+<body>
+    <div id="wrap" class="clr">
+        <div class="banner wy-edit">
+            <img class="wy-edit-img" src="//wy626.com/template/mod35/banner.jpg" alt="" style="width:100%;">
+        </div>
+        <div class="cont-box clr">
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="lfbox">
+                    <div class="icon01 clr">
+                        <div class="lf">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod35/icon01.png">
+                        </div>
+                        <div class="arrow"><img src="//wy626.com/template/mod35/arrow.png"></div>
+                        <p class="wy-edit-title">菜单1</p>
+                    </div>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="rtbox">
+                    <div class="icon02 clr">
+                        <div class="lf">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod35/icon02.png">
+                        </div>
+                        <div class="arrow"><img src="//wy626.com/template/mod35/arrow.png"></div>
+                        <p class="wy-edit-title">菜单2</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="cont-box clr">
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="lfbox">
+                    <div class="icon03 clr">
+                        <div class="lf">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod35/icon03.png">
+                        </div>
+                        <div class="arrow"><img src="//wy626.com/template/mod35/arrow.png"></div>
+                        <p class="wy-edit-title">菜单3</p>
+                    </div>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="rtbox">
+                    <div class="icon04 clr">
+                        <div class="lf">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod35/icon04.png">
+                        </div>
+                        <div class="arrow"><img src="//wy626.com/template/mod35/arrow.png"></div>
+                        <p class="wy-edit-title">菜单4</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+        <div class="cont-box clr">
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="lfbox">
+                    <div class="icon05 clr">
+                        <div class="lf">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod35/icon05.png">
+                        </div>
+                        <div class="arrow"><img src="//wy626.com/template/mod35/arrow.png"></div>
+                        <p class="wy-edit-title">菜单5</p>
+                    </div>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="rtbox">
+                    <div class="icon06 clr">
+                        <div class="lf">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod35/icon06.png">
+                        </div>
+                        <div class="arrow"><img src="//wy626.com/template/mod35/arrow.png"></div>
+                        <p class="wy-edit-title">菜单6</p>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

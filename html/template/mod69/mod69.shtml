@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod69/mod69.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod69/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body>
+    <div id="wrap" class="clr wy-edit wy-edit-img"></div>
+    <div class="telnav clr">
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="telbtn">
+                <div class="icon">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod69/icon01.png">
+                </div>
+                <span class="wy-edit-title">菜单1</span>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="telbtn">
+                <div class="icon">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod69/icon02.png">
+                </div>
+                <span class="wy-edit-title">菜单2</span>
+            </div>
+        </a>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

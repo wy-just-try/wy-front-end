@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod118/mod118.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod118/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        var winwidth = $(window).width();
+        var winheight = $(window).height();
+        $('.contentimgcl').css('height', winwidth * 0.333333 * 0.52 + 'px');
+        $('.blankwhite').css('height', '0px');
+        $('#wrap').css('min-height', winheight - 30 + 'px');
+    });
+    </script>
+</head>
+
+<body>
+    <div id="wrap" style="min-height: 715px;">
+        <div class="banner wy-edit">
+            <img class="wy-edit-img" src="//wy626.com/template/mod118/banner.jpg" alt="" style="width:100%;">
+            <i><img src="//wy626.com/template/mod118/mask.png"></i>
+        </div>
+        <div class="modnav pt-5">
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="no-mt wy-edit">
+                <tbody>
+                    <tr>
+                        <td width="40%" align="right">
+                            <a class="wy-edit-title" href="javascript:;" style="color:#333">
+                                                  菜单1<img src="//wy626.com/template/mod118/arrow.jpg" width="22" class="ml-5 mr-5">
+                </a>
+                        </td>
+                        <td width="20%"><img src="//wy626.com/template/mod118/mid.jpg"></td>
+                        <td width="40%">
+                            <div class="pic mt ml-5">
+                                <a class="wy-edit-link" href="javascript:;" style="color:#333">
+                                    <img class="wy-edit-img" src="//wy626.com/template/mod118/pic.jpg">
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="no-mt1 wy-edit">
+                <tbody>
+                    <tr>
+                        <td width="40%" align="right">
+                            <div class="pic mb mr-5">
+                                <a href="javascript:;" style="color:#333">
+                                    <img class="wy-edit-img" src="//wy626.com/template/mod118/pic.jpg">
+                                </a>
+                            </div>
+                        </td>
+                        <td width="20%"><img src="//wy626.com/template/mod118/mid.jpg"></td>
+                        <td width="40%">
+                            <a class="wy-edit-link wy-edit-title" href="javascript:;" style="color:#333">
+                                <img src="//wy626.com/template/mod118/arr1.jpg" width="22" class="ml-5 mr-5">菜单2
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="no-mt wy-edit">
+                <tbody>
+                    <tr>
+                        <td width="40%" align="right">
+                            <a class="wy-edit-title" href="javascript:;" style="color:#333">
+                                                  菜单3<img src="//wy626.com/template/mod118/arrow.jpg" width="22" class="ml-5 mr-5">
+                </a>
+                        </td>
+                        <td width="20%"><img src="//wy626.com/template/mod118/mid.jpg"></td>
+                        <td width="40%">
+                            <div class="pic mt ml-5">
+                                <a class="wy-edit-link" href="javascript:;" style="color:#333">
+                                    <img class="wy-edit-img" src="//wy626.com/template/mod118/pic.jpg">
+                                </a>
+                            </div>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <table width="100%" border="0" cellspacing="0" cellpadding="0" class="no-mt1 wy-edit">
+                <tbody>
+                    <tr>
+                        <td width="40%" align="right">
+                            <div class="pic mb mr-5">
+                                <a class="wy-edit-link" href="javascript:;" style="color:#333">
+                                    <img class="wy-edit-img" src="//wy626.com/template/mod118/pic.jpg">
+                                </a>
+                            </div>
+                        </td>
+                        <td width="20%"><img src="//wy626.com/template/mod118/mid.jpg"></td>
+                        <td width="40%">
+                            <a class="wy-edit-title" href="javascript:;" style="color:#333">
+                                <img src="//wy626.com/template/mod118/arr1.jpg" width="22" class="ml-5 mr-5">菜单4
+                            </a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod56/mod56.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod56/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        var winheight = $(window).height();
+        //$('.main56').css('min-height',winheight-28+'px');//footer居底
+        $('.blankwhite').css('height', '0px');
+        $('.contentimgcl').css('height', $('.contentimgcl').css('width'));
+    });
+    </script>
+</head>
+
+<body>
+    <div class="main56 wy-edit wy-edit-img"></div>
+    <div class="menu56">
+        <a class="f_l wy-edit wy-edit-link" href="javascript:;">
+            <span>
+                <img class="wy-edit-img" src="//wy626.com/template/mod56/ico01.png">
+            </span>
+            <b class="wy-edit-title">菜单1</b>
+        </a>
+        <a class="f_r wy-edit wy-edit-link" href="javascript:;">
+            <span>
+                <img class="wy-edit-img" src="//wy626.com/template/mod56/ico02.png">
+            </span>
+            <b class="wy-edit-title">菜单2</b>
+        </a>
+        <a class="f_l wy-edit wy-edit-link" href="javascript:;">
+            <span>
+                <img class="wy-edit-img" src="//wy626.com/template/mod56/ico03.png">
+            </span>
+            <b class="wy-edit-title">菜单3</b>
+        </a>
+        <a class="f_r wy-edit wy-edit-link" href="javascript:;">
+            <span>
+                <img class="wy-edit-img" src="//wy626.com/template/mod56/ico04.png">
+            </span>
+            <b class="wy-edit-title">菜单4</b>
+        </a>
+        <a class="f_l wy-edit wy-edit-link" href="javascript:;">
+            <span>
+                <img class="wy-edit-img" src="//wy626.com/template/mod56/ico05.png">
+            </span>
+            <b class="wy-edit-title">菜单5</b>
+        </a>
+        <a class="f_r wy-edit wy-edit-link" href="javascript:;">
+            <span>
+                <img class="wy-edit-img" src="//wy626.com/template/mod56/ico06.png">
+            </span>
+            <b class="wy-edit-title">菜单6</b>
+        </a>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

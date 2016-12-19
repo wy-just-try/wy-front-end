@@ -1,0 +1,42 @@
+/*手机端样式*/
+#wrap { width:100%;min-height:100%;min-width:320px; max-width:640px;margin:0 auto; background:url(//wy626.com/template/mod34/bgd.jpg) no-repeat top center; background-size:100%;-webkit-box-sizing: border-box; -moz-box-sizing:border-box; position:relative;}
+.title{width:100%;height:30px; line-height:30px; text-align:center; font-size:1.4em; }
+.modbgd {display:block; position:absolute; bottom:0px;width:96%;padding:0% 2%;
+filter:alpha(opacity=90 finishopacity=30 style=1 startx=0,starty=100,finishx=100,finishy=0) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#fff,endcolorstr=#000,gradientType=0);
+-ms-filter:alpha(opacity=90 finishopacity=30 style=1 startx=0,starty=100,finishx=100,finishy=0) progid:DXImageTransform.Microsoft.gradient(startcolorstr=#fff,endcolorstr=#000,gradientType=0);
+background:#000;
+background:-moz-linear-gradient(top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)); /*FF*/
+background:-webkit-gradient(linear, 0 0, 0 bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.9)));
+background:-ms-gradient(linear, 0 0, 0 bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.9))); }
+.modbgd li{display:inline-block; width:32.8%; text-align:center; margin:4% 0% 4% 0%;float:left;}
+.modbgd .line{display:inline-block; width:32%; text-align:center; margin:4% 0% 4% 0%; border-left:1px solid rgba(255,255,255,0.4); border-right:1px solid rgba(255,255,255,0.4);}
+.icon { display:block; width:100%;padding:3% 0;}
+.icon img { display:block; width:28%; margin:0 auto;}
+.tle {display:block;width:100%; line-height:1.2em; font-size:1.2em; color:#fff;}
+footer{display:block; width:100%; height:30px; line-height:30px; background:#000; color:#fff; font-size:1.4em; text-align:center;}
+
+.modbgd li .icon:nth-child(1){-webkit-animation: myfirst1 0.5s 1;width:100%;}
+.modbgd li .icon:nth-child(2){-webkit-animation: myfirst2 1.0s 1;width:100%;}
+.modbgd li .icon:nth-child(3){-webkit-animation: myfirst3 1.5s 1;width:100%;}
+.modbgd li .icon:nth-child(4){-webkit-animation: myfirst4 2.0s 1;width:100%;}
+.modbgd li .icon:nth-child(5){-webkit-animation: myfirst5 2.5s 1;width:100%;}
+.modbgd li .icon:nth-child(6){-webkit-animation: myfirst6 3.0s 1;width:100%;}
+@-webkit-keyframes myfirst1{0%   {width:0%;} 100% {width:100%;}}
+@-webkit-keyframes myfirst2{0%   {width:0%;} 100% {width:100%;}}
+@-webkit-keyframes myfirst3{0%   {width:0%;} 100% {width:100%;}}
+@-webkit-keyframes myfirst4{0%   {width:0%;} 100% {width:100%;}}
+@-webkit-keyframes myfirst5{0%   {width:0%;} 100% {width:100%;}}
+@-webkit-keyframes myfirst6{0%   {width:0%;} 100% {width:100%;}}
+
+.modbgd li .icon:nth-child(1){-moz-animation: myfirst1 0.5s 1;width:100%;}
+.modbgd li .icon:nth-child(2){-moz-animation: myfirst2 1.0s 1;width:100%;}
+.modbgd li .icon:nth-child(3){-moz-animation: myfirst3 1.5s 1;width:100%;}
+.modbgd li .icon:nth-child(4){-moz-animation: myfirst4 2.0s 1;width:100%;}
+.modbgd li .icon:nth-child(5){-moz-animation: myfirst5 2.5s 1;width:100%;}
+.modbgd li .icon:nth-child(6){-moz-animation: myfirst6 3.0s 1;width:100%;}
+@-moz-keyframes myfirst1{0%   {width:0%;} 100% {width:100%;}}
+@-moz-keyframes myfirst2{0%   {width:0%;} 100% {width:100%;}}
+@-moz-keyframes myfirst3{0%   {width:0%;} 100% {width:100%;}}
+@-moz-keyframes myfirst4{0%   {width:0%;} 100% {width:100%;}}
+@-moz-keyframes myfirst5{0%   {width:0%;} 100% {width:100%;}}
+@-moz-keyframes myfirst6{0%   {width:0%;} 100% {width:100%;}}

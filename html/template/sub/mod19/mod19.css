@@ -1,0 +1,42 @@
+/*手机端样式*/
+#wrap { display:block; position:relative; min-width: 320px; max-width:640px; margin:0 auto; width: 100%; height:100%; overflow: hidden;background:url(//wy626.com/template/sub/mod19/bgd.jpg) no-repeat; background-size:100%;-webkit-box-sizing: border-box; -moz-box-sizing:border-box;}
+.navlist_box { display:block;max-width:640px;position:absolute; bottom:-0%; left:-0%; }
+.menu{float:left; position:relative; top:21%;width:100%; height:79%; top:21%; height:79%; font-size:1.4em; color:#fff;
+animation:mymove 1.5s infinite;
+-webkit-animation:mymove 1.5s infinite;
+animation-iteration-count:1;
+-webkit-animation-iteration-count:1;}
+.menu li{float:left;display:block; line-height:1.5em; text-align:center;color:#fff; padding:5% 0% 4% 0%;}
+.menu li div{}
+.menu .menu01{width:16.5625%; cursor:default;}
+.menu .menu02{width:33.4375%; cursor:pointer;}
+.menu .menu03{width:33.125%; cursor:pointer;}
+.menubg{float:left;width:100%; height:28%; background:url(//wy626.com/template/sub/mod19/menubg.png) no-repeat; background-size:100%; display:block;position:absolute; bottom:30px;
+-webkit-animation-name: "bgd"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 2s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/}
+footer {position:fixed;bottom:0;display:block; width:100%;min-width: 320px; max-width:640px; line-height:30px; height:30px; background:#000; color:#fff; font-size:1.4em; text-align:center;}
+@-webkit-keyframes mymove {
+     from { left:-300px;}
+     to {left:0px;}
+  }
+@-webkit-keyframes 'bgd' {
+     from { opacity:0}
+     to { opacity:1;}
+  }
+
+/*手机端弹层样式*/
+.bgd {background:rgba(0, 0, 0, 0.6);display: none;height: 100%;left: 0;position: fixed;top: 0;width: 100%;z-index: 998;}
+.layer {box-shadow: 1px 1px 5px #555555;position: fixed;z-index: 999;}
+.lay-que01, .lay-que02, .lay-que03, .lay-que04, .lay-que05{width:56%; max-width:380px;/*background:rgba(76,37,7,0.72);*/}
+.lay-tle-p {background:rgba(45,17,50,0.72);color: #FFF;font-size:1em;line-height:2.5em; padding-left:0%; text-align:center;}
+.lay-tle-p span{float:right;display:block; width:22px; height:22px; margin-right:3%;}
+.clr:after {clear: both;content: "";display: block;height: 0;visibility: hidden;}
+.lay-cont-p {display: block;}
+.menu_list{width:100%;}
+.menu_list li{width:100%; text-align:center; font-size:1em; line-height:2.5em; color:#fff; padding:0%; margin-bottom:1px; background:rgba(168,109,150,0.60);cursor:pointer;}
+.lay-btm-p {background:rgba(45,17,50,0.72);display: block;height:1em;}
+
+
+
+

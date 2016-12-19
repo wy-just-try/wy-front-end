@@ -1,0 +1,64 @@
+/*手机端样式*/
+img{-webkit-user-select:​ none}
+.main{ width:100%;overflow:hidden;min-width:300px; max-width:640px;margin:0 auto; }
+.banner{width:100%;overflow:hidden;}
+.banner img{width:100%;display:block;}
+
+.menu{width:96%;margin:0 auto;overflow:hidden;padding-bottom:10px;}
+.menu a{display:block;margin-top:10px;position:relative}
+.menu a.nav1{width:32%;float:left;height:92px;background-color:#D45552;}
+.menu a.nav2{width:66%;float:right;height:92px;background-color:#517FDD;}
+.menu a.nav3{width:66%;float:left;height:92px;background-color:#1DA66E;}
+.menu a.nav4{width:32%;float:right;height:92px;background-color:#91C132;}
+.menu a.nav5{width:32%;float:left;height:92px;background-color:#D45DC5;}
+.menu a.nav6{width:66%;float:right;height:92px;background-color:#D6AD66;}
+.menu .str1{display:block;height:24px;line-height:24px;color:#FFF;font-weight:bold;font-size:20px;margin-top:5px;padding-left:8px;text-shadow:1px 1px 1px #333;}
+.menu .str2{display:block;padding-left:8px;padding-top:0px;color:#FFF;font-size:14px;text-shadow:1px 1px 1px #333;}
+.menu a i{display:block;width:38px;height:38px;bottom:6px;right:6px;position:absolute;display:tagle-cell;vertical-align:middle;line-height:38px;opacity:1;}
+.menu a i img{width:100%;vertical-align:middle;max-height:38px;height:100%;}
+
+
+footer {background-color: #666666;height: 28px;line-height: 28px;display: block;width: 100%;font-size: 1.4em;text-align: center;color:#FFF;}
+
+
+.menu a:nth-child(1){-webkit-animation: myfirst1 0.4s;}
+.menu a:nth-child(2){-webkit-animation: myfirst2 0.5s;}
+.menu a:nth-child(3){-webkit-animation: myfirst3 0.6s;}
+.menu a:nth-child(4){-webkit-animation: myfirst4 0.7s;}
+.menu a:nth-child(5){-webkit-animation: myfirst5 0.8s;}
+.menu a:nth-child(6){-webkit-animation: myfirst6 0.9s;}
+
+
+
+
+@-webkit-keyframes myfirst1
+{
+from {-webkit-transform: rotateY(0);}
+to {-webkit-transform: rotateY(360deg);}
+}
+@-webkit-keyframes myfirst2
+{
+from {-webkit-transform: rotateY(0);}
+to {-webkit-transform: rotateY(360deg);}
+}
+@-webkit-keyframes myfirst3
+{
+from {-webkit-transform: rotateY(0);}
+to {-webkit-transform: rotateY(360deg);}
+}
+@-webkit-keyframes myfirst4
+{
+from {-webkit-transform: rotateY(0);}
+to {-webkit-transform: rotateY(360deg);}
+}
+@-webkit-keyframes myfirst5
+{
+from {-webkit-transform: rotateY(0);}
+to {-webkit-transform: rotateY(360deg);}
+}
+@-webkit-keyframes myfirst6
+{
+from {-webkit-transform: rotateY(0);}
+to {-webkit-transform: rotateY(360deg);}
+}
+

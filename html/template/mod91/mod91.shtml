@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod91/mod91.css" rel="stylesheet" type="text/css">
+    <script>
+    $(function() {
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body>
+    <div class="main91 wy-edit wy-edit-img"></div>
+    <div class="menu91">
+        <a class="nav1 wy-edit wy-edit-link" href="javascript:;">
+            <i>
+                <div class="bigpic">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod91/ico1.png">
+                </div>
+            </i>
+            <span class="wy-edit-title">菜单1</span>
+        </a>
+        <a class="nav2 wy-edit wy-edit-link" href="javascript:;">
+            <i>
+                <div class="bigpic">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod91/ico2.png">
+                </div>
+            </i>
+            <span class="wy-edit-title">菜单2</span>
+        </a>
+        <a class="nav3 wy-edit wy-edit-link" href="javascript:;">
+            <i>
+                <div class="bigpic">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod91/ico3.png">
+                </div>
+            </i>
+            <span class="wy-edit-title">菜单3</span>
+        </a>
+        <a class="nav4 wy-edit wy-edit-link" href="javascript:;">
+            <i>
+                <div class="bigpic">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod91/ico4.png">
+                </div>
+            </i>
+            <span class="wy-edit-title">菜单4</span>
+        </a>
+        <a class="nav5 wy-edit wy-edit-link" href="javascript:;">
+            <i>
+                <div class="bigpic">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod91/ico5.png">
+                </div>
+            </i>
+            <span class="wy-edit-title">菜单5</span>
+        </a>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

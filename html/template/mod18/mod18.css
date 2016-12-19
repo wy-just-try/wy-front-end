@@ -1,0 +1,27 @@
+/*手机端样式*/
+#wrap { display:block; position:relative; min-width: 320px; max-width:640px; margin:0 auto; width: 100%; height:100%; overflow: hidden;background:url(//wy626.com/template/mod18/bgd.jpg) no-repeat; background-size:100%;-webkit-box-sizing: border-box; -moz-box-sizing:border-box;}
+.navlist_box { display:block;max-width:640px;position:absolute; bottom:-0%; left:-0%; }
+.menu{float:left; position:relative; top:21%;width:100%;top:21%; height:79%; font-size:1.4em; color:#fff;}
+.menu li{float:left;display:block; line-height:1.5; text-align:center;color:#fff;  padding:5% 0% 4% 0%;}
+.menu li div{}
+.menu .menu01{width:16.5625%; cursor:default;}
+.menu .menu02{width:33.4375%; cursor:pointer;}
+.menu .menu03{width:33.125%; cursor:pointer;}
+.menubg{float:left;width:100%; height:28%; background:url(//wy626.com/template/mod18/mod18menubg.png) no-repeat; background-size:100% 100%; display:block;position:absolute; bottom:30px;
+-webkit-animation-name: "bgd"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 2s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/ }
+footer {position:fixed;bottom:0;display:block; width:100%;min-width: 320px; max-width:640px;  line-height:30px; height:30px; background:#000; color:#fff; font-size:1.4em; text-align:center;}
+@-webkit-keyframes mymove {
+     from { left:-300px;}
+     to {left:0px;}
+  }
+@-webkit-keyframes 'bgd' {
+     from { opacity:0}
+     to { opacity:1;}
+  }
+
+
+
+
+

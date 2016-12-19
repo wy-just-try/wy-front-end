@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod120/mod120.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod120/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        $('footer').css('display', 'none');
+        $('.blankwhite').css('height', '0px');
+        $('.contentimgcl').css('height', $('.contentimgcl').css('width'));
+        /*	$('footer').css('display','none');*/
+    });
+    </script>
+</head>
+
+<body>
+    <div id="wrap" class="wy-edit wy-edit-img"></div>
+    <div class="modbgd">
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="menu clr">
+                <div class="tle wy-edit-title">菜单1</div>
+                <div class="menubt"></div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="menu clr">
+                <div class="tle wy-edit-title">菜单2</div>
+                <div class="menubt"></div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="menu clr">
+                <div class="tle wy-edit-title">菜单3</div>
+                <div class="menubt"></div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="menub clr">
+                <div class="tle wy-edit-title">菜单4</div>
+            </div>
+        </a>
+    </div>
+    <div class="nav">
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="navmenu ">
+                <i>
+	               <img class="wy-edit-img" src="//wy626.com/template/mod120/icon01.png">
+  				</i>
+                <span class="wy-edit-title">菜单5</span>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="navmenu ">
+                <i>
+	                <img class="wy-edit-img" src="//wy626.com/template/mod120/icon02.png">
+  				</i>
+                <span class="wy-edit-title">菜单6</span>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="navmenu border-r-n">
+                <i>
+	                <img class="wy-edit-img" src="//wy626.com/template/mod120/icon03.png">
+  				</i>
+                <span class="wy-edit-title">菜单7</span>
+            </div>
+        </a>
+    </div>
+    
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

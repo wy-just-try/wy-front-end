@@ -1,0 +1,54 @@
+/*手机端样式*/
+#wrap {display:block; position:relative;min-width: 320px; margin:0 auto; max-width:640px; width: 100%; height:100%;background:url(//wy626.com/template/mod77/bg.jpg) no-repeat; background-size:100%;}
+
+.icon01 {display:block; position:absolute; top:40%; left:41%; padding:3%; -webkit-border-radius:50%;-moz-border-radius:50%; border-radius:50%; background:#fff;-webkit-box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5); box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5);-webkit-animation:icon01 .5s 0s ease both;-moz-animation:icon01 .5s 0s ease both;}
+
+.icon02 {display:block; position:absolute; top:17%; left:41%; padding:3%; -webkit-border-radius:50%;-moz-border-radius:50%; border-radius:50%; background:#fff;-webkit-box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5); box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5);-webkit-animation:icon02 .5s .2s ease both;-moz-animation:icon02 .5s .2s ease both;}
+
+.icon03 {display:block; position:absolute; top:25%; left:66%; padding:3%; -webkit-border-radius:50%;-moz-border-radius:50%; border-radius:50%; background:#fff;-webkit-box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5); box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5);-webkit-animation:icon03 .5s .4s ease both;-moz-animation:icon03 .5s .4s ease both;}
+
+.icon04 {display:block; position:absolute; top:40%; left:76%; padding:3%; -webkit-border-radius:50%;-moz-border-radius:50%; border-radius:50%; background:#fff;-webkit-box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5); box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5);-webkit-animation:icon04 .5s .6s ease both;-moz-animation:icon04 .5s .6s ease both;}
+
+.icon05 {display:block; position:absolute; top:55%; left:66%; padding:3%; -webkit-border-radius:50%;-moz-border-radius:50%; border-radius:50%; background:#fff;-webkit-box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5); box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5);-webkit-animation:icon05 .5s .8s ease both;-moz-animation:icon05 .5s .8s ease both;}
+
+.icon06 {display:block; position:absolute; top:63%; left:41%; padding:3%; -webkit-border-radius:50%;-moz-border-radius:50%; border-radius:50%; background:#fff;-webkit-box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5); box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5);-webkit-animation:icon06 .5s 1s ease both;-moz-animation:icon06 .5s 1s ease both;}
+
+.icon07 {display:block; position:absolute; top:55%; left:16%; padding:3%; -webkit-border-radius:50%;-moz-border-radius:50%; border-radius:50%; background:#fff;-webkit-box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5); box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5);-webkit-animation:icon07 .5s 1.2s ease both;-moz-animation:icon07 .5s 1.2s ease both;}
+
+.icon08 {display:block; position:absolute; top:40%; left:6%; padding:3%; -webkit-border-radius:50%;-moz-border-radius:50%; border-radius:50%; background:#fff;-webkit-box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5); box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5);-webkit-animation:icon08 .5s 1.4s ease both;-moz-animation:icon08 .5s 1.4s ease both;}
+
+.icon09 {display:block; position:absolute; top:25%; left:16%; padding:3%; -webkit-border-radius:50%;-moz-border-radius:50%; border-radius:50%; background:#fff;-webkit-box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5); box-shadow:0.5px -0.5px 0px 3px rgba(255,255,255,0.5);-webkit-animation:icon09 .5s 1.6s ease both;-moz-animation:icon09 .5s 1.6s ease both;}
+
+.icon01 img,.icon02 img,.icon03 img,.icon04 img,.icon05 img,.icon06 img,.icon07 img,.icon08 img,.icon09 img {width:40px; height:40px;}
+.bigpic{}
+@-webkit-keyframes icon01{0%{opacity:0;-webkit-transform:scale(0)}100%{opacity:1;-webkit-transform:scale(1)}}
+@-moz-keyframes icon01{0%{opacity:0;-moz-transform:scale(0)}100%{opacity:1;-moz-transform:scale(1)}}
+
+@-webkit-keyframes icon02{0%{opacity:0;-webkit-transform:scale(0)}100%{opacity:1;-webkit-transform:scale(1)}}
+@-moz-keyframes icon02{0%{opacity:0;-moz-transform:scale(0)}100%{opacity:1;-moz-transform:scale(1)}}
+
+@-webkit-keyframes icon03{0%{opacity:0;-webkit-transform:scale(0)}100%{opacity:1;-webkit-transform:scale(1)}}
+@-moz-keyframes icon03{0%{opacity:0;-moz-transform:scale(0)}100%{opacity:1;-moz-transform:scale(1)}}
+
+@-webkit-keyframes icon04{0%{opacity:0;-webkit-transform:scale(0)}100%{opacity:1;-webkit-transform:scale(1)}}
+@-moz-keyframes icon04{0%{opacity:0;-moz-transform:scale(0)}100%{opacity:1;-moz-transform:scale(1)}}
+
+@-webkit-keyframes icon05{0%{opacity:0;-webkit-transform:scale(0)}100%{opacity:1;-webkit-transform:scale(1)}}
+@-moz-keyframes icon05{0%{opacity:0;-moz-transform:scale(0)}100%{opacity:1;-moz-transform:scale(1)}}
+
+@-webkit-keyframes icon06{0%{opacity:0;-webkit-transform:scale(0)}100%{opacity:1;-webkit-transform:scale(1)}}
+@-moz-keyframes icon06{0%{opacity:0;-moz-transform:scale(0)}100%{opacity:1;-moz-transform:scale(1)}}
+
+@-webkit-keyframes icon07{0%{opacity:0;-webkit-transform:scale(0)}100%{opacity:1;-webkit-transform:scale(1)}}
+@-moz-keyframes icon07{0%{opacity:0;-moz-transform:scale(0)}100%{opacity:1;-moz-transform:scale(1)}}
+
+@-webkit-keyframes icon08{0%{opacity:0;-webkit-transform:scale(0)}100%{opacity:1;-webkit-transform:scale(1)}}
+@-moz-keyframes icon08{0%{opacity:0;-moz-transform:scale(0)}100%{opacity:1;-moz-transform:scale(1)}}
+
+@-webkit-keyframes icon09{0%{opacity:0;-webkit-transform:scale(0)}100%{opacity:1;-webkit-transform:scale(1)}}
+@-moz-keyframes icon09{0%{opacity:0;-moz-transform:scale(0)}100%{opacity:1;-moz-transform:scale(1)}}
+
+footer {display:block; position: fixed; bottom: 0; width:100%; line-height:2.5; background:#000; color:#fff; font-size:1.2em; text-align:center;}
+
+
+

@@ -1,0 +1,76 @@
+/*手机端样式*/
+#wrap {display:block;min-width: 320px; margin:0 auto; max-width:640px; width: 100%; background:url(//wy626.com/template/mod54/bg.jpg) no-repeat; background-size:100% 100%;}
+.cont-box { display: block; width:20%; margin:3% 40%; padding-top:4%;}
+.bgbox {display:block; padding:13% 10%;-moz-border-radius:50%;-webkit-border-radius:50%; border-radius:50%; background:rgba(0,0,0,0.2); border:1px solid #fff; text-align:center;}
+.bgbox img {padding:5%; width:80%;}
+.bdr {display:block; width:2px; height:15px; margin:0 auto;background-image: -webkit-linear-gradient(top, #fff 0%, rgba(255,255,255,0) 100%); background-image: -moz-linear-gradient(top, #fff 0%, rgba(255,255,255,0) 100%); background-image: -o-linear-gradient(top, #fff 0%, rgba(255,255,255,0) 100%); background-image: linear-gradient(top, #fff 0%, rgba(255,255,255,0) 100%);}
+.text {line-height:1.5; text-align:center; display:block; color:#fff; font-size:1rem;}
+.icon01 {
+-webkit-animation-name: "btn01"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+}
+.icon02 {
+-webkit-animation-name: "btn02"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.1s;
+}
+.icon03 { margin-top:5%;
+-webkit-animation-name: "btn03"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.2s;
+}
+.icon04 {
+-webkit-animation-name: "btn04"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.2s;
+}
+.icon05 {display:block; width:40%; margin:0 30%;
+-webkit-animation-name: "btn05"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.3s;
+}
+.icon06 {display:block; width:40%; margin:0 30%;
+-webkit-animation-name: "btn06"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.3s;
+}
+.arrow {display:block; float:left; width:10%; padding-top:28%;}
+#wrap p {display:block; float:left; width:100%; text-align:center; font-size:0.9rem; font-weight:600; line-height:2;}
+.lf {display:block; float:left; width:100%; text-align:center}
+
+
+@-webkit-keyframes btn01 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+@-webkit-keyframes btn02 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+@-webkit-keyframes btn03 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+@-webkit-keyframes btn04 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+@-webkit-keyframes btn05 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+@-webkit-keyframes btn06 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+
+footer {display:block; width:100%; line-height:2.5; background:#333; color:#fff; font-size:1.4em; text-align:center;}
+
+
+

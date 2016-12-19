@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod68/mod68.css" rel="stylesheet" type="text/css">
+    <script>
+    $(function() {
+        $('.blankwhite').css('height', '0px');
+        $('.contentimgcl1').css('height', $('.contentimgcl1').css('width'));
+        $('.contentimgcl2').css('height', $('.contentimgcl2').css('width'));
+    });
+    </script>
+    <script type="text/javascript">
+    $(function() {
+        $(".i1").hide(0);
+        $(".i2").hide(0);
+        $(".i3").hide(0);
+        $(".i4").hide(0);
+        $(".i5").hide(0);
+        $(".i1").slideDown('1000', function() {
+            $(".i2").slideDown('400', function() {
+                $(".i3").slideDown('400', function() {
+                    $(".i4").slideDown('400', function() {
+                        $(".i5").slideDown('400', function() {});
+                    });
+                });
+            });
+        });
+    });
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <header>
+            <nav>
+                <ul>
+                    <a href="" class="wy-edit wy-edit-link">
+                        <li class="noL">
+                            <span class="aaa wy-edit-title">
+		           					一级导航
+		           			</span>
+                        </li>
+                    </a>
+                    <a href="" class="wy-edit wy-edit-link">
+                        <li>
+                            <span class="aaa wy-edit-title">
+		           					一级导航
+		           			</span>
+                        </li>
+                    </a>
+                    <a href="" class="wy-edit wy-edit-link">
+                        <li>
+                            <span class="aaa wy-edit-title">
+		           					一级导航
+		           			</span>
+                        </li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div class="show">
+                <a href="javascript:;">
+                    <img class="wy-edit wy-edit-img" src="//wy626.com/template/mod68/show.jpg">
+                </a>
+            </div>
+            <div class="menu">
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="item i1" style="display: block;">
+                        <div style=" margin:10px auto;border: 2px solid rgba(255,255,255,0.2);-webkit-border-radius: 50%;position:relative;z-index:10">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod68/item.jpg">
+                        </div>
+                        <div class="bg">
+                            <div class="itemName wy-edit-title">菜单1</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="item i2" style="display: block;">
+                        <div style=" margin:10px auto;border: 2px solid rgba(255,255,255,0.2);-webkit-border-radius: 50%;position:relative;z-index:10">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod68/item.jpg">
+                        </div>
+                        <div class="bg">
+                            <div class="itemName wy-edit-title">菜单2</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="item i3" style="display: block;">
+                        <div style=" margin:10px auto;border: 2px solid rgba(255,255,255,0.2);-webkit-border-radius: 50%;position:relative;z-index:10">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod68/item.jpg">
+                        </div>
+                        <div class="bg">
+                            <div class="itemName wy-edit-title">菜单3</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="item i4" style="display: block;">
+                        <div style=" margin:10px auto;border: 2px solid rgba(255,255,255,0.2);-webkit-border-radius: 50%;position:relative;z-index:10">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod68/item.jpg">
+                        </div>
+                        <div class="bg">
+                            <div class="itemName wy-edit-title">菜单4</div>
+                        </div>
+                    </div>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="item i5" style="display: block;">
+                        <div style=" margin:10px auto;border: 2px solid rgba(255,255,255,0.2);-webkit-border-radius: 50%;position:relative;z-index:10">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod68/item.jpg">
+                        </div>
+                        <div class="bg">
+                            <div class="itemName wy-edit-title">菜单5</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

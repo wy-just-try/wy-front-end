@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/sub/mod19/mod19.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrap" class="wy-edit wy-edit-img"></div>
+    <div class="bgd"></div>
+    <div class="menubg">
+        <ul class="menu">
+            <li class="menu01">&nbsp;</li>
+            <a href="javascript:;" id="showedit01" class="wy-edit wy-edit-link">
+                <li class="menu02">
+                    <div class="wy-edit-title">一级导航</div>
+                </li>
+            </a>
+            <a href="javascript:;" id="showedit02" class="wy-edit wy-edit-link">
+                <li class="menu02">
+                    <div class="wy-edit-title">一级导航</div>
+                </li>
+            </a>
+            <li class="menu01">&nbsp;</li>
+            <a href="javascript:;" id="showedit03" class="wy-edit wy-edit-link">
+                <li class="menu03">
+                    <div class="wy-edit-title">一级导航</div>
+                </li>
+            </a>
+            <a href="javascript:;" id="showedit04" class="wy-edit wy-edit-link">
+                <li class="menu03">
+                    <div class="wy-edit-title">一级导航</div>
+                </li>
+            </a>
+            <a href="javascript:;" id="showedit05" class="wy-edit wy-edit-link">
+                <li class="menu03">
+                    <div class="wy-edit-title">一级导航</div>
+                </li>
+            </a>
+        </ul>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

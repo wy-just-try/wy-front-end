@@ -1,0 +1,57 @@
+@charset "utf-8";
+/*手机端样式*/
+#wrap {display:block;min-width: 320px; margin:0 auto; max-width:640px; width: 100%;overflow: hidden;-webkit-box-sizing: border-box; -moz-box-sizing:border-box; background:#ededed; }
+.banner{display:block; with:100%; max-width:640px;}
+.banner img{display:block; with:100%;}
+.f_l{float:left;}
+.f_r{float:right;}
+.telnav01, .telnav04{display:block; width:100%;}
+.telnav02, .telnav03{display:inline-block; width:50%;}
+
+.telnav01 .telbtn{float:left;display:inline-block; width:50%;}
+.telnav01 .telbtn span, .telnav02 .telbtn span{display:inline-block; width:62%;color:#fff; font-size:16px; text-align:center; padding:15% 0;}
+
+.telnav02 .telbtn, .telnav03 .telbtn{float:left;display:block; width:100%;}
+.telnav03 .telbtn span{display:inline-block; width:100%;color:#fff; font-size:16px; text-align:center; padding:50% 0 22%;}
+
+.telnav04 .telbtn{float:left;display:block; width:100%;}
+.telnav04 .telbtn span{display:inline-block; width:76%;color:#fff; font-size:16px; text-align:center; padding:7.5% 0;}
+
+.c01{background:url(//wy626.com/template/mod87/icon01.png) no-repeat 80% center #01adef; background-size:20%;}
+.c02{background:url(//wy626.com/template/mod87/icon02.png) no-repeat 80% center #2e2e2e; background-size:20%;}
+.c03{background:url(//wy626.com/template/mod87/icon03.png) no-repeat 80% center #9c69ae; background-size:20%;}
+.c04{background:url(//wy626.com/template/mod87/icon04.png) no-repeat 80% center #2e2e2e; background-size:20%;}
+.c05{background:url(//wy626.com/template/mod87/icon05.png) no-repeat 50% 40% #f78815; background-size:20%;}
+.c06{background:url(//wy626.com/template/mod87/icon06.png) no-repeat 60% center #7aa723; background-size:9%;}
+
+footer {display:block;width:100%;line-height:30px; background:#1f1f1f; color:#fff; font-size:1.4em; text-align:center;}
+
+@media screen and (min-width: 350px){
+#wrap{min-width:350px;}
+.telnav03 .telbtn span{padding:50% 0 21%;}
+}
+
+@media screen and (min-width: 360px){
+#wrap{min-width:360px;}
+.telnav03 .telbtn span{padding:50% 0 21%;}
+}
+
+@media screen and (min-width: 480px){
+#wrap{min-width:480px;}
+.telnav03 .telbtn span{padding:50% 0 18%;}
+}
+
+@media screen and (min-width: 540px){
+#wrap{min-width:540px;}
+.telnav03 .telbtn span{padding:50% 0 16.5%;}
+}
+
+@media screen and (min-width: 600px){
+#wrap{min-width:600px;}
+.telnav03 .telbtn span{padding:50% 0 16.5%;}
+}
+
+@media screen and (min-width: 640px){
+#wrap{min-width:640px;}
+.telnav03 .telbtn span{padding:50% 0 16%;}
+}

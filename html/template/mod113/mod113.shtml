@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod113/mod113.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod113/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        $('footer').css('display', 'none');
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body>
+    <div id="wrap" class="wy-edit wy-edit-img"></div>
+    <div class="modbgd">
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="menu">
+                <i class="i01 wy-edit-img"></i>
+                <span class="wy-edit-title">菜单1</span>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="menu">
+                <i class="i02 wy-edit-img"></i>
+                <span class="wy-edit-title">菜单2</span>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="menu">
+                <i class="i03 wy-edit-img"></i>
+                <span class="wy-edit-title">菜单3</span>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="menu">
+                <i class="i04 wy-edit-img"></i>
+                <span class="wy-edit-title">菜单4</span>
+            </div>
+        </a>
+    </div>
+
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

@@ -1,0 +1,92 @@
+/*手机端样式*/
+#wrap {display:block;min-width: 320px; margin:0 auto; max-width:640px; width: 100%; padding-bottom:3%; background:url(//wy626.com/template/mod36/bg.png) repeat;}
+.banner { display: block; width: 100%;}
+.cont-box { display: block; width:90%; margin:5% 5% 8% 5%;}
+.lfbox {display:block; width:45%;float:left; position:relative; cursor:pointer;}
+.rtbox {display:block; width:45%;float:right;position:relative;cursor:pointer;}
+.icon01 { color:black;display:block; float:right; width:70%; padding:5% 18% 5% 0; margin-top:5%; text-align:right; font-size:0.9rem; border:2px solid #108d6b; background-image: -webkit-linear-gradient(top, #feffff 0%, #d5fff5 100%); background-image: -moz-linear-gradient(top, #feffff 0%, #d5fff5 100%); background-image: -o-linear-gradient(top, #feffff 0%, #d5fff5 100%); background-image: linear-gradient(top, #feffff 0%, #d5fff5 100%);-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;}
+.icon02 { color:black;display:block; float:right; width:70%; padding:5% 18% 5% 0; margin-top:5%; text-align:right; font-size:0.9rem; border:2px solid #ef6b00; background-image: -webkit-linear-gradient(top, #feffff 0%, #fff2e7 100%); background-image: -moz-linear-gradient(top, #feffff 0%, #fff2e7 100%); background-image: -o-linear-gradient(top, #feffff 0%, #fff2e7 100%); background-image: linear-gradient(top, #feffff 0%, #fff2e7 100%);-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;}
+.icon03 { color:black;display:block; float:right; width:70%; padding:5% 18% 5% 0; margin-top:5%; text-align:right; font-size:0.9rem; border:2px solid #c5cc04; background-image: -webkit-linear-gradient(top, #feffff 0%, #feffe6 100%); background-image: -moz-linear-gradient(top, #feffff 0%, #feffe6 100%); background-image: -o-linear-gradient(top, #feffff 0%, #feffe6 100%); background-image: linear-gradient(top, #feffff 0%, #feffe6 100%);-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;}
+.icon04 { color:black;display:block; float:right; width:70%; padding:5% 18% 5% 0; margin-top:5%; text-align:right; font-size:0.9rem; border:2px solid #ea3a3a; background-image: -webkit-linear-gradient(top, #feffff 0%, #ffe2e2 100%); background-image: -moz-linear-gradient(top, #feffff 0%, #ffe2e2 100%); background-image: -o-linear-gradient(top, #feffff 0%, #ffe2e2 100%); background-image: linear-gradient(top, #feffff 0%, #ffe2e2 100%);-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;}
+.icon05 { color:black;display:block; float:right; width:70%; padding:5% 18% 5% 0; margin-top:5%; text-align:right; font-size:0.9rem; border:2px solid #00aeef; background-image: -webkit-linear-gradient(top, #feffff 0%, #dff6ff 100%); background-image: -moz-linear-gradient(top, #feffff 0%, #dff6ff 100%); background-image: -o-linear-gradient(top, #feffff 0%, #dff6ff 100%); background-image: linear-gradient(top, #feffff 0%, #dff6ff 100%);-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;}
+.icon06 { color:black;display:block; float:right; width:70%; padding:5% 18% 5% 0; margin-top:5%; text-align:right; font-size:0.9rem; border:2px solid #d91f80; background-image: -webkit-linear-gradient(top, #feffff 0%, #ffedf7 100%); background-image: -moz-linear-gradient(top, #feffff 0%, #ffedf7 100%); background-image: -o-linear-gradient(top, #feffff 0%, #ffedf7 100%); background-image: linear-gradient(top, #feffff 0%, #ffedf7 100%);-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;}
+.icon07 { color:black;display:block; float:right; width:70%; padding:5% 18% 5% 0; margin-top:5%; text-align:right; font-size:0.9rem; border:2px solid #6aa704; background-image: -webkit-linear-gradient(top, #feffff 0%, #f3ffde 100%); background-image: -moz-linear-gradient(top, #feffff 0%, #f3ffde 100%); background-image: -o-linear-gradient(top, #feffff 0%, #f3ffde 100%); background-image: linear-gradient(top, #feffff 0%, #f3ffde 100%);-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;}
+.icon08 { color:black;display:block; float:right; width:70%; padding:5% 18% 5% 0; margin-top:5%; text-align:right; font-size:0.9rem; border:2px solid #4252ef; background-image: -webkit-linear-gradient(top, #feffff 0%, #d5d8ff 100%); background-image: -moz-linear-gradient(top, #feffff 0%, #d5d8ff 100%); background-image: -o-linear-gradient(top, #feffff 0%, #d5d8ff 100%); background-image: linear-gradient(top, #feffff 0%, #d5d8ff 100%);-webkit-border-radius:15px;-moz-border-radius:15px;border-radius:15px;}
+
+.arrow {display:block; position:absolute; float:left; z-index:99; width:25%; padding:5%;-webkit-border-radius:50%;-moz-border-radius:50%; border-radius:50%;}
+
+
+.bg01 {background:#108d6b;-webkit-animation-name: "btn01"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.1s;}
+.bg02 {background:#ef6b00;-webkit-animation-name: "btn02"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.1s;}
+.bg03 {background:#c5cc04;-webkit-animation-name: "btn03"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.2s;}
+.bg04 {background:#ea3a3a;-webkit-animation-name: "btn04"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.2s;}
+.bg05 {background:#00aeef;-webkit-animation-name: "btn05"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.3s;}
+.bg06 {background:#d91f80;-webkit-animation-name: "btn06"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.3s;}
+.bg07 {background:#6aa704;-webkit-animation-name: "btn07"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.4s;}
+.bg08 {background:#4252ef;-webkit-animation-name: "btn08"; /*动画名称，需要跟@keyframes定义的名称一致*/
+-webkit-animation-duration: 0.5s;/*动画持续的时间长*/
+-webkit-animation-iteration-count: 1;/*动画循环播放的次数*/
+-webkit-animation-delay:0.4s;}
+
+@-webkit-keyframes btn01 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+@-webkit-keyframes btn02 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+@-webkit-keyframes btn03 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+@-webkit-keyframes btn04 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+@-webkit-keyframes btn05 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+@-webkit-keyframes btn06 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+@-webkit-keyframes btn07 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+@-webkit-keyframes btn08 {
+   from {-moz-transform:scale(0,0);-webkit-transform:scale(0,0); -o-transform:scale(0,0);}
+   to {-moz-transform:scale(1,1); -webkit-transform:scale(1,1); -o-transform:scale(1,1);}
+}
+
+.footer {display:block; position:relative; z-index:99; width:100%; background:#000; padding-bottom:1%; padding-top:1px;}
+.ftbg {display:block; width:100%; position:absolute; background:#212121; border-top:1px solid #303030; line-height:3;}
+.ftmenu li {display:block; float:left; position:relative; z-index:100;  width:25%; text-align:center; font-size:0.8rem; color:#bbb; cursor:pointer; margin-top:1%;}
+.ftmenu li img {width:50%;}
+footer {display:block; width:100%; line-height:2; background:#333; color:#fff; font-size:1.4em; text-align:center;}
+
+
+

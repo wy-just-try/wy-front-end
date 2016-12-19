@@ -1,0 +1,11 @@
+/*手机端样式*/
+#wrap {display:block;min-width: 320px; margin:0 auto; max-width:640px; width: 100%; min-height:100%;overflow: hidden;-webkit-box-sizing: border-box; -moz-box-sizing:border-box;  }
+.telnav {display:block; position:relative; width:100%; background:rgba(255,255,255,1);}
+.telbtn {display:block;  width:92%; overflow:hidden;margin-bottom:0%;padding:5% 2% 5% 4%; font-size:1.6em; border-bottom:1px solid #b2b0b0;}
+.pic {float:left;display:inline-block; width:14%;}
+.pic img {width:100%;}
+.t_content{float:left;display:inline-block; width:77%; height:100%; padding-left:2%; }
+.t_t1{display:block; width:100%; color:#000; font-size:1.1em; padding:1% 0 2% 0;}
+.t_t2{display:block; width:100%; color:#646464; font-size:0.9em; }
+.icon {float:left;display:inline-block;width:7%; overflow:hidden;}
+.icon img {float:left;display:block;width:100%; margin-top:40%;}

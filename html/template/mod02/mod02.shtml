@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod02/mod02.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <div id="wrap" class="clr wy-edit wy-edit-img"></div>
+    <div class="modbgd">
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="menu wy-edit-title">菜单1</div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="menu wy-edit-title">菜单2</div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="menu wy-edit-title">菜单3</div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="menu wy-edit-title">菜单4</div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="menu wy-edit-title">菜单5</div>
+        </a>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

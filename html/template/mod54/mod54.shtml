@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod54/mod54.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod54/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        var winheight = $(window).height();
+        //$('#wrap').css('min-height',winheight-30+'px');//footer居底
+        $('.blankwhite').css('height', '0px');
+
+        $('.contentimgcl').css('height', $('.contentimgcl').css('width'));
+    });
+    </script>
+</head>
+
+<body onselectstart="return true;" ondragstart="return false;">
+    <div id="wrap" class="clr">
+        <div class="cont-box icon01">
+            <a href="javascript:;" class="nav1 wy-edit wy-edit-link">
+                <div class="bgbox">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod54/icon01.png">
+                </div>
+                <div class="bdr"></div>
+                <div class="text wy-edit-title">菜单1</div>
+            </a>
+        </div>
+        <div class="cont-box icon02">
+            <a href="javascript:;" class="nav2 wy-edit wy-edit-link">
+                <div class="bgbox">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod54/icon02.png">
+                </div>
+                <div class="bdr"></div>
+                <div class="text wy-edit-title">菜单2</div>
+            </a>
+        </div>
+        <div class="cont-box icon03">
+            <a href="javascript:;" class="nav3 wy-edit wy-edit-link">
+                <div class="bgbox">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod54/icon03.png">
+                </div>
+                <div class="bdr"></div>
+                <div class="text wy-edit-title">菜单3</div>
+            </a>
+        </div>
+        <div class="cont-box icon04">
+            <a href="javascript:;" class="nav4 wy-edit wy-edit-link">
+                <div class="bgbox">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod54/icon04.png">
+                </div>
+                <div class="bdr"></div>
+                <div class="text wy-edit-title">菜单4</div>
+            </a>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

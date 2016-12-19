@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod77/mod77.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod77/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body onselectstart="return true;" ondragstart="return false;">
+    <div id="wrap" class="wy-edit wy-edit-img"></div>
+    <a href="javascript:;" class="nav1 wy-edit wy-edit-link">
+        <div class="icon01">
+            <div class="bigpic">
+                <img class="wy-edit-img" src="//wy626.com/template/mod77/icon01.png">
+            </div>
+        </div>
+    </a>
+    <a href="javascript:;" class="nav2 wy-edit wy-edit-link">
+        <div class="icon02">
+            <div class="bigpic">
+                <img class="wy-edit-img" src="//wy626.com/template/mod77/icon02.png">
+            </div>
+        </div>
+    </a>
+    <a href="javascript:;" class="nav3 wy-edit wy-edit-link">
+        <div class="icon03">
+            <div class="bigpic">
+                <img class="wy-edit-img" src="//wy626.com/template/mod77/icon03.png">
+            </div>
+        </div>
+    </a>
+    <a href="javascript:;" class="nav4 wy-edit wy-edit-link">
+        <div class="icon04">
+            <div class="bigpic">
+                <img class="wy-edit-img" src="//wy626.com/template/mod77/icon04.png">
+            </div>
+        </div>
+    </a>
+    <a href="javascript:;" class="nav5 wy-edit wy-edit-link">
+        <div class="icon05">
+            <div class="bigpic">
+                <img class="wy-edit-img" src="//wy626.com/template/mod77/icon05.png">
+            </div>
+        </div>
+    </a>
+    <a href="javascript:;" class="nav6 wy-edit wy-edit-link">
+        <div class="icon06">
+            <div class="bigpic">
+                <img class="wy-edit-img" src="//wy626.com/template/mod77/icon06.png">
+            </div>
+        </div>
+    </a>
+    <a href="javascript:;" class="nav7 wy-edit wy-edit-link">
+        <div class="icon07">
+            <div class="bigpic">
+                <img class="wy-edit-img" src="//wy626.com/template/mod77/icon07.png">
+            </div>
+        </div>
+    </a>
+    <a href="javascript:;" class="nav8 wy-edit wy-edit-link">
+        <div class="icon08">
+            <div class="bigpic">
+                <img class="wy-edit-img" src="//wy626.com/template/mod77/icon08.png">
+            </div>
+        </div>
+    </a>
+    <a href="javascript:;" class="nav9 wy-edit wy-edit-link">
+        <div class="icon09">
+            <div class="bigpic">
+                <img class="wy-edit-img" src="//wy626.com/template/mod77/icon09.png">
+            </div>
+        </div>
+    </a>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

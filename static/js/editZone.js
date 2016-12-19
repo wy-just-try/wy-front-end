@@ -26,7 +26,7 @@ define('editZone', function(require, exports, module) {
 	 *****************************************************/
 
 	 /******************四种可编辑类CSS类名****************
-	  *	wy-edit: 表示此区域内容可编辑
+	  *	wy-edit: 表示此区域内容可编辑，不允许wy-edit嵌套使用
 	  *	wy-active: 表示此区域处于激活编辑状态
 	  *	wy-edit-title: 标题元素
 	  *	wy-edit-desc: 描述文字元素
@@ -52,42 +52,44 @@ define('editZone', function(require, exports, module) {
 
 			var owner = $(this).prop('class').match(/wy-edit-\w*/g);
 			if (owner !== null) {
-				switch (owner[0]) {
-					case 'wy-edit-title':
-						_transport.title = $(this).text();
-						break;
-					case 'wy-edit-desc':
-						_transport.desc = $(this).text();
-						break;
-					case 'wy-edit-img':
-						imgFlag = true;
-						_transport.img = {};
-						if ($(this).prop('nodeName') === 'IMG') {
-							_transport.img.url = $(this).attr('src');
-						} else {
-							_transport.img.url = $(this).css('background-image').match(/"(.*)"/)[1];
-						}
-						getImageSize(_transport.img.url);
-						break;
-					case 'wy-edit-link':
-						_transport.link = $(this).attr('href');
-						break;
-					default:
-						console.error('模板编辑格式有误');
-						break;
-				}
+				owner.forEach(function(element) {
+					switch (element) {
+						case 'wy-edit-title':
+							_transport.title = $(this).text().trim();
+							break;
+						case 'wy-edit-desc':
+							_transport.desc = $(this).text().trim();
+							break;
+						case 'wy-edit-img':
+							imgFlag = true;
+							_transport.img = {};
+							if ($(this).prop('nodeName') === 'IMG') {
+								_transport.img.url = $(this).attr('src');
+							} else {
+								_transport.img.url = $(this).css('background-image').match(/"(.*)"/)[1];
+							}
+							getImageSize(_transport.img.url);
+							break;
+						case 'wy-edit-link':
+							_transport.link = $(this).attr('href');
+							break;
+						default:
+							console.error('模板编辑格式有误');
+							break;
+					}
+				}.bind(this));
 			}
 			if ($(this).find('.wy-edit-title').length !== 0) {
-				_transport.hasOwnProperty('title') || (_transport.title = $(this).find('.wy-edit-title').text());
+				_transport.hasOwnProperty('title') || (_transport.title = $(this).find('.wy-edit-title').text().trim());
 			}
 			if ($(this).find('.wy-edit-desc').length !== 0) {
-				_transport.hasOwnProperty('desc') || (_transport.desc = $(this).find('.wy-edit-desc').text());
+				_transport.hasOwnProperty('desc') || (_transport.desc = $(this).find('.wy-edit-desc').text().trim());
 			}
 			if ($(this).find('.wy-edit-img').length !== 0) {
 				imgFlag = true;
 				if(!_transport.hasOwnProperty('img')) {
 					_transport.img = {};
-					if ($(this).prop('nodeName') === 'IMG') {
+					if ($(this).find('.wy-edit-img').prop('nodeName') === 'IMG') {
 						_transport.img.url = $(this).find('.wy-edit-img').attr('src');
 					} else {
 						_transport.img.url = $(this).find('.wy-edit-img').css('background-image').match(/"(.*)"/)[1];
@@ -100,6 +102,7 @@ define('editZone', function(require, exports, module) {
 			}
 
 			if (!imgFlag) {
+				console.log(_transport);
 				window.top.postMessage({
 					type: 1,
 					data: _transport
@@ -163,6 +166,7 @@ define('editZone', function(require, exports, module) {
 		img.onload = img.onreadystatechange = function() {
 			_transport.img.width = this.width;
 			_transport.img.height = this.height;
+			console.log(_transport);
 			window.top.postMessage({
 				type: 1,
 				data: _transport

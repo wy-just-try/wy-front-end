@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod82/mod82.css" rel="stylesheet" type="text/css">
+    <style>
+    .i01 {
+        background-size: 50% 50%
+    }
+    
+    .i02 {
+        background-size: 50% 50%
+    }
+    
+    .i03 {
+        background-size: 50% 50%
+    }
+    
+    .i04 {
+        background-size: 50% 50%
+    }
+    </style>
+</head>
+
+<body>
+    <div id="wrap" class="clr">
+        <div class="banner wy-edit">
+            <img class="wy-edit-img" src="//wy626.com/template/mod82/banner.jpg" alt="" style="width:100%;">
+        </div>
+        <div class="telnav clr">
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="a01">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod82/img1.png" id="content_img1858947" style="height: 318px; width: 321px;">
+                </div>
+            </a>
+            <div class="zh-w">
+                <a href="javascript:;" class="i01 wy-edit wy-edit-img wy-edit-link">
+                    <span class="wy-edit-title">菜单2</span>
+                </a>
+                <a href="javascript:;" class="i00 wy-edit wy-edit-link">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod82/img2.png" id="content_img1859118" style="height: 154px; width: 157px;">
+                </a>
+                <a href="javascript:;" class="i00 wy-edit wy-edit-link">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod82/img3.png" id="content_img1859192" style="height: 154px; width: 157px;">
+                </a>
+                <a href="javascript:;" class="i02 wy-edit wy-edit-img wy-edit-link">
+                    <span class="wy-edit-title">菜单5</span>
+                </a>
+            </div>
+        </div>
+        <div class="telnav clr">
+            <div class="zh-w">
+                <a href="javascript:;" class="i03 wy-edit wy-edit-img wy-edit-link">
+                    <span class="wy-edit-title">菜单6</span>
+                </a>
+                <a href="javascript:;" class="i05 wy-edit wy-edit-link">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod82/img4.png" id="content_img1859335" style="height: 154px; width: 157px;">
+                </a>
+                <a href="javascript:;" class="i06 wy-edit wy-edit-link">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod82/img5.png" id="content_img1859355" style="height: 154px; width: 157px;">
+                </a>
+                <a href="javascript:;" class="i04 wy-edit wy-edit-img wy-edit-link">
+                    <span class="wy-edit-title">菜单9</span>
+                </a>
+            </div>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="a02">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod82/img6.png" id="content_img1859376" style="height: 318px; width: 321px;">
+                </div>
+            </a>
+        </div>
+    </div>
+    <script type="text/javascript">
+    $(function() {
+        $(".blankwhite").hide();
+        var xWidth = $(".i01").width();
+        var xHeight = $(".i01").height();
+        var i23 = $(".i00").find("img");
+        $.each(i23, function(index, val) {
+            i23.eq(index).css({
+                "height": xHeight,
+                "width": xWidth
+            });
+        });
+        $(".a01").find("img").css({
+            "height": (xHeight * 2) + 10,
+            "width": (xWidth * 2) + 7
+        });
+        $(".a02").find("img").css({
+            "height": (xHeight * 2) + 10,
+            "width": (xWidth * 2) + 7
+        });
+        //$(".i03").find("img").css({"height":xHeight,"width":xWidth});
+        //$(".i04").find("img").css({"height":xHeight,"width":xWidth});
+        $(".i05").find("img").css({
+            "height": xHeight,
+            "width": xWidth
+        });
+        $(".i06").find("img").css({
+            "height": xHeight,
+            "width": xWidth
+        });
+    })
+    </script>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

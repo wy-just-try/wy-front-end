@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/sub/mod55/mod55.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/sub/mod55/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        var winheight = $(window).height();
+        $('.main').css('min-height', winheight - 28 + 'px'); //footer居底
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body>
+    <div class="main" style="min-height: 717px;">
+        <div class="menu55">
+            <a href="javascript:;" class="nav1 wy-edit wy-edit-link">
+                <span class="menu55_text">
+              <b class="wy-edit-title">菜单1</b>
+              <i class="wy-edit-desc">概要1</i>
+            </span>
+                <span class="menu55_img">
+                   <img class="wy-edit-img" src="//wy626.com/template/sub/mod55/img01.jpg">
+               </span>
+            </a>
+            <a href="javascript:;" class="nav2 wy-edit wy-edit-link">
+                <span class="menu55_text">
+              <b class="wy-edit-title">菜单2</b>
+              <i class="wy-edit-desc">概要2</i>
+            </span>
+                <span class="menu55_img">
+                   <img class="wy-edit-img" src="//wy626.com/template/sub/mod55/img02.jpg">
+               </span>
+            </a>
+            <a href="javascript:;" class="nav3 wy-edit wy-edit-link">
+                <span class="menu55_text">
+              <b class="wy-edit-title">菜单3</b>
+              <i class="wy-edit-desc">概要3</i>
+            </span>
+                <span class="menu55_img">
+                   <img class="wy-edit-img" src="//wy626.com/template/sub/mod55/img03.jpg">
+               </span>
+            </a>
+            <a href="javascript:;" class="nav4 wy-edit wy-edit-link">
+                <span class="menu55_text">
+              <b class="wy-edit-title">菜单4</b>
+              <i class="wy-edit-desc">概要4</i>
+            </span>
+                <span class="menu55_img">
+                   <img class="wy-edit-img" src="//wy626.com/template/sub/mod55/img04.jpg">
+               </span>
+            </a>
+            <a href="javascript:;" class="nav5 wy-edit wy-edit-link">
+                <span class="menu55_text">
+              <b class="wy-edit-title">菜单5</b>
+              <i class="wy-edit-desc">概要5</i>
+            </span>
+                <span class="menu55_img">
+                   <img class="wy-edit-img" src="//wy626.com/template/sub/mod55/img05.jpg">
+               </span>
+            </a>
+            <a href="javascript:;" class="nav6 wy-edit wy-edit-link">
+                <span class="menu55_text">
+              <b class="wy-edit-title">菜单6</b>
+              <i class="wy-edit-desc">概要6</i>
+            </span>
+                <span class="menu55_img">
+                   <img class="wy-edit-img" src="//wy626.com/template/sub/mod55/img06.jpg">
+               </span>
+            </a>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

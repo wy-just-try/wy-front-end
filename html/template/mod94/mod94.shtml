@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod94/mod94.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod94/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body onselectstart="return true;" ondragstart="return false;">
+    <div id="wrap" class="clr">
+        <div class="banner wy-edit">
+            <img class="wy-edit-img" src="//wy626.com/template/mod94/topbanner.jpg" alt="" style="width:100%;">
+        </div>
+        <div class="telnav clr">
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn1 c_01 wy-edit-img">
+                    <span class="wy-edit-title">菜单1</span>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn1 c_02 wy-edit-img">
+                    <span class="wy-edit-title">菜单2</span>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn1 c_03 wy-edit-img">
+                    <span class="wy-edit-title">菜单3</span>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn1 c_04 wy-edit-img">
+                    <span class="wy-edit-title">菜单4</span>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn1 c_05 wy-edit-img">
+                    <span class="wy-edit-title">菜单5</span>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn1 c_06 wy-edit-img">
+                    <span class="wy-edit-title">菜单6</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

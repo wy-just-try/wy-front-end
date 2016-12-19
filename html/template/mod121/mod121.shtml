@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod121/mod121.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod121/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        //var winheight=$(window).height();
+        //$('#wrap').css('min-height',winheight-30+'px');//footer居底
+        $('.blankwhite').css('height', '0px');
+        //  var winwidth=$(window).width();
+        //  $('.contentimgcl').css('height',$('.contentimgcl').css('width'));
+    });
+    </script>
+</head>
+
+<body onselectstart="return true;" ondragstart="return false;">
+    <div id="wrap" class="clr">
+        <div class="banner wy-edit">
+            <img class="wy-edit-img" src="//wy626.com/template/mod121/topbanner.jpg" alt="" style="width:100%;">
+        </div>
+        <div class="mainbg" style="z-index:79871445;">
+            <img src="//wy626.com/template/mod121/mainbgb.png">
+            <div class="telnav clr">
+                <div class="box clr">
+                    <a href="" class="wy-edit wy-edit-link">
+                        <div class="div01">
+                            <i class="wy-edit-img"></i>
+                            <p class="wy-edit-title">菜单1</p>
+                        </div>
+                    </a>
+                    <a href="" class="wy-edit wy-edit-link">
+                        <div class="div02">
+                            <i class="wy-edit-img"></i>
+                            <p class="wy-edit-title">菜单2</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="box clr">
+                    <a href="" class="wy-edit wy-edit-link">
+                        <div class="div04">
+                            <i class="wy-edit-img"></i>
+                            <p class="wy-edit-title">菜单4</p>
+                        </div>
+                    </a>
+                    <a href="" class="wy-edit wy-edit-link">
+                        <div class="div05">
+                            <i class="wy-edit-img"></i>
+                            <p class="wy-edit-title">菜单5</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="box02">
+                    <a href="" class="wy-edit wy-edit-link">
+                        <div class="div03">
+                            <i class="wy-edit-img"></i>
+                            <p class="wy-edit-title">菜单3</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

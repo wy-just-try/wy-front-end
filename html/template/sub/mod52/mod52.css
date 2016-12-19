@@ -1,0 +1,21 @@
+/*手机端样式*/
+#wrap {display:block;min-width: 320px;margin:0 auto; max-width:640px; width: 100%; min-height:100%;overflow: hidden;-webkit-box-sizing: border-box; -moz-box-sizing:border-box;  }
+.telnav {display:block; position:relative; width:100%; padding:0% 0% 0px 0%;}
+.telbtn {display:block;margin-bottom:0%;font-size:1.6em;overflow:hidden;}
+.c_01{background:rgba(172,232,255,1);}
+.c_02{background:rgba(242,250,253,1);}
+.c_03{background:rgba(232,245,251,1);}
+.c_04{background:rgba(221,241,248,1);}
+.c_05{background:rgba(209,236,247,1);}
+.c_06{background:rgba(200,228,240,1);}
+.c_07{background:rgba(186,218,232,1);}
+.pic_w {float:left;display:inline-block; width:16%;background:rgba(255,255,255,1);padding:3.5%; overflow:hidden;}
+.pic {float:left;display:inline-block; width:100%;border-radius:100px; overflow:hidden;}
+.pic img {width:100%;}
+.t_content{float:left;display:inline-block; width:65%; height:100%; padding:2% 2% 0% 4%; }
+.t_t1{display:block; width:100%; color:#47647a; font-size:1.1em; padding:4% 0 2% 0;}
+.t_t2{display:block; width:100%; color:#929292; font-size:0.8em; }
+.icon {float:left;display:inline-block;width:6%; overflow:hidden;padding:8% 0 0;}
+.icon img {float:left;display:block;width:29%; margin-top:40%;}
+footer{display:block; width:100%; height:30px; line-height:30px; background:#000; color:#fff; font-size:1.4em; text-align:center;}
+

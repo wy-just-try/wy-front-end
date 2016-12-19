@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod13/mod13.css" rel="stylesheet" type="text/css">
+    <script>
+    /*菜单选择切换样式*/
+    function changeBg(link) {
+        var alllinks = document.getElementById("telnav").getElementsByTagName("div");
+        for (var i = 0; i < alllinks.length; i++) {
+            alllinks[i].className = "telbtn"; //默认未点击时引用的样式
+        }
+        link.className = "telbtn1"; //点击切换样式
+    }
+    </script>
+</head>
+
+<body>
+    <div id="wrap" class="clr">
+        <div class="telnav clr" id="telnav">
+            <div class="telbtn" onclick="changeBg(this);">
+                <img src="//wy626.com/template/mod13/up.png" class="pic">
+                <span class="mgleft wy-edit wy-edit-title">一级导航</span>
+                <ul class="subbtn">
+                    <a href="" class="wy-edit wy-edit-link">
+                        <li><span class="wy-edit-title">二级导航</span></li>
+                    </a>
+                    <a href="" class="wy-edit wy-edit-link">
+                        <li><span class="wy-edit-title">二级导航</span></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="telbtn" onclick="changeBg(this);">
+                <img src="//wy626.com/template/mod13/up.png" class="pic">
+                <span class="mgleft wy-edit wy-edit-title">一级导航</span>
+                <ul class="subbtn">
+                    <a href="" class="wy-edit wy-edit-link">
+                        <li><span class="wy-edit-title">二级导航</span></li>
+                    </a>
+                    <a href="" class="wy-edit wy-edit-link">
+                        <li><span class="wy-edit-title">二级导航</span></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="telbtn" onclick="changeBg(this);">
+                <img src="//wy626.com/template/mod13/up.png" class="pic">
+                <span class="mgleft wy-edit wy-edit-title">一级导航</span>
+                <ul class="subbtn">
+                    <a href="" class="wy-edit wy-edit-link">
+                        <li><span class="wy-edit-title">二级导航</span></li>
+                    </a>
+                    <a href="" class="wy-edit wy-edit-link">
+                        <li><span class="wy-edit-title">二级导航</span></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="telbtn" onclick="changeBg(this);">
+                <img src="//wy626.com/template/mod13/up.png" class="pic">
+                <span class="mgleft wy-edit wy-edit-title">一级导航</span>
+                <ul class="subbtn">
+                    <a href="" class="wy-edit wy-edit-link">
+                        <li><span class="wy-edit-title">二级导航</span></li>
+                    </a>
+                    <a href="" class="wy-edit wy-edit-link">
+                        <li><span class="wy-edit-title">二级导航</span></li>
+                    </a>
+                </ul>
+            </div>
+            <div class="telbtn" onclick="changeBg(this);">
+                <img src="//wy626.com/template/mod13/up.png" class="pic">
+                <span class="mgleft wy-edit wy-edit-title">一级导航</span>
+                <ul class="subbtn">
+                    <a href="" class="wy-edit wy-edit-link">
+                        <li><span class="wy-edit-title">二级导航</span></li>
+                    </a>
+                    <a href="" class="wy-edit wy-edit-link">
+                        <li><span class="wy-edit-title">二级导航</span></li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

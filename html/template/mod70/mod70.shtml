@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--#include virtual="/page/publicTemplate.shtml" -->
+    <!--手机端重置样式-->
+    <link href="//wy626.com/template/mod70/mod70.css" rel="stylesheet" type="text/css">
+    <!--微网站模板70样式-->
+    <script>
+    $(function() {
+        $('.blankwhite').css('height', '0px');
+        var winwidth = $(window).width();
+        $('.contentimgcl').css('height', winwidth * 0.5265625 + 'px');
+    });
+    </script>
+</head>
+
+<body onselectstart="return true;" ondragstart="return false;">
+    <div id="wrap" class="clr">
+        <div class="telnav clr">
+            <div class="telbtn">
+                <div class="pic wy-edit">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod70/pic01.jpg">
+                </div>
+                <a href="javascript:;" class="nav1 wy-edit wy-edit-link">
+                    <div class="t_content wy-edit-title">菜单1</div>
+                </a>
+            </div>
+            <div class="telbtn">
+                <div class="pic wy-edit">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod70/pic02.jpg">
+                </div>
+                <a href="javascript:;" class="nav2 wy-edit wy-edit-link">
+                    <div class="t_content wy-edit-title">菜单2</div>
+                </a>
+            </div>
+            <div class="telbtn">
+                <div class="pic wy-edit">
+                    <img class="wy-edit-img" src="//wy626.com/template/mod70/pic03.jpg">
+                </div>
+                <a href="javascript:;" class="nav3 wy-edit wy-edit-link">
+                    <div class="t_content wy-edit-title">菜单3</div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

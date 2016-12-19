@@ -1,0 +1,71 @@
+/*手机端样式*/
+/*手机端样式*/
+body{background-color:#211404;}
+img{-webkit-user-select:​ none}
+.main{ width:100%;min-width:300px; max-width:640px;margin:0 auto;overflow:hidden; }
+.banner{width:100%;overflow:hidden;}
+.banner img{width:100%;display:block;}
+.menu{
+	width: 94%;
+	overflow: hidden;
+	margin: 0 auto;
+	background-color: #f7f2ec;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	margin-top: 10px;
+
+}
+.menu a{display:block;-webkit-box-sizing: border-box; -moz-box-sizing:border-box;padding:4px 10px;width:100%;overflow:hidden;border-top:1px solid #c3c3c3;
+background: -o-linear-gradient(top, #fffaf4, #f7f2ec);
+background: -moz-linear-gradient(top, #fffaf4, #f7f2ec);
+background: -webkit-gradient(linear, 0 0, 0 100%, from(#fffaf4), to(#f7f2ec));
+	background-image: url(//wy626.com/template/mod37/ico.png);
+	background-repeat: no-repeat;
+	background-position: 96% center;
+}
+.menu .menu_img{display:block;width:50px;height:50px;border:1px solid #c3c3c3;overflow:hidden;float:left;-webkit-border-radius: 25px;-moz-border-radius: 25px;border-radius: 25px;}
+.menu .menu_img img{display:block;width:48px;height:48px;-webkit-border-radius: 24px;-moz-border-radius: 24px;border-radius: 24px;margin:0 auto;margin-top:1px;}
+.menu_text{display:block;padding-left:60px;}
+.menu_text b{display:block;height:28px;line-height:28px;font-size:16px;overflow:hidden;color:#000}
+.menu_text span{display:block;font-size:14px;color:#666;}
+.line37{height:1px;background-color:#c3c3c3;overflow:hidden;}
+footer {width:100%;background-color:#FFF;height:28px;line-height:28px;bottom:0;display:block; width:100%; color:#000; font-size:1.4em; text-align:center;opacity:0.5;}
+
+.menu a:nth-child(1) img{-webkit-animation: myfirst1 0.5s;}
+.menu a:nth-child(2) img{-webkit-animation: myfirst2 0.6s;}
+.menu a:nth-child(3) img{-webkit-animation: myfirst3 0.7s;}
+.menu a:nth-child(4) img{-webkit-animation: myfirst4 0.8s;}
+.menu a:nth-child(5) img{-webkit-animation: myfirst5 0.9s;}
+
+
+
+@-webkit-keyframes myfirst1
+{
+0%   {-webkit-transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);}
+}
+@-webkit-keyframes myfirst2
+{
+0%   {-webkit-transform:rotate(0deg);}
+100% {-webkit-transform:rotate(-360deg);}
+}
+@-webkit-keyframes myfirst3
+{
+0%   {-webkit-transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);}
+}
+@-webkit-keyframes myfirst4
+{
+0%   {-webkit-transform:rotate(0deg);}
+100% {-webkit-transform:rotate(-360deg);}
+}
+@-webkit-keyframes myfirst5
+{
+0%   {-webkit-transform:rotate(0deg);}
+100% {-webkit-transform:rotate(360deg);}
+}
+
+

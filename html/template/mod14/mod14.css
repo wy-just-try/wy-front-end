@@ -1,0 +1,10 @@
+/*手机端样式*/
+#wrap {background:url(//wy626.com/template/mod14/navbg.jpg) repeat;display:block;min-width: 320px; margin:0 auto; max-width:640px; width: 100%; height:100%;-webkit-box-sizing: border-box; -moz-box-sizing:border-box; position:relative;}
+.modbgd { display:block; background:url(//wy626.com/template/mod14/navbg.jpg) repeat;}
+
+.modbox {display:block; width:100%; border-top:1px solid #323232;}
+.modleft { display:block; width:50%; padding-left:10%; padding-top:5%; float:left; color:#fff; font-size:1.3rem;}
+.modright {display:block;width:40%; float:right;}
+.picmask {display:block; position:absolute; z-index:99; background:url(//wy626.com/template/mod14/mask.png) repeat-y;width:100%; padding:8.4% 0;}
+
+.pic {display:block; float:right;}

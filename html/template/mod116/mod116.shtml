@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod116/mod116.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod116/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        //var winheight=$(window).height();
+        //$('#wrap').css('min-height',winheight-28+'px');//footer居底
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body onselectstart="return true;" ondragstart="return false;">
+    <div id="wrap" class="clr">
+        <div class="banner wy-edit">
+            <img class="wy-edit-img" src="//wy626.com/template/mod116/topbanner.jpg" alt="" style="width:100%;">
+        </div>
+        <div class="telnav clr">
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn">
+                    <span class="i01 wy-edit-img wy-edit-title">
+		     	菜单1
+		     </span>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn">
+                    <span class="i02 wy-edit-img wy-edit-title">
+		     	菜单2
+		     </span>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn">
+                    <span class="i03 wy-edit-img wy-edit-title">
+		     	菜单3
+		     </span>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn">
+                    <span class="i04 wy-edit-img wy-edit-title">
+		     	菜单4
+		     </span>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn">
+                    <span class="i05 wy-edit-img wy-edit-title">
+		     	菜单5
+		     </span>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn">
+                    <span class="i06 wy-edit-img wy-edit-title">
+		     	菜单6
+		     </span>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn">
+                    <span class="i07 wy-edit-img wy-edit-title">
+		     	菜单7
+		     </span>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn">
+                    <span class="i08 wy-edit-img wy-edit-title">
+		     	菜单8
+		     </span>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn">
+                    <span class="i09 wy-edit-img wy-edit-title">
+		     	菜单9
+		     </span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

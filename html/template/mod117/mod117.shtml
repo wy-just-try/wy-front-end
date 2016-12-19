@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod117/mod117.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod117/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body>
+    <div id="wrap">
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="modnav clr">
+                <div class="lfbox">
+                    <div class="bg">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod117/icon01.png">
+                    </div>
+                </div>
+                <div class="rtbox">
+                    <h1 class="wy-edit-title">菜单1</h1>
+                    <p class="wy-edit-desc">概要1</p>
+                </div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="modnav clr">
+                <div class="lfbox">
+                    <div class="bg">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod117/icon02.png">
+                    </div>
+                </div>
+                <div class="rtbox">
+                    <h1 class="wy-edit-title">菜单2</h1>
+                    <p class="wy-edit-desc">概要2</p>
+                </div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="modnav clr">
+                <div class="lfbox">
+                    <div class="bg">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod117/icon03.png">
+                    </div>
+                </div>
+                <div class="rtbox">
+                    <h1 class="wy-edit-title">菜单3</h1>
+                    <p class="wy-edit-desc">概要3</p>
+                </div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="modnav clr">
+                <div class="lfbox">
+                    <div class="bg">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod117/icon04.png">
+                    </div>
+                </div>
+                <div class="rtbox">
+                    <h1 class="wy-edit-title">菜单4</h1>
+                    <p class="wy-edit-desc">概要4</p>
+                </div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="modnav clr">
+                <div class="lfbox">
+                    <div class="bg">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod117/icon05.png">
+                    </div>
+                </div>
+                <div class="rtbox">
+                    <h1 class="wy-edit-title">菜单5</h1>
+                    <p class="wy-edit-desc">概要5</p>
+                </div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="modnav clr">
+                <div class="lfbox">
+                    <div class="bg">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod117/icon06.png">
+                    </div>
+                </div>
+                <div class="rtbox">
+                    <h1 class="wy-edit-title">菜单6</h1>
+                    <p class="wy-edit-desc">概要6</p>
+                </div>
+            </div>
+        </a>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod14/mod14.css" rel="stylesheet" type="text/css">
+    <script>
+    $(function() {
+        var winheight = $(window).height();
+        $('#div01').css('min-height', winheight - 30 + 'px'); //footer居底
+
+        $('.blankwhite').css('height', '0px');
+        var winwidth = $(window).width();
+        $('.contentimgcl').css('height', winwidth * 0.4 / 2.36667 + 'px');
+    });
+    </script>
+</head>
+
+<body>
+    <div id="wrap" class="clr">
+        <div id="div01" style="min-height: 715px;">
+            <img class="wy-edit wy-edit-img" src="//wy626.com/template/mod14/banner14.jpg" alt="" style="width:100%;">
+            <div class="modbgd">
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="modbox clr">
+                        <div class="modright">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod14/1.jpg">
+                        </div>
+                        <div class="modleft wy-edit-title">菜单1</div>
+                    </div>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="modbox clr">
+                        <div class="modright">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod14/2.jpg">
+                        </div>
+                        <div class="modleft wy-edit-title">菜单2</div>
+                    </div>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="modbox clr">
+                        <div class="modright">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod14/3.jpg">
+                        </div>
+                        <div class="modleft wy-edit-title">菜单3</div>
+                    </div>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="modbox clr">
+                        <div class="modright">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod14/4.jpg">
+                        </div>
+                        <div class="modleft wy-edit-title">菜单4</div>
+                    </div>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="modbox clr">
+                        <div class="modright">
+                            <img class="wy-edit-img" src="//wy626.com/template/mod14/5.jpg">
+                        </div>
+                        <div class="modleft wy-edit-title">菜单5</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

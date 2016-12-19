@@ -1,0 +1,88 @@
+/*手机端样式*/
+img{-webkit-user-select:​ none}
+.main{ width:100%;overflow:hidden;min-width:300px; max-width:640px;margin:0 auto;  position:relative;background-color:#323743;}
+.banner{width:100%;overflow:hidden;position:relative;}
+.banner img{display:block;width:100%;}
+.banner i{display: block;width: 45px;height: 67px;position: absolute;bottom: 0px;left: 9px;background-image: url(//wy626.com/template/mod50/ico1.png);background-repeat: no-repeat;}
+.menu50{width:100%;overflow:hidden;}
+.menu50 a{
+	display: block;
+	height: 57px;
+	line-height: 57px;
+	overflow: hidden;
+	background-color: #323743;
+	text-indent: 47px;
+	color: #FFF;
+	font-size: 14px;
+	background-image: url(//wy626.com/template/mod50/ico3.png);
+	background-repeat: no-repeat;
+	background-position: 26px 0px;
+	position:relative;
+}
+.menu50 a span{display:block;float:left;width:90%;overflow:hidden;}
+.menu50 a.color2{background-color:#262B36;}
+.menu50 i{
+	display: block;
+	width: 7px;
+	height: 12px;
+	background-image: url(//wy626.com/template/mod50/ico2.png);
+	background-repeat: no-repeat;
+	position:absolute;
+	top:22px;
+	right:17px;
+}
+
+
+
+
+
+
+
+footer {background-color:#000;height:28px;line-height:28px;display:block; width:100%; color:#FFF; font-size:1.4em; text-align:center;opacity:0.7;}
+
+
+.menu50 a:nth-child(1){-webkit-animation: myfirst1 0.6s;}
+.menu50 a:nth-child(2){-webkit-animation: myfirst2 0.6s;}
+.menu50 a:nth-child(3){-webkit-animation: myfirst3 0.6s;}
+.menu50 a:nth-child(4){-webkit-animation: myfirst4 0.6s;}
+.menu50 a:nth-child(5){-webkit-animation: myfirst5 0.6s;}
+.menu50 a:nth-child(6){-webkit-animation: myfirst6 0.6s;}
+
+
+@-webkit-keyframes myfirst
+{
+0%   {width:0%;}
+100% {width:100%;}
+}
+@-webkit-keyframes myfirst1
+{
+0%   {width:0%;}
+100% {width:100%;}
+}
+@-webkit-keyframes myfirst2
+{
+0%   {width:0%;}
+100% {width:100%;}
+}
+@-webkit-keyframes myfirst3
+{
+0%   {width:0%;}
+100% {width:100%;}
+}
+@-webkit-keyframes myfirst4
+{
+0%   {width:0%;}
+100% {width:100%;}
+}
+@-webkit-keyframes myfirst5
+{
+0%   {width:0%;}
+100% {width:100%;}
+}
+@-webkit-keyframes myfirst6
+{
+0%   {width:0%;}
+100% {width:100%;}
+}
+
+

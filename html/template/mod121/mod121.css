@@ -1,0 +1,102 @@
+@charset "utf-8";
+/*手机端样式*/
+#wrap {display:block;position:relative;min-width:320px; margin:0 auto; max-width:640px; width:100%; min-height:100%;overflow:hidden;-webkit-box-sizing:border-box; -moz-box-sizing:border-box; background:#262520; }
+.banner, .banner img{display:block;position:relative;width:100%;}
+.mainbg{display:block;position:relative;overflow:hidden;min-height:245px;max-height:490px;width:100%; margin:6% auto 0; z-index:1;}
+.telnav {display:block;overflow:hidden;min-height:245px;max-height:490px; position:absolute;top:0; width:100%;opacity:1;z-index:2;
+  -moz-perspective:800px;/*将平面图形转换为具有透视的3D图形*/
+  -moz-transform-style:preserve-3d;/*transform-style: flat,所有子元素在 2D 平面呈现 | preserve-3d,保留3D空间*/
+  -webkit-perspective:800px;
+  -webkit-transform-style:preserve-3d;
+  -moz-backface-visibility:;/*定义当元素不面向屏幕时是否可见,如果在旋转元素不希望看到其背面时，该属性很有用*/
+  -webkit-backface-visibility:hidden;/*visible背面是可见的,hidden背面是不可见的。*/
+  }
+.telnav .box{width:100%; position: relative;margin:0 0 4%;}
+.telnav .box02{width:50%; position:absolute;top:25%;margin:0 auto;margin-left:25%;}
+.div01, .div02, .div03, .div04, .div05{/*border:1px solid yellow;*/border-radius:100%;overflow:hiddden;}
+.div01, .div02, .div04, .div05{position:relative;width:45%;}
+.div01{float:left;}
+.div02{float:right;}
+.div03{position:relative;z-index:3;width:70%;margin:0 auto;}
+.div04{float:left;}
+.div05{float:right;}
+.div01 i{background-image: url(//wy626.com/template/mod121/i_01.png);}
+.div02 i{background-image: url(//wy626.com/template/mod121/i_02.png);}
+.div03 i{background-image: url(//wy626.com/template/mod121/i_03.png); margin:0 auto;}
+.div04 i{background-image: url(//wy626.com/template/mod121/i_04.png);}
+.div05 i{background-image: url(//wy626.com/template/mod121/i_05.png);}
+.div01 i, .div02 i, .div03 i, .div04 i, .div05 i{display:block;width:80%; height:48px; background-repeat:no-repeat;background-position:center;background-size:48px 48px;}
+.div01 p, .div02 p, .div03 p, .div04 p, .div05 p{display:block;width:80%;height:3rem;line-height: 3rem;color:#fff; text-align: center;}
+.div02 i, .div05 i, .div02 p, .div05 p{margin-left:20%;}
+.div03 p{margin:0 auto;}
+
+.telnav div i{  -webkit-animation-name:wobble;/*动画名称，需要跟@keyframes定义的名称一致*/
+  -webkit-animation-duration: 1s;/*表示动画持续的时间,如果没有设置duration的话，则表示为无穷大*/
+  -webkit-animation-timing-function: linear;/*表示动画使用的时间曲线*/
+  -webkit-animation-delay: 0;/*表示开始动画之前的延时*/
+  -webkit-animation-iteration-count: 1;/*播放1数，infinite;播放无限次数*/
+  -webkit-animation-direction: ;/*表示动画的方向*/
+  -moz-animation-name:wobble;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-delay: 0;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-direction: ;}
+  
+footer {display:block;width:100%;min-width:320px;max-width:640px; margin:0 auto;line-height:30px; background:#1f1f1f; color:#fff; font-size:1.4em; text-align:center;}
+
+@media screen and (max-width: 320px){
+	.div01, .div02, .div03, .div04, .div05{padding:3% 0 3%;}
+	.div01 p, .div02 p, .div03 p, .div04 p, .div05 p{font-size:0.8rem;}
+	}
+@media screen and (min-width: 320px) and (max-width: 350px){
+	.div01, .div02, .div03, .div04, .div05{padding:5% 0 3%;}
+	.div01 p, .div02 p, .div03 p, .div04 p, .div05 p{font-size:0.8rem;}
+	 }
+@media screen and (min-width: 350px) and (max-width: 360px){
+	.div01, .div02, .div03, .div04, .div05{padding:5.5% 0 3%;}
+	.div01 p, .div02 p, .div03 p, .div04 p, .div05 p{font-size:0.8rem;}
+	}
+@media screen and (min-width: 360px) and (max-width: 400px){
+	.div01, .div02, .div03, .div04, .div05{padding:6% 0 3.5%;}
+	.div01 p, .div02 p, .div03 p, .div04 p, .div05 p{font-size:0.9rem;}
+	 }
+@media screen and (min-width: 400px) and (max-width: 450px){
+	.div01, .div02, .div03, .div04, .div05{padding:7.5% 0 4%;}
+	.div01 p, .div02 p, .div03 p, .div04 p, .div05 p{font-size:0.9rem;}
+	 }
+@media screen and (min-width: 450px) and (max-width: 480px){
+	.div01, .div02, .div03, .div04, .div05{padding:9% 0 5.5%;}
+	.div01 p, .div02 p, .div03 p, .div04 p, .div05 p{font-size:1rem;}
+	}
+@media screen and (min-width: 480px) and (max-width: 540px){
+	.div01, .div02, .div03, .div04, .div05{padding:10% 0 6%;}
+	.div01 p, .div02 p, .div03 p, .div04 p, .div05 p{font-size:1rem;}
+	}
+@media screen and (min-width: 540px) and (max-width: 600px){
+	.div01, .div02, .div03, .div04, .div05{padding:11% 0 7%;}
+	.div01 p, .div02 p, .div03 p, .div04 p, .div05 p{font-size:1rem;}
+	}
+@media screen and (min-width: 600px) and (max-width: 640px){
+	.div01, .div02, .div03, .div04, .div05{padding:12% 0 8%;}
+	.div01 p, .div02 p, .div03 p, .div04 p, .div05 p{font-size:1rem;}
+	}
+@media screen and (min-width: 640px){
+	.div01, .div02, .div03, .div04, .div05{padding:12% 0 8%;}
+	.div01 p, .div02 p, .div03 p, .div04 p, .div05 p{font-size:1rem;}
+	}
+
+@-webkit-keyframes wobble{
+  0% {-webkit-transform:rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  25% {-webkit-transform:rotateY(90deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  50% {-webkit-transform:rotateY(180deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  75% {-webkit-transform:rotateY(270deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  100% {-webkit-transform:rotateY(360deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  }
+@-moz-keyframes wobble{
+  0% {-moz-transform:rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  25% {-moz-transform:rotateY(90deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  50% {-moz-transform:rotateY(180deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  75% {-moz-transform:rotateY(270deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  100% {-moz-transform:rotateY(360deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  }

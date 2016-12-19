@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/sub/mod28/mod28.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/sub/mod28/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        var winwidth = $(window).width();
+        $('.contentimgcl').css('height', winwidth * 0.92 * 0.325503356 + 'px');
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body>
+    <div class="main">
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <p class="menu28_1">
+                <img class="wy-edit-img" src="//wy626.com/template/sub/mod28/img1.jpg">
+          <span class="menu_text wy-edit-desc">
+         	概要1
+        </span>
+            </p>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <p class="menu28_2">
+                <img class="wy-edit-img" src="//wy626.com/template/sub/mod28/img2.jpg">
+                <span class="menu_text wy-edit-desc">
+         	概要2
+        </span>
+            </p>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <p class="menu28_3">
+                <img class="wy-edit-img" src="//wy626.com/template/sub/mod28/img3.jpg">
+                <span class="menu_text wy-edit-desc">
+         	概要3
+        </span>
+            </p>
+        </a>
+    </div>
+    <p class="h35"></p>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

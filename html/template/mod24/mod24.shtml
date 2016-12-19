@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod24/mod24.css" rel="stylesheet" type="text/css">
+    <!--微网站模板24样式-->
+    <script>
+    $(function() {
+        //var winheight=$(window).height();
+        //$('#div01').css('min-height',winheight-30+'px');//footer居底
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body>
+    <div id="wrap" class="wy-edit wy-edit-img"></div>
+    <div class="modbgd">
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="menu clr">
+                <div class="tle wy-edit-title">菜单1</div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="menu clr">
+                <div class="tle wy-edit-title">菜单2</div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="menu clr">
+                <div class="tle wy-edit-title">菜单3</div>
+            </div>
+        </a>
+        <a href="javascript:;" class="wy-edit wy-edit-link">
+            <div class="menu clr">
+                <div class="tle wy-edit-title">菜单4</div>
+            </div>
+        </a>
+    </div>
+
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

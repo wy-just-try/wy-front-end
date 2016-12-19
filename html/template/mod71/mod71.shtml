@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod71/mod71.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod71/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        var winheight = $(window).height();
+        $('.blankwhite').css('height', '0px');
+        $('.main71').css('min-height', winheight - 30 + 'px'); //footer居底
+    });
+    </script>
+</head>
+
+<body>
+    <div class="main71" style="min-height: 715px;">
+        <ul class="menu71">
+            <li>
+                <a href="javascript:;" class="nav1 wy-edit wy-edit-link">
+                    <div class="bigpic">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod71/img1.jpg">
+                    </div>
+                    <p class="wy-edit-title">菜单1</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" class="nav2 wy-edit wy-edit-link">
+                    <div class="bigpic">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod71/img2.jpg">
+                    </div>
+                    <p class="wy-edit-title">菜单2</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" class="nav3 wy-edit wy-edit-link">
+                    <div class="bigpic">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod71/img3.jpg">
+                    </div>
+                    <p class="wy-edit-title">菜单3</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" class="nav4 wy-edit wy-edit-link">
+                    <div class="bigpic">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod71/img4.jpg">
+                    </div>
+                    <p class="wy-edit-title">菜单4</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" class="nav5 wy-edit wy-edit-link">
+                    <div class="bigpic">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod71/img5.jpg">
+                    </div>
+                    <p class="wy-edit-title">菜单5</p>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;" class="nav6 wy-edit wy-edit-link">
+                    <div class="bigpic">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod71/img6.jpg">
+                    </div>
+                    <p class="wy-edit-title">菜单6</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

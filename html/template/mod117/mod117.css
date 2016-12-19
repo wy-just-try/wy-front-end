@@ -1,0 +1,13 @@
+/*手机端样式*/
+#wrap {display:block; position:relative;min-width:320px; margin:0 auto; padding: 10% 0; max-width:640px; width: 100%;  overflow:hidden; background:url(//wy626.com/template/mod117/bg.jpg) no-repeat; background-size:100%;}
+.modnav {display: block;position: relative; margin:0 5% 3% 5%; width:86%;padding:2%;-webkit-box-sizing: content-box;-moz-box-sizing: content-box;box-sizing: content-box;color: #fff;font-size: 1rem;-webkit-border-radius: 50px;-moz-border-radius: 50px;border-radius: 50px;background-color: rgba(0,151,231,0.85);-webkit-box-shadow: inset rgba(72,192,255,1) 0px 2px 0px 0px;-moz-box-shadow: inset rgba(72,192,255,1) 0px 2px 0px 0px;box-shadow: inset rgba(72,192,255,1) 0px 2px 0px 0px;}
+.lfbox {display: inline-block;float: left; padding:5%; width: 12%; margin-right:5%;-webkit-border-radius: 50px;-moz-border-radius: 50px;border-radius: 50px; background: rgba(242,242,242,0.8); text-align: center; }
+.lfbox img {width: 100%;}
+.rtbox {display: inline-block;float: left;width: 65%;}
+.rtbox h1 {border-bottom: 1px solid #91ceee; line-height: 1.5; margin-bottom: 1%; font-size: 1rem}
+.rtbox p {font-size: .8rem}
+footer {display:block; width:100%; line-height:2.5; background:#000; color:#fff; font-size:1.2em; text-align:center;}
+
+.bg{}
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod87/mod87.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod87/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body onselectstart="return true;" ondragstart="return false;" style="background-color:black;">
+    <div id="wrap" class="clr">
+        <!--<div class="telphone"><img src="/www/images/tel.png"></div>-->
+        <div class="banner wy-edit">
+            <img class="wy-edit-img" src="//wy626.com/template/mod87/topbanner.jpg" alt="" style="width:100%;">
+        </div>
+        <div class="telnav01 clr">
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn c01 wy-edit-img">
+                    <span class="f_l wy-edit-title">菜单1</span>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn c02 wy-edit-img">
+                    <span class="f_l wy-edit-title">菜单2</span>
+                </div>
+            </a>
+        </div>
+        <div class="telnav02 f_l">
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn c03 wy-edit-img">
+                    <span class="f_l wy-edit-title">菜单3</span>
+                </div>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn c04 wy-edit-img">
+                    <span class="f_l wy-edit-title">菜单4</span>
+                </div>
+            </a>
+        </div>
+        <div class="telnav03 f_r">
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn c05 wy-edit-img">
+                    <span class="f_l wy-edit-title">菜单5</span>
+                </div>
+            </a>
+        </div>
+        <div class="telnav04 clr">
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <div class="telbtn c06 wy-edit-img">
+                    <span class="f_l wy-edit-title">菜单6</span>
+                </div>
+            </a>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

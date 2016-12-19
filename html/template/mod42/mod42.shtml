@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod42/mod42.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod42/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        var winheight = $(window).height();
+        //$('.main').css('min-height',winheight-30+'px');//footer居底
+        $('.blankwhite').css('height', '0px');
+        //var winwidth=$(window).width();
+        //$('.contentimgcl').css('height',winwidth*0.3*8/8.5+'px');
+    });
+    </script>
+</head>
+
+<body>
+    <div class="main wy-edit wy-edit-img" id="wrap"></div>
+    <ul class="menu">
+        <li>
+            <a href="javascript:;" class="wy-edit wy-edit-title wy-edit-link">
+                                菜单1
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" class="wy-edit wy-edit-title wy-edit-link">
+                                菜单2
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" class="wy-edit wy-edit-title wy-edit-link">
+                                菜单3
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" class="wy-edit wy-edit-title wy-edit-link">
+                                菜单4
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" class="wy-edit wy-edit-title wy-edit-link">
+                                菜单5
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" class="wy-edit wy-edit-title wy-edit-link">
+                                菜单6
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" class="wy-edit wy-edit-title wy-edit-link">
+                                菜单7
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" class="wy-edit wy-edit-title wy-edit-link">
+                                菜单8
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" class="wy-edit wy-edit-title wy-edit-link">
+                                菜单9
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" class="wy-edit wy-edit-title wy-edit-link">
+                                菜单10
+            </a>
+        </li>
+        <li>
+            <a href="javascript:;" class="wy-edit wy-edit-title wy-edit-link">
+                                菜单11
+            </a>
+        </li>
+    </ul>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

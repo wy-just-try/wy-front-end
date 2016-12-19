@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod33/mod33.css" rel="stylesheet" type="text/css">
+    <script>
+    $(function() {
+        var winheight = $(window).height();
+        $('#wrap').css('min-height', winheight - 30 + 'px'); //footer居底
+
+        $('.blankwhite').css('height', '0px');
+        var winwidth = $(window).width();
+        $('.contentimgcl').css('height', winwidth * 0.33 * 0.18 + 'px');
+    });
+    </script>
+</head>
+
+<body>
+    <div id="wrap" class="clr" style="min-height: 715px;">
+        <div class="banner wy-edit">
+            <img class="wy-edit-img" src="//wy626.com/template/mod33/topbanner.jpg" alt="" style="width:100%;">
+        </div>
+        <ul class="telnav clr">
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <li class="telbtn">
+                    <div class="icon c_01">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod33/icon01.png">
+                    </div>
+                    <span class="wy-edit-title">菜单1</span>
+                </li>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <li>
+                    <div class="icon c_02">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod33/icon02.png">
+                    </div>
+                    <span class="wy-edit-title">菜单2</span>
+                </li>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <li>
+                    <div class="icon c_03">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod33/icon03.png">
+                    </div>
+                    <span class="wy-edit-title">菜单3</span>
+                </li>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <li class="telbtn">
+                    <div class="icon c_04">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod33/icon04.png">
+                    </div>
+                    <span class="wy-edit-title">菜单4</span>
+                </li>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <li>
+                    <div class="icon c_05">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod33/icon05.png">
+                    </div>
+                    <span class="wy-edit-title">菜单5</span>
+                </li>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <li>
+                    <div class="icon c_06">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod33/icon06.png">
+                    </div>
+                    <span class="wy-edit-title">菜单6</span>
+                </li>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <li class="telbtn">
+                    <div class="icon c_07">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod33/icon07.png">
+                    </div>
+                    <span class="wy-edit-title">菜单7</span>
+                </li>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <li>
+                    <div class="icon c_08">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod33/icon08.png">
+                    </div>
+                    <span class="wy-edit-title">菜单8</span>
+                </li>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <li>
+                    <div class="icon c_09">
+                        <img class="wy-edit-img" src="//wy626.com/template/mod33/icon09.png">
+                    </div>
+                    <span class="wy-edit-title">菜单9</span>
+                </li>
+            </a>
+        </ul>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

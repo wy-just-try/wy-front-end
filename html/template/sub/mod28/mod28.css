@@ -1,0 +1,31 @@
+/*手机端样式*/
+body{background-color:#EAEAEA;}
+img{-webkit-user-select:​ none}
+.main{max-width:640px;margin:0 auto;width:92%;overflow:hidden;}
+.main a{display: block;overflow:hidden;margin-top:18px;}
+.main p{width:100%;overflow:hidden;}
+.main p img{display:block;margin:0 auto;width:100%;}
+.main p span.menu_text{display:block;width:100%;padding:10px;overflow:hidden;background-color:#FFF;margin-top:5px;color:#4e4e4e;font-size:14px;-webkit-box-sizing: border-box; -moz-box-sizing:border-box;}
+.main p .menu_text b{display:block;font-size:16px;color:#000;padding-bottom:5px;}
+.h35{height:15px;}
+footer{width: 100%;bottom: 0;left: 0;hegiht: 30px;line-height: 30px;border-top: 1px solid #2B2726;text-align: center;color: #FFF;background-color:#333;}
+
+.menu28_1 img{-webkit-animation: myfirst1 0.5s;width:100%;}
+.menu28_2 img{-webkit-animation: myfirst2 1.0s;width:100%;}
+.menu28_3 img{-webkit-animation: myfirst3 1.5s;width:100%;}
+@-webkit-keyframes myfirst1
+{
+0%   {width:0%;}
+100% {width:100%;}
+}
+@-webkit-keyframes myfirst2
+{
+0%   {width:0%;}
+100% {width:100%;}
+}
+@-webkit-keyframes myfirst3
+{
+0%   {width:0%;}
+100% {width:100%;}
+}
+

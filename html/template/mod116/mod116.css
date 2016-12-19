@@ -1,0 +1,82 @@
+@charset "utf-8";
+/*手机端样式*/
+#wrap {display:block;min-width: 320px; margin:0 auto; max-width:640px; width:100%; min-height:100%;overflow: hidden;-webkit-box-sizing: border-box; -moz-box-sizing:border-box; background:#e3e3e3; }
+.banner{display:block; with:100%; overflow:hidden;}
+.banner img{display:block; with:100%; height:200px;overflow:hidden;}
+.telnav {display:block; position:relative; width:94%; padding:1% 2.5% 3% 3.5%;
+  -moz-perspective:800px;/*将平面图形转换为具有透视的3D图形*/
+  -moz-transform-style:preserve-3d;/*transform-style: flat,所有子元素在 2D 平面呈现 | preserve-3d,保留3D空间*/
+  -webkit-perspective:800px;
+  -webkit-transform-style:preserve-3d;
+  -moz-backface-visibility:;/*定义当元素不面向屏幕时是否可见,如果在旋转元素不希望看到其背面时，该属性很有用*/
+  -webkit-backface-visibility:hidden;/*visible背面是可见的,hidden背面是不可见的。*/
+  }
+.telnav .telbtn{display:block;float:left; position:relative;width:33%;text-align:center;
+  -webkit-animation-name:wobble;/*动画名称，需要跟@keyframes定义的名称一致*/
+  -webkit-animation-duration: 1s;/*表示动画持续的时间,如果没有设置duration的话，则表示为无穷大*/
+  -webkit-animation-timing-function: linear;/*表示动画使用的时间曲线*/
+  -webkit-animation-delay: 0;/*表示开始动画之前的延时*/
+  -webkit-animation-iteration-count: 1;/*播放1数，infinite;播放无限次数*/
+  -webkit-animation-direction: ;/*表示动画的方向*/
+  -moz-animation-name:wobble;
+  -moz-animation-duration: 1s;
+  -moz-animation-timing-function: linear;
+  -moz-animation-delay: 0;
+  -moz-animation-iteration-count: 1;
+  -moz-animation-direction: ;
+}
+@-webkit-keyframes wobble{
+  0% {-webkit-transform:rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  25% {-webkit-transform:rotateY(90deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  50% {-webkit-transform:rotateY(180deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  75% {-webkit-transform:rotateY(270deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  100% {-webkit-transform:rotateY(360deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  }
+@-moz-keyframes wobble{
+  0% {-moz-transform:rotateY(0deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  25% {-moz-transform:rotateY(90deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  50% {-moz-transform:rotateY(180deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  75% {-moz-transform:rotateY(270deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  100% {-moz-transform:rotateY(360deg) rotateX(0deg) rotateZ(0deg) translateZ(0px);}
+  }
+.telbtn span {display:block;width:70px; height:25px;margin:12% auto 5%;font-size:0.7rem; color:#fff; padding-top:45px;background-repeat:no-repeat; background-position:center 45%; background-size:100%;border-radius:100px; overflow:hidden; }
+.i01{background-color:#d2b165;background-image:url(//wy626.com/template/mod116/icon01.png);}
+.i02{background-color:#7fa8bc;background-image:url(//wy626.com/template/mod116/icon02.png);}
+.i03{background-color:#8dad6d;background-image:url(//wy626.com/template/mod116/icon03.png);}
+.i04{background-color:#cf7960;background-image:url(//wy626.com/template/mod116/icon04.png);}
+.i05{background-color:#7c78af;background-image:url(//wy626.com/template/mod116/icon05.png);}
+.i06{background-color:#c488ba;background-image:url(//wy626.com/template/mod116/icon06.png);}
+.i07{background-color:#87b991;background-image:url(//wy626.com/template/mod116/icon07.png);}
+.i08{background-color:#cf6298;background-image:url(//wy626.com/template/mod116/icon08.png);}
+.i09{background-color:#a47d6f;background-image:url(//wy626.com/template/mod116/icon09.png);}
+.telbtn span img {display:block; width:100%; min-height:100%; vertical-align:middle;}
+@media screen and (min-width: 350px){
+.banner img{height:219px;}
+.telbtn span{width:92px; height:35px;padding-top:57px;font-size:0.8rem;}
+}
+@media screen and (min-width: 360px){
+.banner img{height:225px;}
+.telbtn span{width:92px; height:35px;padding-top:57px;font-size:0.8rem;}
+}
+
+@media screen and (min-width: 480px){
+.banner img{height:300px;}
+.telbtn span{width:122px; height:46px;padding-top:76px;font-size:0.9rem;}
+}
+
+@media screen and (min-width: 540px){
+.banner img{height:337px;}
+.telbtn span{width:136px; height:50px;padding-top:86px;font-size:1rem;}
+}
+
+@media screen and (min-width: 600px){
+.banner img{height:375px;}
+.telbtn span{width:151px; height:51px;padding-top:100px;font-size:1rem;}
+}
+
+@media screen and (min-width: 640px){
+.banner img{height:399px;}
+.telbtn span{width:152px; height:52px;padding-top:100px;font-size:1rem;}
+}
+footer{display:block;width:100%;line-height:30px; background:#1f1f1f; color:#fff; font-size:1.4em; text-align:center;}
+

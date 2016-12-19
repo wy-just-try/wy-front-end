@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod119/mod119.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod119/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        $('.blankwhite').css('height', '0px');
+        $('.contentimgcl').css('height', $('.contentimgcl').css('width'));
+        /*	$('footer').css('display','none');*/
+    });
+    </script>
+</head>
+
+<body>
+    <div id="wrap" class="clr">
+        <div class="contbox">
+            <ul class="modmenu clr">
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img class="wy-edit-img" src="//wy626.com/template/mod119/icon01.jpg">
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img class="wy-edit-img" src="//wy626.com/template/mod119/icon02.jpg">
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img class="wy-edit-img" src="//wy626.com/template/mod119/icon03.jpg">
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img class="wy-edit-img" src="//wy626.com/template/mod119/icon04.jpg">
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img class="wy-edit-img" src="//wy626.com/template/mod119/icon05.jpg">
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img class="wy-edit-img" src="//wy626.com/template/mod119/icon06.jpg">
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img class="wy-edit-img" src="//wy626.com/template/mod119/icon07.jpg">
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img class="wy-edit-img" src="//wy626.com/template/mod119/icon08.jpg">
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img class="wy-edit-img" src="//wy626.com/template/mod119/icon09.jpg">
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img class="wy-edit-img" src="//wy626.com/template/mod119/icon010.jpg">
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img class="wy-edit-img" src="//wy626.com/template/mod119/icon011.jpg">
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img class="wy-edit-img" src="//wy626.com/template/mod119/icon012.jpg">
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img class="wy-edit-img" src="//wy626.com/template/mod119/icon013.jpg">
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img class="wy-edit-img" src="//wy626.com/template/mod119/icon014.jpg">
+                    </li>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <li>
+                        <img class="wy-edit-img" src="//wy626.com/template/mod119/icon015.jpg">
+                    </li>
+                </a>
+            </ul>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

@@ -1,0 +1,57 @@
+/*手机端样式*/
+img{-webkit-user-select:​ none}
+.main56{ width:100%;height:100%;min-width:300px; max-width:640px;margin:0 auto; background:url(//wy626.com/template/mod56/bg.jpg) no-repeat; background-size:100% 100%;-webkit-box-sizing: border-box; -moz-box-sizing:border-box; position:relative;}
+.menu56{width:66%;position:absolute;left:5%;top:5%;overflow:hidden;z-index:100;}
+.menu56 a{display:block;width:48%;overflow:hidden;background-color:#590310;margin-top:6px;padding-top:6%;padding-bottom:4%;filter:alpha(opacity=90);-moz-opacity:0.9;opacity: 0.9;}
+.menu56 a span{display:block;width:52px;height:52px;margin:0 auto;}
+.menu56 a span img{display:block;width:100%;}
+.menu56 a b{display:block;text-align:center;height:30px;line-height:30px;color:#FFF;font-size:14px;}
+.f_l{float:left;}
+.f_r{float:right;}
+footer {background-color:#270004;height:28px;line-height:28px;display:block; width:100%; color:#FFF; font-size:1.4em; text-align:center;}
+
+.menu56 a:nth-child(1){-webkit-animation: myfirst1 0.3s;}
+.menu56 a:nth-child(2){-webkit-animation: myfirst2 0.4s;}
+.menu56 a:nth-child(3){-webkit-animation: myfirst3 0.5s;}
+.menu56 a:nth-child(4){-webkit-animation: myfirst4 0.6s;}
+.menu56 a:nth-child(5){-webkit-animation: myfirst5 0.7s;}
+.menu56 a:nth-child(6){-webkit-animation: myfirst6 0.8s;}
+
+
+
+@-webkit-keyframes myfirst
+{
+0%   {top:-1000px;}
+100% {top:5%;}
+}
+@-webkit-keyframes myfirst1
+{
+  0%{-webkit-transform:rotateY(0deg);}
+  100%{-webkit-transform:rotateY(360deg);}
+}
+@-webkit-keyframes myfirst2
+{
+0%{-webkit-transform:rotateY(0deg);}
+  100%{-webkit-transform:rotateY(360deg);}
+}
+@-webkit-keyframes myfirst3
+{
+0%{-webkit-transform:rotateY(0deg);}
+  100%{-webkit-transform:rotateY(360deg);}
+}
+@-webkit-keyframes myfirst4
+{
+0%{-webkit-transform:rotateY(0deg);}
+  100%{-webkit-transform:rotateY(360deg);}
+}
+@-webkit-keyframes myfirst5
+{
+0%{-webkit-transform:rotateY(0deg);}
+  100%{-webkit-transform:rotateY(360deg);}
+}
+@-webkit-keyframes myfirst6
+{
+0%{-webkit-transform:rotateY(0deg);}
+  100%{-webkit-transform:rotateY(360deg);}
+}
+

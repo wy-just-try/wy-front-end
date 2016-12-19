@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod79/mod79.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod79/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        var winheight = $(window).height();
+        $('.main79').css('min-height', winheight - 30 + 'px'); //footer居底
+        $('.blankwhite').css('height', '0px');
+    });
+    </script>
+</head>
+
+<body>
+    <div class="main79" style="min-height: 715px;">
+        <div class="banner79">
+            <img class="wy-edit wy-edit-img" src="//wy626.com/template/mod79/banner.jpg" alt="" style="width:100%;">
+            <span class="banner7a">
+              <a href="javascript:;" class="wy-edit wy-edit-link">
+                <img class="wy-edit-img" src="//wy626.com/template/mod79/more.png">
+              </a>
+            </span>
+        </div>
+        <div class="menu79">
+            <dl>
+                <dt class="wy-edit wy-edit-title"><span></span><b><img class="wy-edit-img" src="//wy626.com/template/mod79/ico1.png"></b>一级导航<i></i></dt>
+                <dd>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                </dd>
+            </dl>
+            <dl>
+                <dt class="wy-edit wy-edit-title"><span></span><b><img class="wy-edit-img" src="//wy626.com/template/mod79/ico2.png"></b>一级导航<i></i></dt>
+                <dd>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                </dd>
+            </dl>
+            <dl>
+                <dt class="wy-edit wy-edit-title"><span></span><b><img class="wy-edit-img" src="//wy626.com/template/mod79/ico3.png"></b>一级导航<i></i></dt>
+                <dd>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                </dd>
+            </dl>
+            <dl>
+                <dt class="wy-edit wy-edit-title"><span></span><b><img class="wy-edit-img" src="//wy626.com/template/mod79/ico4.png"></b>一级导航<i></i></dt>
+                <dd>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                </dd>
+            </dl>
+            <dl>
+                <dt class="wy-edit wy-edit-title"><span></span><b><img class="wy-edit-img" src="//wy626.com/template/mod79/ico5.png"></b>一级导航<i></i></dt>
+                <dd>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                </dd>
+            </dl>
+            <dl>
+                <dt class="wy-edit wy-edit-title"><span></span><b><img class="wy-edit-img" src="//wy626.com/template/mod79/ico6.png"></b>一级导航<i></i></dt>
+                <dd>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                    <a href="" class="wy-edit wy-edit-title wy-edit-link">
+                                                            
+                  二级导航
+                  </a>
+                </dd>
+            </dl>
+        </div>
+    </div>
+    <script>
+    $(".menu79 dt").click(function() {
+        var $that = $(this);
+        if ($that.find("a").length > 0) {
+            return;
+        }
+        var zt = $that.parent().attr("class");
+        if (zt != "list_now") {
+            $(".menu79 dl").removeClass("list_now");
+            $that.parent().addClass("list_now");
+            $(".menu79 dd").slideUp(300);
+            $that.next().slideDown(300);
+        } else {
+            $that.parent().removeClass("list_now");
+            $that.next().slideUp(300);
+        }
+    })
+    </script>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>

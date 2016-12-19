@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!--#include virtual="/page/publicTemplate.shtml" -->
+    <link href="//wy626.com/template/mod122/mod122.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="//wy626.com/template/mod122/jquery-1.10.2.min.js"></script>
+    <script>
+    $(function() {
+        var winwidth = $(window).width();
+        $('.contentimgcl').css('height', winwidth * 0.96 / 6 + 'px');
+        $('.contentimgcl2').css('height', winwidth * 0.96 * 0.49 * 95 / 144 + 'px');
+        $('footer').css('display', 'none');
+        $('.blankwhite').css('height', '0');
+    });
+    </script>
+</head>
+
+<body onselectstart="return true;" ondragstart="return false;">
+    <div id="wrap" class="clr">
+        <div class="banner wy-edit">
+            <img class="wy-edit-img" src="//wy626.com/template/mod122/topbanner.jpg" alt="" style="width:100%;">
+        </div>
+        <div class="telnav clr">
+            <div class="clr">
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="flbox">
+                        <div class="mid_w">
+                            <img src="//wy626.com/template/mod122/pic001.jpg" class="contentimgcl2 wy-edit-img" style="height: 442.225px;">
+                            <p class="wy-edit-title">菜单2</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="rtbox">
+                        <div class="mid_w">
+                            <img src="//wy626.com/template/mod122/pic002.jpg" class="contentimgcl2 wy-edit-img" style="height: 442.225px;">
+                            <p class="wy-edit-title">菜单3</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="clr">
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="flbox">
+                        <div class="mid_w">
+                            <img src="//wy626.com/template/mod122/pic003.jpg" class="contentimgcl2 wy-edit-img" style="height: 442.225px;">
+                            <p class="wy-edit-title">菜单4</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="rtbox">
+                        <div class="mid_w">
+                            <img src="//wy626.com/template/mod122/pic004.jpg" class="contentimgcl2 wy-edit-img" style="height: 442.225px;">
+                            <p class="wy-edit-title">菜单5</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="clr">
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="flbox">
+                        <div class="mid_w">
+                            <img src="//wy626.com/template/mod122/pic005.jpg" class="contentimgcl2 wy-edit-img" style="height: 442.225px;">
+                            <p class="wy-edit-title">菜单6</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="rtbox">
+                        <div class="mid_w">
+                            <img src="//wy626.com/template/mod122/pic006.jpg" class="contentimgcl2 wy-edit-img" style="height: 442.225px;">
+                            <p class="wy-edit-title">菜单7</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="clr">
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="flbox">
+                        <div class="mid_w">
+                            <img src="//wy626.com/template/mod122/pic007.jpg" class="contentimgcl2 wy-edit-img" style="height: 442.225px;">
+                            <p class="wy-edit-title">菜单8</p>
+                        </div>
+                    </div>
+                </a>
+                <a href="javascript:;" class="wy-edit wy-edit-link">
+                    <div class="rtbox">
+                        <div class="mid_w">
+                            <img src="//wy626.com/template/mod122/pic008.jpg" class="contentimgcl2 wy-edit-img" style="height: 442.225px;">
+                            <p class="wy-edit-title">菜单9</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="bottombar">
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <p class="wy-edit-title" style="height:20px;line-height:20px;overflow:hidden;display:block;">菜单10</p>
+            </a>
+            <a href="javascript:;" class="wy-edit wy-edit-link">
+                <p class="wy-edit-title" style="height:20px;line-height:20px;overflow:hidden;display:block;">菜单11</p>
+            </a>
+        </div>
+    </div>
+    <!-- START editZonejs -->
+    <!--#include virtual="/js/ssi/editZoneEntra.shtml" -->
+    <!-- END editZonejs -->
+</body>
+
+</html>
