@@ -20,7 +20,7 @@ define('publicHeader', function(require, exports, module) {
 					$('#pubLogin').show();
 					$('#pubLogout').closest('a').hide();
 					if (!/\/login\.shtml/.test(location.href)) {
-						// location.href = '//wy626.com/login.shtml';
+						location.href = '//wy626.com/login.shtml';
 					}
 				} else {
 					confirm('网络异常，请稍后再试！');
@@ -32,7 +32,7 @@ define('publicHeader', function(require, exports, module) {
 			$('#pubLogin').show();
 			$('#pubLogout').closest('a').hide();
 			if (!/\/login\.shtml/.test(location.href)) {
-				// location.href = '//wy626.com/login.shtml';
+				location.href = '//wy626.com/login.shtml';
 			}
 		}
 	})();
