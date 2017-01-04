@@ -25,49 +25,14 @@
             </div>
         </header>
         <section class="content">
-            <section class="show l">
-                <div class="mobile">
-                    <!--加载编辑器的容器 -->
-                    <script id="editZone" name="editZone" style="width:100%;height:100%;" type="text/plain">
-                    </script>
-                </div>
-            </section>
-            <section class="edit l">
-                <div class="desc">
-                    <p class="text">
-                        <label class="l">页面名称：</label>
-                        <input id="weiName" type="text" placeholder="请输入页面名称">
-                    </p>
-                </div>
-                <div class="middle dn">
-                    <p id="title" class="text dn">
-                        <label class="l">菜单标题：</label>
-                        <input type="text" placeholder="请输入菜单标题">
-                    </p>
-                    <div id="abstract" class="textarea dn">
-                        <label class="l">菜单摘要：</label>
-                        <textarea placeholder="请输入菜单摘要"></textarea>
-                    </div>
-                    <div id="uploadImg" class="upload dn">
-                        <a href="javascript:void(0);" class="btn-upload l">
-                            <span class="l">上传图片</span>
-                        </a>
-                        <input type="file" class="file" accept="image/jpeg,image/gif,image/png">
-                        <span class="warn">上传图片大小提示</span>
-                    </div>
-                </div>
-                <div id="subpage" class="sub dn">
-                    <p class="head">编辑子页面信息</p>
-                    <p class="link">
-                        <label class="l">网址:</label>
-                        <input type="text" placeholder="请填写希望跳转的地址">
-                    </p>
-                </div>
-                <p>提醒：请点击左侧相应区域编辑页面哟！</p>
-                <div class="operate">
-                    <span id="save" class="btn-save">保存编辑区内容</span>
-                </div>
-            </section>
+            <div class="mobile">
+                <!-- 加载编辑器的容器 -->
+                <script id="editZone" name="editZone" style="width:100%;height:100%;" type="text/plain">
+                </script>
+            </div>
+            <div class="operate">
+                <span id="save" class="btn-save">保存编辑区内容</span>
+            </div>
         </section>
     </article>
     <!--#include virtual="/js/ssi/editSubEntra.shtml"  -->
