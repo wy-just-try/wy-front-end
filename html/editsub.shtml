@@ -27,16 +27,9 @@
         <section class="content">
             <section class="show l">
                 <div class="mobile">
-                    <p class="camera">
-                        <span class="l round"></span>
-                        <span class="l line"></span>
-                    </p>
-                    <div class="phone">
-                        <!-- 加载编辑器的容器 -->
-                        <script id="editZone" name="editZone" style="width:100%;height:100%;" type="text/plain">
-                        </script>
-                    </div>
-                    <div class="home"></div>
+                    <!--加载编辑器的容器 -->
+                    <script id="editZone" name="editZone" style="width:100%;height:100%;" type="text/plain">
+                    </script>
                 </div>
             </section>
             <section class="edit l">
@@ -86,11 +79,11 @@
                 "libUtil": "//wy626.com/js/common/libUtil.js",
                 "libUi": "//wy626.com/js/common/libUi.js",
                 "libCookie": "//wy626.com/js/common/libCookie.js",
-                "editIndex": "//wy626.com/js/editIndex.js",
+                "editSub": "//wy626.com/js/editSub.js",
                 "publicHeader": "//wy626.com/js/common/publicHeader.js"
             }
         });
-        modulejs("editIndex", function(exports) {
+        modulejs("editSub", function(exports) {
             exports.init();
         });
     </script>

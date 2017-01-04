@@ -343,27 +343,9 @@ define('editIndex', function(require, exports, module) {
         }
         $('#subIndexContent').html(arr.join(''));
     }
-
-    function initUEditor() {
-        var ue = UE.getEditor('editZone', {
-            autoHeight: false
-        });
-        ue.ready(function() {
-            //设置编辑器的内容
-            ue.setContent('Hello World');
-            //获取html内容，返回: <p>Hello World</p>
-            var html = ue.getContent();
-            //获取纯文本内容，返回: Hello World
-            var txt = ue.getContentTxt();
-            console.log(ue.getAllHtml());
-            // 所有的操作在此进行 --- BEGIN
-            // 所有的操作在此进行 --- BEGIN
-        });
-    }
     //页面入口
     exports.init = function() {
-        // intial();
-        initUEditor();
+        intial();
         bindEvent();
     };
 });

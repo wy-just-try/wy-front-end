@@ -25,7 +25,7 @@
 }
 .article .top .main .back .bg:before{
     position: absolute;
-    background: url("../../images/back.png") no-repeat;
+    background: url("//wy626.com/images/back.png") no-repeat;
     width: 14px;
     height: 14px;
     margin-top: 7px;
@@ -68,56 +68,12 @@
     width: 50%;
 }
 .article .content .show .mobile {
-    margin-left: 40px;
     margin-top: 40px;
-    width: 376px;
-    height: 640px;
-    background: #ECECF0;
-    border-radius: 50px;
-    box-sizing: border-box;
-    padding-top: 20px;
-}
-.article .content .show .mobile .camera {
-    margin-left: 154px;
-    height: 10px;
-}
-.article .content .show .mobile .camera .round {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background: #FFFFFF;
-}
-.article .content .show .mobile .camera .line {
-    margin-left: 24px;
-    width: 48px;
-    height: 8px;
-    border-radius: 4px;
-    background: #FFFFFF;
-    margin-top: 1px;
-}
-.article .content .show .mobile .phone {
-    width: 340px;
-    height: 532px;
-    margin-top: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    background: #FFFFFF;
-}
-.article .content .show .mobile .phone .img {
-    width: 100%;
-    height: 532px;
-}
-.article .content .show .mobile .home {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 10px;
-    background: #FFFFFF;
 }
 .article .content .edit {
     margin-bottom: 20px;
+    box-sizing: border-box;
+    padding-left: 20px;
 }
 .article .content .edit .desc{
     width: 508px;
