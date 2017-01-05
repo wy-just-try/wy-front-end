@@ -23,7 +23,7 @@
                 <span id="getMsg" class="label">获取验证码</span>
             </div>
             <p class="error-msg"></p>
-            <div class="item"><input id="verifyPic" type="text" class="btn-code" placeholder="输入验证码" maxlength="4"><img id="updatePic" src="//wy626.com/images/code.png" class="code"></div>
+            <div class="item"><input id="verifyPic" type="text" class="btn-code" placeholder="输入验证码" maxlength="4"><img id="updatePic" src="//wy626.com/cgi/wy/misc/gen-pic" class="code"></div>
             <p class="error-msg"></p>
             <div class="item"><input id="findPasswd" type="button" value="立即找回" class="btn-login active"></div>
         </section>

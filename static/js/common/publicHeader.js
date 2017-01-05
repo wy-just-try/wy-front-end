@@ -5,7 +5,8 @@ define('publicHeader', function(require, exports, module) {
 
 	//校验登录
 	(function() {
-		var user = _cookie.get('_user_');
+		var user = _cookie.get('_user_'),
+			userName = _cookie.get('username');
 		if (user !== null) {
 			$.ajax({
 				url: '//wy626.com/cgi/wy/login/check',
@@ -15,7 +16,9 @@ define('publicHeader', function(require, exports, module) {
 			}).done(function(obj) {
 				if (obj.errCode == 0) {
 					$('#pubLogin').hide();
-					$('#pubLogout').closest('a').show();
+					$('#pubLogout').data('account', user)
+						.closest('a').show()
+						.find('span').text(userName);
 				} else if (obj.errCode == 1) {
 					$('#pubLogin').show();
 					$('#pubLogout').closest('a').hide();

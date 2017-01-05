@@ -52,7 +52,7 @@
         <p class="error-msg"></p>
         <div class="item mt-30">
             <input id="verifyPic" type="text" class="btn-input w-250" placeholder="请输入验证码">
-            <img id="updatePic" src="//wy626.com/images/code.png" class="code">
+            <img id="updatePic" src="//wy626.com/cgi/wy/misc/gen-pic" class="code">
         </div>
         <p class="error-msg"></p>
         <div class="item mt-30">

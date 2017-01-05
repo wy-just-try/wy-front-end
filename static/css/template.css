@@ -6,7 +6,7 @@
     left: 0;
 }
 .article .section {
-    width: 1350px;
+    width: 1200px;
     height: 100%;
     margin-left: auto;
     margin-right: auto;
@@ -32,19 +32,19 @@
 }
 .article .section .template .item{
     float: left;
-    width: 230px;
-    height: 450px;
+    width: 200px;
+    height: 348px;
     margin-left: 20px;
     margin-right: 20px;
     margin-top: 60px;
 }
 .article .section .template .img {
     width: 100%;
-    height: 398px;
+    height: 348px;
 }
 .article .section .template .desc {
     position: relative;
-    height: 128px;
+    height: 78px;
     width: 100%;
     bottom: 80px;
     background: #F8F7F5;
@@ -59,16 +59,15 @@
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    padding-top: 26px;
+    padding-top: 8px;
 }
 .article .section .template p.detail {
     color: #7F7F99;
     font-size: 14px;
-    line-height: 24px;
+    line-height: 20px;
     width: 182px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 12px;
     display: -webkit-box !important;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -79,9 +78,9 @@
 .article .section .template .design {
     position: relative;
     width: 100%;
-    height: 196px;
+    height: 146px;
     background: #E7ECF1;
-    bottom: 276px;
+    bottom: 226px;
 }
 .article .section .template .design .btn-design {
     display: block;

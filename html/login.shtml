@@ -20,7 +20,7 @@
             <p class="error-msg dn">账号/手机号输入错误，请重新输入</p>
             <div class="item"><input id="passwd" type="password" class="btn-input" placeholder="输入登录密码"></div>
             <p class="error-msg dn">密码输入错误，请重新输入</p>
-            <div class="item"><input id="verifyPic" type="text" class="btn-code" placeholder="输入验证码" maxlength="4"><img id="updatePic" src="//wy626.com/images/code.png" class="code"></div>
+            <div class="item"><input id="verifyPic" type="text" class="btn-code" placeholder="输入验证码" maxlength="4"><img id="updatePic" src="//wy626.com/cgi/wy/misc/gen-pic" class="code"></div>
             <p class="error-msg dn">验证码输入错误，请重新输入</p>
             <div class="item"><input id="login" type="button" value="立即登录" class="btn-login active"></div>
             <div class="operate">还没账号，<a href="//wy626.com/register.shtml" target="_blank">马上注册</a><span id="forgetPass">忘记密码</span></div>
