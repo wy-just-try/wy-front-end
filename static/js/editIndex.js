@@ -39,7 +39,8 @@ define('editIndex', function(require, exports, module) {
 			url: '//wy626.com/cgi/wy/template/gen-temp', //生成模板页面
 			params: {
 				type: 2, //二级模板
-				name: '' //二级模板文件名
+				name: '', //二级模板ID
+				url: '' //徽网站地址
 			}
 		},
 		uploadImg: {
@@ -97,6 +98,7 @@ define('editIndex', function(require, exports, module) {
 		$(document).on('click', '#subTemplate .btn-confirm', function(e) {
 			//套用模板并生成二级页面
 			CGI.genTemp.params.name = $(this).data('id');
+			CGI.genTemp.params.url = _url;
 			$.ajax({
 				url: CGI.genTemp.url,
 				type: 'post',
