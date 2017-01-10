@@ -7,7 +7,8 @@ define('editIndex', function(require, exports, module) {
 
 	//公用变量
 	var _iframeWindow = document.getElementById('editZone').contentWindow, //iframe窗口对象
-		_url = decodeURIComponent(_util.getQuery('url')), //模板短链接
+		_url = decodeURIComponent(_util.getQuery('url')), //模板原始链接
+		_destUrl = localStorage.getItem('destUrl'), //模板访问链接
 		_subContent = {}, //frame postMessage对象内容
 		_subStatus = 0; //0:自定义跳转链接;1:二级模板;2:无跳转;
 
@@ -61,7 +62,7 @@ define('editIndex', function(require, exports, module) {
 		$(document).on('click', '#webUrl', function(e) {
 			_ui.tipDialog({
 				title: '微网站访问地址',
-				content: _url
+				content: _destUrl
 			});
 		});
 
@@ -300,7 +301,7 @@ define('editIndex', function(require, exports, module) {
 	function saveContent(isLink) {
 		CGI.updateTemp.params.weiName = $('#weiName').val() || '微网站';
 		CGI.updateTemp.params.weiDesc = $('#weiDesc').val();
-		CGI.updateTemp.params.url = _url;
+		CGI.updateTemp.params.url = _destUrl;
 		CGI.updateTemp.params.content = encodeURIComponent(_iframeWindow.document.documentElement.outerHTML);
 		$.ajax({
 			url: CGI.updateTemp.url,
@@ -326,7 +327,7 @@ define('editIndex', function(require, exports, module) {
 
 	//获取模板页面
 	function getTempUrl() {
-		CGI.getTempUrl.params.url = _url;
+		CGI.getTempUrl.params.url = _destUrl;
 		$.ajax({
 			url: CGI.getTempUrl.url,
 			type: 'post',

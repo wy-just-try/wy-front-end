@@ -17,7 +17,7 @@ define('indexTemplate', function(require, exports, module) {
 			url: '//wy626.com/cgi/wy/template/gen-temp',
 			params: {
 				type: 1,	//1:首页模板; 2:二级页面模板;
-				name: ''	//模板文件名
+				name: ''	//模板ID
 			}
 		}
 	};
@@ -41,7 +41,8 @@ define('indexTemplate', function(require, exports, module) {
 				data: _cgi.genTemp.params
 			}).done(function(obj) {
 				if (obj.errCode == 0) {
-					location.href = '//wy626.com/editindex.shtml';
+					localStorage.setItem('destUrl', obj.data.destUrl);
+					location.href = '//wy626.com/editindex.shtml?url=' + encodeURIComponent(obj.data.originUrl);
 				} else {
 					confirm('网络异常，请稍后再试！');
 				}
@@ -72,7 +73,7 @@ define('indexTemplate', function(require, exports, module) {
 			url: _cgi.indexTemp.url,
 			type: 'post',
 			dataType: 'json',
-			data: _cgi.indexTemp.params.type
+			data: _cgi.indexTemp.params
 		}).done(function(obj) {
 			if (obj.errCode == 0) {
 				if (obj.data.length === 0) {

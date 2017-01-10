@@ -9,10 +9,10 @@ define('manageWeb', function(require, exports, module) {
 	//接口
 	var CGI = {
 		getWeiAll: {
-			url: '//wy626.com/cgi/wy/weiSite/get-wei-all' //微网站总览
+			url: '//wy626.com/cgi/wy/weisite/get-wei-all' //微网站总览
 		},
 		delWei: {
-			url: '//wy626.com/cgi/wy/weiSite/del-wei', //删除微网站
+			url: '//wy626.com/cgi/wy/weisite/del-wei', //删除微网站
 			params: {
 				url: '' //微网站短链接
 			}
@@ -27,7 +27,8 @@ define('manageWeb', function(require, exports, module) {
 			arr.push(_util.renderTpl(text, {
 				'{#weiName#}': data[i].weiName,
 				'{#weiText#}': data[i].weiText,
-				'{#destUrl#}': data[i].destUrl
+				'{#destUrl#}': data[i].destUrl,
+				'{#originUrl#}': data[i].originUrl
 			}));
 		}
 
@@ -60,18 +61,18 @@ define('manageWeb', function(require, exports, module) {
 
 		//事件监听
 		$('#weiContent').on('click', '.share', function(e) {
-			var originUrl = $(this).closest('tr').data('url');
+			var destUrl = $(this).closest('tr').data('url');
 			_ui.tipDialog({
 				title: '微网站访问地址',
-				content: originUrl
+				content: destUrl
 			});
 		}).on('click', '.delete', function(e) {
 			var me = this,
-				originUrl = $(me).closest('tr').data('url');
+				destUrl = $(me).closest('tr').data('url');
 			_ui.confirmDialog({
 				content: '确认要删除此网站吗？',
 				confirm: function() {
-					CGI.delWei.params.url = originUrl;
+					CGI.delWei.params.url = destUrl;
 					$.ajax({
 						url: CGI.delWei.url,
 						type: 'post',
@@ -89,7 +90,8 @@ define('manageWeb', function(require, exports, module) {
 				}
 			});
 		}).on('click', '.edit', function(e) {
-			var originUrl = $(this).closest('tr').data('url');
+			var originUrl = $(this).find('span').data('originUrl');
+			localStorage.setItem('destUrl', $(this).closest('tr').data('url'));
 			location.href = '//wy626.com/editindex.shtml?url=' + encodeURIComponent(originUrl);
 		});
 	}

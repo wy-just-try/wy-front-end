@@ -43,7 +43,7 @@
                 <a href="javascript:void(0);" class="delete l"></a>
                 <a href="javascript:void(0);" class="edit l">
                     <i class="l"></i>
-                    <span class="l">编辑</span>
+                    <span class="l" data-origin="{#originUrl#}">编辑</span>
                 </a>
             </td>
         </tr>
