@@ -30,28 +30,38 @@
                 <script id="editZone" name="editZone" style="width:100%;height:100%;" type="text/plain">
                 </script>
             </div>
-            <div class="operate">
-                <span id="save" class="btn-save">保存编辑区内容</span>
+            <div class="desc dn" id="desc">
+                <p class="title">
+                    <label class="l">标题：</label>
+                    <input id="weiTitle" type="text" placeholder="请输入页面标题">
+                </p>
+                <div class="textarea">
+                    <label class="l">描述：</label>
+                    <textarea id="weiDesc" placeholder="请输入页面描述"></textarea>
+                </div>
+                <div class="operate">
+                    <span id="save" class="btn-save">保存编辑区内容</span>
+                </div>
             </div>
         </section>
     </article>
     <!--#include virtual="/js/ssi/editSubEntra.shtml"  -->
-    <script src="//wy626.com/js/tools/module.js"></script>
-    <script type="text/javascript">
-        modulejs.config({
-            alias: {
-                "jquery": "//wy626.com/js/tools/jquery-3.1.1.min.js",
-                "libUtil": "//wy626.com/js/common/libUtil.js",
-                "libUi": "//wy626.com/js/common/libUi.js",
-                "libCookie": "//wy626.com/js/common/libCookie.js",
-                "editSub": "//wy626.com/js/editSub.js",
-                "publicHeader": "//wy626.com/js/common/publicHeader.js"
-            }
-        });
-        modulejs("editSub", function(exports) {
-            exports.init();
-        });
-    </script>
+    <!--<script src="//wy626.com/js/tools/module.js"></script>-->
+    <!--<script type="text/javascript">-->
+        <!--modulejs.config({-->
+            <!--alias: {-->
+                <!--"jquery": "//wy626.com/js/tools/jquery-3.1.1.min.js",-->
+                <!--"libUtil": "//wy626.com/js/common/libUtil.js",-->
+                <!--"libUi": "//wy626.com/js/common/libUi.js",-->
+                <!--"libCookie": "//wy626.com/js/common/libCookie.js",-->
+                <!--"editSub": "//wy626.com/js/editSub.js",-->
+                <!--"publicHeader": "//wy626.com/js/common/publicHeader.js"-->
+            <!--}-->
+        <!--});-->
+        <!--modulejs("editSub", function(exports) {-->
+            <!--exports.init();-->
+        <!--});-->
+    <!--</script>-->
 </body>
 
 </html>

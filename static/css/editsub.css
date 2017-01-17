@@ -47,6 +47,48 @@
     margin-left: auto;
     margin-right: auto;
 }
+.article .content .desc .title {
+    margin-left: 30px;
+    height: 40px;
+    line-height: 40px;
+}
+.article .content .desc .title label {
+    width: 56px;
+    color: #7F7F99;
+}
+.article .content .desc .title input {
+    width: 360px;
+    padding-left: 16px;
+    padding-right: 16px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background: #FFFFFF;
+    border-style: none;
+}
+
+.article .content .desc .textarea {
+    margin-left: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.article .content .desc .textarea label {
+    width: 56px;
+    color: #7F7F99;
+    box-sizing: border-box;
+    padding-top: 12px;
+    height: 24px;
+    line-height: 24px;
+}
+.article .content .desc .textarea textarea {
+    width: 360px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    padding: 12px 14px;
+    border-style: none;
+    resize: none;
+}
 .article .top .main .href {
     border-radius: 6px;
     color: #7F7F99;
@@ -67,9 +109,21 @@
     margin-top: 10px;
     float: left;
 }
+.article .content .desc {
+    float: left;
+    margin-left: 20px;
+    width: 508px;
+    background: #ECECF0;
+    border-radius: 6px;
+    margin-top: 10px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
 .article .content .operate {
     clear: both;
+    margin-top: 20px;
     height: 40px;
+    margin-bottom: 20px;
 }
 .article .content .operate .btn-save {
     color: #FFFFFF;
