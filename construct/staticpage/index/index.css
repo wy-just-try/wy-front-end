@@ -230,7 +230,8 @@
     clear: both;
     margin-left: 81px;
     font-size: 24px;
-    line-height: 1;
+    max-width: 400px;
+    line-height: 1.667;
     color: #4C4C70;
     margin-top: 20px;
 }
@@ -307,7 +308,8 @@
     clear: both;
     margin-left: 81px;
     font-size: 24px;
-    line-height: 1;
+    line-height: 1.667;
+    max-width: 400px;
     color: #4C4C70;
     margin-top: 20px;
 }
@@ -407,7 +409,8 @@
     clear: both;
     margin-left: 81px;
     font-size: 24px;
-    line-height: 1;
+    line-height: 1.667;
+    max-width: 400px;
     color: #4C4C70;
     margin-top: 20px;
 }
