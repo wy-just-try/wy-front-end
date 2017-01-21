@@ -6,7 +6,7 @@
             "libUtil": "//wy626.com/js/common/libUtil.js",
             "libUi": "//wy626.com/js/common/libUi.js",
             "libCookie": "//wy626.com/js/common/libCookie.js",
-            "editPage": "//wy626.com/js/editSub.js",
+            "editPage": "//wy626.com/js/editPage.js",
             "publicHeader": "//wy626.com/js/common/publicHeader.js"
         }
     });
