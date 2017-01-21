@@ -112,11 +112,11 @@ define('editIndex', function(require, exports, module) {
 							//这里由于存在时序问题故使用直接操作iframe元素的方式来替代postMessage方式
 							var editer = $(_iframeWindow.document.documentElement).find('.wy-edit.wy-active');
 							if (editer.hasClass('wy-edit-link')) {
-								editer.attr('href', obj.data.destUrl);
+								editer.attr('href', obj.data.originUrl);
 							} else {
-								editer.find('.wy-edit-link').attr('href', obj.data.destUrl);
+								editer.find('.wy-edit-link').attr('href', obj.data.originUrl);
 							}
-							_subContent.data.link = obj.data.destUrl;
+							_subContent.data.link = obj.data.originUrl;
 							saveContent(true);
 						}
 					});
@@ -192,6 +192,7 @@ define('editIndex', function(require, exports, module) {
 		$(document).on('change', '#uploadImg input[type="file"]', function(e) {
 			var vForm = new FormData();
 			vForm.append('file', this.files[0]);
+			vForm.append('url', _url);
 			$.ajax({
 				url: CGI.uploadImg.url,
 				type: 'post',
@@ -205,7 +206,7 @@ define('editIndex', function(require, exports, module) {
 						type: 1,
 						data: {
 							img: {
-								url: obj.data.picUrl
+								url: obj.picUrl
 							}
 						}
 					}, _url);
@@ -250,7 +251,7 @@ define('editIndex', function(require, exports, module) {
 				if (_subContent.data.hasOwnProperty('img')) {
 					$('.content .middle').show()
 						.find('#uploadImg').show()
-						.find('>span').text('建议上传图片大小为:' + _subContent.data.img.width + ' * ' + _subContent.data.img.height);
+						.find('>span').text('建议图片大小为:' + _subContent.data.img.width + ' * ' + _subContent.data.img.height);
 				} else {
 					$('#uploadImg').hide();
 				}
@@ -304,7 +305,7 @@ define('editIndex', function(require, exports, module) {
 		CGI.updateTemp.params.weiName = $('#weiName').val() || '微网站';
 		CGI.updateTemp.params.weiDesc = $('#weiDesc').val();
 		CGI.updateTemp.params.url = _destUrl;
-		CGI.updateTemp.params.content = encodeURIComponent(_iframeWindow.document.documentElement.outerHTML);
+		CGI.updateTemp.params.content = _iframeWindow.document.documentElement.outerHTML;
 		$.ajax({
 			url: CGI.updateTemp.url,
 			type: 'post',

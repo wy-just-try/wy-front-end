@@ -65,6 +65,7 @@ define('editSub', function(require, exports, module) {
 		$(document).on('change', '#uploadImg input[type="file"]', function(e) {
 			var vForm = new FormData();
 			vForm.append('file', this.files[0]);
+			vForm.append('url', _url);
 			$.ajax({
 				url: CGI.uploadImg.url,
 				type: 'post',
@@ -123,7 +124,7 @@ define('editSub', function(require, exports, module) {
 				if (_subContent.data.hasOwnProperty('img')) {
 					$('.content .middle').show()
 						.find('#uploadImg').show()
-						.find('>span').text('建议上传图片大小为:' + _subContent.data.img.width + ' * ' + _subContent.data.img.height);
+						.find('>span').text('建议图片大小为:' + _subContent.data.img.width + ' * ' + _subContent.data.img.height);
 				} else {
 					$('#uploadImg').hide();
 				}
@@ -163,7 +164,7 @@ define('editSub', function(require, exports, module) {
 	function saveContent() {
 		CGI.updateTemp.params.weiName = $('#weiName').val() || '微网站';
 		CGI.updateTemp.params.url = _url;
-		CGI.updateTemp.params.content = encodeURIComponent(_iframeWindow.document.documentElement.outerHTML);
+		CGI.updateTemp.params.content = _iframeWindow.document.documentElement.outerHTML;
 		$.ajax({
 			url: CGI.updateTemp.url,
 			type: 'post',

@@ -90,7 +90,7 @@ define('manageWeb', function(require, exports, module) {
 				}
 			});
 		}).on('click', '.edit', function(e) {
-			var originUrl = $(this).find('span').data('originUrl');
+			var originUrl = $(this).find('span').data('origin');
 			localStorage.setItem('destUrl', $(this).closest('tr').data('url'));
 			location.href = '//wy626.com/editindex.shtml?url=' + encodeURIComponent(originUrl);
 		});
