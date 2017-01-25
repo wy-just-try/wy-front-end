@@ -1,0 +1,49 @@
+<style>
+/*START footer样式*/
+.cfooter {
+    position: absolute;
+    background-color: #2b2b2b;
+    color: #666;
+    width: 100%;
+}
+.cfooter .linker {
+    position: relative;
+    margin: auto;
+    max-width: 1200px;
+    width: 1200px;
+}
+.cfooter a {
+    color: #666;
+}
+.cfooter .linker a {
+    height: 60px;
+    line-height: 60px;
+    margin-right: 30px;
+}
+.cfooter .verify {
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+/*END footer样式*/
+</style>
+<div class="cfooter">
+    <div class="linker">
+        <span>友情链接：</span>
+        <a href="http://www.fibodata.com/" target="_blank">斐波那契</a>
+        <a href="http://7zm.com/" target="_blank">柒众媒</a>
+        <a href="http://www.ui.cn/" target="_blank">UI中国</a>
+        <a href="http://90sheji.com/" target="_blank">90设计</a>
+        <a href="http://www.sucaifengbao.com/" target="_blank">中国素材网</a>
+        <a href="http://www.yanj.cn/" target="_blank">演界网</a>
+        <a href="http://www.yidao.info/" target="_blank">一道自媒体平台</a>
+        <a href="http://weixin.drip.im/" target="_blank">水滴微信平台</a>
+        <a href="http://www.xueui.cn/" target="_blank">学UI网</a>
+        <a href="http://bj.96weixin.com/" target="_blank">96编辑器</a>
+    </div>
+    <div class="verify"><a href="http://www.miibeian.gov.cn/" target="_blank">粤ICP备17011199号-1</a> 深圳市奇牛畅想科技有限公司 版权所有 网址：<a href="//wy626.com">www.wy626.com</a></div>
+</div>
+<script>
+    var docHeight = document.body.scrollHeight;
+    document.getElementsByClassName('cfooter')[0].style.top = docHeight + 'px';
+</script>

@@ -58,7 +58,7 @@
         <div class="item mt-30">
             <input id="register" type="button" value="完成注册" class="btn-register active">
         </div>
-        <div class="operate">本人同意<a href="//wy626.com/wyprotocol.shtml" target="_blank">《微易服务平台协议》</a></div>
+        <div class="operate">本人同意<a href="//wy626.com/wyprotocol.shtml" target="_blank">《微易平台服务协议》</a></div>
     </article>
     <!--#include virtual="/js/ssi/registerEntra.shtml" -->
 </body>

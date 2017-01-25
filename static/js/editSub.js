@@ -51,10 +51,14 @@ define('editSub', function(require, exports, module) {
 				}
 			}, _url);
 		}).on('input', '#subpage input', function(e) {
+			var tlink = $(this).val();
+			if (!/^(https?:)?\/\/.+$/.test(tlink)) {
+				tlink = 'http://' + tlink;
+			}
 			_iframeWindow.postMessage({
 				type: 1,
 				data: {
-					link: $(this).val() || 'javascript:;'
+					link: tlink || 'javascript:;'
 				}
 			}, _url);
 		}).on('input', '#weiName', function(e) {
@@ -162,9 +166,11 @@ define('editSub', function(require, exports, module) {
 
 	//保存编辑内容
 	function saveContent() {
+		//清除wy-active状态再保存内容
+		$(_iframeWindow.document.documentElement).find('.wy-edit.wy-active').removeClass('wy-active');
 		CGI.updateTemp.params.weiName = $('#weiName').val() || '微网站';
 		CGI.updateTemp.params.url = _url;
-		CGI.updateTemp.params.content = _iframeWindow.document.documentElement.outerHTML;
+		CGI.updateTemp.params.content = encodeURIComponent(_iframeWindow.document.documentElement.outerHTML);
 		$.ajax({
 			url: CGI.updateTemp.url,
 			type: 'post',

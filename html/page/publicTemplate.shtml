@@ -1,7 +1,7 @@
 <meta charset="utf-8">
-<title>微网站</title>
-<meta name="Keywords" content="点点客微伙伴、微信营销、微信代运营、微信定制开发、微网站、微营销">
-<meta name="Description" content="点点客微伙伴，国内最大的微信公众智能服务平台，点点客微伙伴十大功能体系：。">
+<title>微易</title>
+<meta name="Keywords" content="免费微网站制作、微信开发、微信公众号开发、微信定制开发、小程序开发、微营销">
+<meta name="Description" content="微易网络：提供微网站定制化开发，微信公众号开发，微商城开发，小程序开发。">
 <!-- 移动设备支持 -->
 <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
 <meta content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport">
@@ -12,6 +12,6 @@
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 <!--手机端重置样式-->
-<link href="http://static.dodoca.com/css/mod/reset.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="http://static.dodoca.com/js/jquery-1.10.2.min.js"></script>
+<link href="//wy626.com/css/tempReset.css" rel="stylesheet" type="text/css">
+<script type="text/javascript" src="//wy626.com/js/tools/jquery-1.10.2.min.js"></script>
 

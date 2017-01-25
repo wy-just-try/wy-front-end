@@ -12,7 +12,7 @@
 </head>
 
 <body>
-    <!--#include virtual="/page/publicHeader.shtml" -->
+    <!--#include virtual="/page/publicHeader.shtml"  -->
     <article class="article">
         <section class="aboutus">
             <div class="desc l">
@@ -37,7 +37,7 @@
             </div>
         </section>
         <section class="contact">
-            <div class="desc l">
+            <div class="desc">
                 <h3>商务合作请联系：</h3>
                 <ul>
                     <li>客服电话：13662600312</li>
@@ -47,6 +47,7 @@
             </div>
         </section>
     </article>
+    <!--#include virtual="/page/footer.shtml" -->
     <!--#include virtual="/js/ssi/aboutusEntra.shtml"  -->
 </body>
 </html>

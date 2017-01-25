@@ -122,7 +122,7 @@
             'adapter/message.js',
             'adapter/autosave.js'
         ],
-        baseURL = '../static/js/ueditor/_src/';
+        baseURL = '//wy626.com/js/ueditor/_src/';
     for (var i=0,pi;pi = paths[i++];) {
         document.write('<script type="text/javascript" src="'+ baseURL + pi +'"></script>');
     }

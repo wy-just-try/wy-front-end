@@ -40,7 +40,8 @@ define('editIndex', function(require, exports, module) {
 			params: {
 				type: 2, //二级模板
 				name: '', //二级模板ID
-				url: '' //徽网站地址
+				url: '', //徽网站地址
+				subUrl: '' //二级模板页面地址
 			}
 		},
 		uploadImg: {
@@ -99,6 +100,12 @@ define('editIndex', function(require, exports, module) {
 			//套用模板并生成二级页面
 			CGI.genTemp.params.name = $(this).data('id');
 			CGI.genTemp.params.url = _url;
+			if (_subStatus === 1) {
+				CGI.genTemp.params.subUrl = _subContent.data.link;
+			} else {
+				delete CGI.genTemp.params.subUrl;
+			}
+			
 			$.ajax({
 				url: CGI.genTemp.url,
 				type: 'post',
@@ -177,10 +184,14 @@ define('editIndex', function(require, exports, module) {
 				}
 			}, _url);
 		}).on('input', '#subpage input', function(e) {
+			var tlink = $(this).val();
+			if (!/^(https?:)?\/\/.+$/.test(tlink)) {
+				tlink = 'http://' + tlink;
+			}
 			_iframeWindow.postMessage({
 				type: 1,
 				data: {
-					link: $(this).val() || 'javascript:;'
+					link: tlink || 'javascript:;'
 				}
 			}, _url);
 		}).on('input', '#weiName', function(e) {
@@ -257,7 +268,9 @@ define('editIndex', function(require, exports, module) {
 				}
 				if (_subContent.data.hasOwnProperty('link')) {
 					$('#subpage').show();
-					if (/\/subtemp\//.test(_subContent.data.link)) { //二级模板
+					//若符合以下正则，则认为是二级模板跳转url
+					var re = RegExp('^http:\/\/wy626.com\/web\/weisites\/.*\/weisite_[0-9]+\/2nd\/.*\.shtml');
+					if (re.test(_subContent.data.link)) { //二级模板
 						_subStatus = 1;
 						$('#subpage > .link > i').removeClass('active')
 							.next().val('')
@@ -302,10 +315,12 @@ define('editIndex', function(require, exports, module) {
 	 * @return {null}
 	 */
 	function saveContent(isLink) {
+		//清除wy-active状态再保存内容
+		$(_iframeWindow.document.documentElement).find('.wy-edit.wy-active').removeClass('wy-active');
 		CGI.updateTemp.params.weiName = $('#weiName').val() || '微网站';
 		CGI.updateTemp.params.weiDesc = $('#weiDesc').val();
 		CGI.updateTemp.params.url = _destUrl;
-		CGI.updateTemp.params.content = _iframeWindow.document.documentElement.outerHTML;
+		CGI.updateTemp.params.content = encodeURIComponent(_iframeWindow.document.documentElement.outerHTML);
 		$.ajax({
 			url: CGI.updateTemp.url,
 			type: 'post',

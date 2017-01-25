@@ -294,5 +294,14 @@ define("libUtil", function(require, exports, module) {
         return environment;
     })(navigator.userAgent);
 
+    /**
+     * 跳转登录页
+     * @return {[NULL]}
+     */
+    utilModule.linkLogin = function()
+    {
+        location.href = '//wy626.com/login.shtml';
+    }
+
     return utilModule;
 });

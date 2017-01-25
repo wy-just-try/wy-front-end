@@ -53,7 +53,7 @@ define('manageWeb', function(require, exports, module) {
 					renderHtml(obj.data);
 				}
 			} else {
-				confirm('网络异常，请稍后再试');
+				_util.linkLogin();
 			}
 		}).fail(function(xmlHttp, status, err) {
 			confirm('网络异常，请稍后再试');

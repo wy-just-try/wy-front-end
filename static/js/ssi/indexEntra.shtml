@@ -3,12 +3,12 @@
     modulejs.config({
         alias: {
             "jquery": "//wy626.com/js/tools/jquery-3.1.1.min.js",
-            "aboutus": "//wy626.com/js/aboutus.js",
+            "index": "//wy626.com/js/index.js",
             'libCookie': "//wy626.com/js/common/libCookie.js",
-            "publicHeader": "//wy626.com/js/common/publicHeader.js?t=1.0.3"
+            "publicHeader": "//wy626.com/js/common/publicHeader.js?t=2.0.3"
         }
     });
-    modulejs("aboutus", function(exports) {
+    modulejs("index", function(exports) {
         exports.init();
     });
 </script>

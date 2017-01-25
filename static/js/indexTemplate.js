@@ -2,7 +2,8 @@ define('indexTemplate', function(require, exports, module) {
 	'use strict';
 	require('publicHeader');
 	var $ = require('jquery'),
-		_util = require('libUtil');
+		_util = require('libUtil'),
+		_ui = require('libUi');
 
 	//公用变量
 	//接口
@@ -31,9 +32,9 @@ define('indexTemplate', function(require, exports, module) {
 				$(this).find('.design').hide();
 			}
 		});
-		$(document).on('click', '#tempContainer a span', function(e) {
+		$(document).on('click', '#tempContainer .btn-design', function(e) {
 			e.preventDefault();
-			_cgi.genTemp.params.name = $(this).data('id');
+			_cgi.genTemp.params.name = $(this).find('span').data('id');
 			$.ajax({
 				url: _cgi.genTemp.url,
 				type: 'post',
@@ -43,6 +44,10 @@ define('indexTemplate', function(require, exports, module) {
 				if (obj.errCode == 0) {
 					localStorage.setItem('destUrl', obj.data.destUrl);
 					location.href = '//wy626.com/editindex.shtml?url=' + encodeURIComponent(obj.data.originUrl);
+				} else if (obj.errCode == 2) {
+					_ui.tipDialog({
+						content: '每个账户至多可免费创建5个微网站，请到"管理中心"管理微网站哦！'
+					});
 				} else {
 					confirm('网络异常，请稍后再试！');
 				}
@@ -82,7 +87,7 @@ define('indexTemplate', function(require, exports, module) {
 				}
 				renderHtml(obj.data);
 			} else if (obj.errCode == 1) {
-				location.href = '//wy626.com/login.shtml';
+				_util.linkLogin();
 			} else if (obj.errCode == 2) {
 				confirm('网络异常，请稍后再试！');
 			}

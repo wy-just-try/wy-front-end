@@ -216,6 +216,7 @@ define('register', function(require, exports, module) {
 			var count = 80;
 			if ($(this).hasClass('active')) {
 				if (/^1\d{10}$/g.test($('#cellPhone').val())) {
+					_cgi.verifyMsg.params.cellPhone = $('#cellPhone').val();
 					$.ajax({
 						url: _cgi.verifyMsg.url,
 						type: 'post',

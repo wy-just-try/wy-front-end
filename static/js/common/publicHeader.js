@@ -6,7 +6,8 @@ define('publicHeader', function(require, exports, module) {
 	//校验登录
 	(function() {
 		var user = _cookie.get('_user_'),
-			userName = _cookie.get('username');
+			userName = _cookie.get('username'),
+			locate = location.href;
 		if (user !== null) {
 			$.ajax({
 				url: '//wy626.com/cgi/wy/login/check',
@@ -22,8 +23,10 @@ define('publicHeader', function(require, exports, module) {
 				} else if (obj.errCode == 1) {
 					$('#pubLogin').show();
 					$('#pubLogout').closest('a').hide();
-					if (!/\/login\.shtml/.test(location.href)) {
-						// location.href = '//wy626.com/login.shtml';
+					if (!/\/login\.shtml/.test(locate)) {
+						if (loginFilter()) {
+							location.href = '//wy626.com/login.shtml';
+						}
 					}
 				} else {
 					confirm('网络异常，请稍后再试！');
@@ -35,7 +38,9 @@ define('publicHeader', function(require, exports, module) {
 			$('#pubLogin').show();
 			$('#pubLogout').closest('a').hide();
 			if (!/\/login\.shtml/.test(location.href)) {
-				// location.href = '//wy626.com/login.shtml';
+				if (loginFilter()) {
+					location.href = '//wy626.com/login.shtml';
+				}
 			}
 		}
 	})();
@@ -75,7 +80,7 @@ define('publicHeader', function(require, exports, module) {
 		if ($(this).attr('id') === 'pubCreateWeb') {
 			location.href = '//wy626.com/indextemplate.shtml';
 		} else {
-			location.href = '//wy626.com/createpage.shtml';
+			location.href = '//wy626.com/editpage.shtml';
 		}
 	});
 
@@ -89,6 +94,10 @@ define('publicHeader', function(require, exports, module) {
 
 	$(document).on('click', '#pubLogin', function(e) {
 		location.href = '//wy626.com/login.shtml';
+	});
+
+	$(document).on('click', '.header .logo', function(e) {
+		location.href = '//wy626.com';
 	});
 
 	//退出登录
@@ -111,4 +120,23 @@ define('publicHeader', function(require, exports, module) {
 			confirm('网络异常，请稍后再试！');
 		});
 	});
+
+	/**
+	 * 非登录验证页面过滤
+	 * @return {[boolean]} false: 无须登录验证；true: 须要登录验证
+	 */
+	function loginFilter()
+	{
+		switch (location.href)
+		{
+			case 'http://wy626.com/':
+			case 'http://wy626.com/aboutus.shtml':
+			case 'http://wy626.com/forgetpasswd.shtml':
+				return false;
+			default:
+				return true;
+		}
+
+		return true;
+	}
 });

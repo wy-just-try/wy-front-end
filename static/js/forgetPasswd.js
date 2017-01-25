@@ -62,12 +62,12 @@ define('forgetPasswd', function(require, exports, module) {
 					dataType: 'json',
 					data: _cgi.isRegistered.params,
 					success: function(obj) {
-						if (obj.errCode == 0) {
+						if (obj.errCode == 1) {
 							_isCellphoneOk = true;
 							$('#getMsg').addClass('active');
 						} else {
 							$(this).parent().next()
-								.text(_text.cellPhone)
+								.text('请输入正确的已注册手机号！')
 								.show();
 							$('#getMsg').removeClass('active');
 						}
@@ -108,7 +108,7 @@ define('forgetPasswd', function(require, exports, module) {
 								_sendMsgFlag = true;
 								$(this).removeClass('active');
 								$(this).parent().next()
-									.text('验证码已发送至手机，请查收！')
+									.text('验证码已发送至手机，请注意查收！')
 									.show();
 								var timer = setInterval(function() {
 									$(this).text(count--);
