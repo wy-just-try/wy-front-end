@@ -153,3 +153,10 @@
     margin: 0 auto;
     display: block;
 }
+/*fix editor position --- BEGIN*/
+#editZone {
+    width: 360px!important;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*fix editor position --- END*/
