@@ -143,6 +143,7 @@
 .article .content .mobile {
     margin-top: 10px;
     float: left;
+    width: 50%;
 }
 .article .content .desc {
     float: left;
