@@ -29,7 +29,12 @@ define('editPage', function(require, exports, module) {
             // 所有的操作在此进行 --- END
         });
     }
-    $(document).on('click', '.btn-save', function() {
+    $(document).on('click', '.article .content .desc .type i', function () {
+        var $this = $(this);
+        $this.closest('.type').find('i').removeClass('active');
+        $this.addClass('active');
+    })
+    .on('click', '.btn-save', function() {
         var content = _ue.getContent();
         var title = $.trim($('#weiTitle').val());
         var desc = $.trim($('#weiDesc').val());

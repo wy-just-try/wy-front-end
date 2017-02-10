@@ -39,6 +39,17 @@
                     <label class="l">描述：</label>
                     <textarea id="weiDesc" placeholder="请输入页面描述"></textarea>
                 </div>
+                <div class="type">
+                    <label class="l">选择：</label>
+                    <div class="pc l">
+                        <i class="active"></i>
+                        <span>PC页面</span>
+                    </div>
+                    <div class="h5 l">
+                        <i></i>
+                        <span>手机页面</span>
+                    </div>
+                </div>
                 <div class="operate">
                     <span id="save" class="btn-save">保存编辑区内容</span>
                 </div>
